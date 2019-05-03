@@ -1,0 +1,32 @@
+<Dungeons>
+  <Dungeon id="2">
+    <Name>test</Name>
+    <Favorite>False</Favorite>
+    <Address>
+    </Address>
+    <City>
+    </City>
+    <State>
+    </State>
+    <Zip>
+    </Zip>
+    <Rating>3</Rating>
+    <Lat>40.5517080985401</Lat>
+    <Lon>-105.094772666561</Lon>
+  </Dungeon>
+  <Dungeon id="1">
+    <Name>Gryphon Games</Name>
+    <Favorite>True</Favorite>
+    <Address>
+    </Address>
+    <City>
+    </City>
+    <State>
+    </State>
+    <Zip>
+    </Zip>
+    <Rating>5</Rating>
+    <Lat>40.55167</Lat>
+    <Lon>-105.0978</Lon>
+  </Dungeon>
+</Dungeons>

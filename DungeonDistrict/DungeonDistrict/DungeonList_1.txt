@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xmlns:fb="http://ogp.me/ns/fb#"><head>
+	<title>Store & Event Locator - Wizards of the Coast</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE9" />
+	<meta name="google" content="notranslate" />
+	<meta name="Keywords" content="Magic, Magic: The Gathering, D&D, A&A, TCG, RPG, Trading Card Game, Dungeons, Dragons, Roleplaying Games, D20, Axis & Allies, Avalon Hill" />
+	<meta name="Description" content="Wizards of the Coast" />    
+	<!-- this needs to be manually updated on each domain deploy to use the proper domain -->
+	<meta property="og:image" content="http://locator.wizards.com/image/logo.png"/>
+	<script language="javascript" type="text/javascript">
+		if (document.domain == 'locatoradmin.wizards.com') {
+			window.location.href = 'http://locatoradmin.wizards.com/admin/index.aspx';
+		}
+	</script>
+	<script>
+		// redirect to mobile version 
+		var mobile = (/iphone|ipod|android|blackberry|mini|windows\sce|palm/i.test(navigator.userAgent.toLowerCase()));
+		var forceViewInDesktop = window.location.href.indexOf("viewInDesktop=true") != -1
+		
+		if (mobile && !forceViewInDesktop) {
+			window.location.href = "http://" + window.location.host +  '/mobile/jqmobile/' + window.location.hash.replace(/&amp;/ig, '&');
+		} else {
+			if (window.location.hash.indexOf('&amp;') >= 0) {
+				window.location.href = "http://" + window.location.host + '/' + window.location.hash.replace(/&amp;/ig, '&');
+			}
+		}
+	</script>
+	<link rel="shortcut icon" href="http://company.wizards.com/sites/default/files/favicon_0_0.ico" type="image/vnd.microsoft.icon" />	
+	<link rel="stylesheet" href="style/layout.css?v=20121017" type = "text/css"  />
+	<link rel="stylesheet" href="style/skin.css?v=20120816" type = "text/css"  />
+	<link rel="stylesheet" href="style/detail.css?v=20130718" type = "text/css"  />
+	<link rel="stylesheet" href="style/filter.css" type = "text/css"  />
+	<link rel="stylesheet" href="style/popup.css" type = "text/css"  />
+	<link rel="stylesheet" href="style/jquery/jquery.ui.core.css" type = "text/css"  />
+	<link rel="stylesheet" href="style/jquery/jquery.ui.theme.css" type = "text/css"  />
+	<link rel="stylesheet" href="style/jquery/jquery.ui.datepicker.css" type = "text/css"  />
+    <link rel="Stylesheet" href="style/print.css" type="text/css" media="print" />
+</head>
+<body>
+<div id="floodlight">
+</div>
+<div id="overlay" class="overlay"></div>
+<div id="pageLoading"><img src="image/loading.gif" /></div>
+<div class="error-popup reset-popup message-popup" id="errorMessagePopup">
+	<p class="message"></p>
+	<p class="reset-btn">
+		<a href="javascript:void(0);" class="option-btn option-btn-selected ok-btn" data-lang="Ok">Ok</a>
+	</p>
+	<input type="hidden" />
+</div>
+<div class="error-popup reset-popup language-popup" id="selectLanguagePopup">
+	<div class="popup-title">
+		<span data-lang="PleaseSelectYourLanguage"></span>
+		<a href="javascript:void(0)" id="close-select-language"><span data-lang="Close"></span><img src="image/reset-btn.png" /></a>
+	</div>
+	<div id="language-container"></div>
+	<div class="language-tips" data-lang="SelectLanguageTips"></div>
+</div>
+
+<div id="MainPage">
+	<div class="header">
+		<div class="logoWrap">
+			<a href="http://www.wizards.com" class="GlobalNavWizardsLogo" target="_blank">
+				<img src="image/logo.png" />
+			</a>
+			<span class="logo-desc" data-lang="WorldLeaderInHobbyGames"></span>
+			<!--
+			<div class="global-search-wrap">
+				<form method="get" id="search_wizards_form" action="http://www.google.com/cse" target="_blank">
+					<input type="hidden" name="cx" value="010753050335830773696:ses62ofhwsq" />
+					<input type="hidden" name="ie" value="UTF-8" />
+					<input type="hidden" name="name" value="sa" />
+					<input type="text" name="q" autocomplete="on" class="search-input" />
+					<input type="submit" class="search-submit" value="" />
+				</form>
+			</div>
+			-->
+		</div>
+	
+		<div class="MainNavigation">
+		<div class="ButtonsContainer">
+			<div class="NavigationButton Brands">
+				<a href="javascript:void(0);" class="NavigationButtonMainLink NavigationButtonOneLineLink NavigationButtonDropDownLink"><span data-lang="OurBrands"></span></a>
+				<div class="NavigationMenu" id="BrandMenu">
+					<a href="http://www.wizards.com/Magic/" target="_blank" title="Magic: The Gathering"><span data-lang="MagicTheGathering"></span></a>
+					<a href="http://www.wizards.com/dnd/" target="_blank" title="Dungeons &amp; Dragons"><span data-lang="DungeonsDragons"></span></a>
+					<a href="http://dm.takaratomy.co.jp/" target="_blank" title="Duel Masters"><span data-lang="DuelMasters"></span></a>
+					<!--<a href="http://www.kaijudo.com/" target="_blank" title="Kaijudo"><span data-lang="Kaijudo"></span></a>-->
+					<a href="http://www.wizards.com/default.asp?x=ah/welcome" target="_blank" title="Avalon Hill"><span data-lang="AvalonHill"></span></a>
+				</div>	
+		</div>
+		<div class="NavigationButton"><span class="NavigationButtonNullLink"></span></div>
+		<div class="NavigationButton">
+				<a href="#brand=magic" class="NavigationButtonMainLink" data-lang="MagicTheGathering"></a>
+			</div><div class="NavigationButton">
+				<a href="#brand=dnd" class="NavigationButtonMainLink" data-lang="DungeonsDragons"></a>
+			<!--</div><div class="NavigationButton">
+				<a href="#brand=kaijudo" class="NavigationButtonMainLink NavigationButtonOneLineLink" data-lang="Kaijudo"></a>-->
+			</div><div class="NavigationButton">
+				<a href="#brand=ah" class="NavigationButtonMainLink NavigationButtonOneLineLink" data-lang="AvalonHill"></a>
+			</div>
+		</div>
+		</div>
+		
+	</div> <!-- header End-->
+
+	<!--Carousel Code-->
+	<div class="ad-content">
+		<div id="slides">
+			<div class="slides_container"></div>
+			<a href="#" class="prev"><img src="image/left-arrow.png" width="34" height="34" alt="Arrow Prev" /></a>
+			<a href="#" class="next"><img src="image/right-arrow.png" width="34" height="34" alt="Arrow Next" /></a>
+		</div>
+	</div>  <!-- ad-content End-->
+
+	<div id="load-page-wrap" class="skin-magic"><div class="page-wrap"></div></div>
+
+	<div class="BelowFooter">
+		<div class="BelowFooterContent">
+			<div class="BelowFooterContentWrapper">
+				<div class="HasbroLogo">
+					<a href="http://www.hasbro.com"><img src="image/Hasbro.png" alt="Hasbro" /></a>
+				</div>
+				<div class="FooterText">
+					<div class="copyRightTxt">
+						<span data-lang="CopyRight"></span>
+					</div>
+					<br />
+					<div class="TermsLinks">
+						<a href="http://www.wizards.com/Company/About.aspx?x=wz_company_about_termsofuse" target="_blank" data-lang="TermsOfUse"></a>
+						<a href="http://company.wizards.com/legal/wizards-coasts-privacy-policy" target="_blank" data-lang="PrivacyPolicy"></a>
+					</div>
+				</div>
+				<a href="javascript:void(0)" id="select-language"><span data-lang="SelectLanguage"></span><img src="image/select-language-icon.png" /></a>
+				<div class="ESRBLogo">
+					<a href="http://www.esrb.org/confirm/wizards-confirmation.jsp" target="_blank"><img src="image/logoesrb.png" alt="ESRB" /></a>
+				</div>
+				<div class="clear"></div>
+			</div>
+		</div>
+	</div> <!-- BelowFooter -->
+	
+</div> <!-- MainPage -->
+
+<!-- Closed Loop -->
+<IMG SRC="http://ad.adlegend.com/ping?spacedesc=1119567_1061349_1x1_1061349_1061349&db_afcr=123&group=WOTC_GENERIC&event=STORE_LOCATOR" WIDTH=1 HEIGHT=1 ALT=" " BORDER=0>
+
+<script type="text/javascript" src="script/jquery/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="script/jquery/slides.min.jquery.js"></script>
+<script type="text/javascript" src="script/jquery/jquery.ui.core.js"></script>
+<script type="text/javascript" src="script/jquery/jquery.ui.widget.js"></script>
+<script type="text/javascript" src="script/jquery/jquery.ui.datepicker.js"></script>
+<script type="text/javascript" src="script/jquery/jquery.ba-bbq.min.js"></script>
+<script type="text/javascript" src="script/jquery/stickyfloat.min.js"></script>
+
+<script type="text/javascript" src="script/wizards.sl.controller.js"></script>
+<script type="text/javascript" src="script/wizards.sl.ui.js"></script>
+<script type="text/javascript" src="script/wizards.sl.model.js?t=20150302"></script>
+<script type="text/javascript" src="script/wizards.sl.vars.js?t=20121101"></script>
+<script type="text/javascript" src="script/wizards.sl.util.js?t=20120816"></script>
+<script type="text/javascript" src="script/wizards.sl.func.js?t=20130718"></script>
+<script type="text/javascript" src="script/wizards.sl.data.js?t=20121009"></script>
+<script type="text/javascript" src="script/wizards.sl.event.js?t=20121101"></script>
+<script type="text/javascript" src="script/wizards.sl.js?t=20120817"></script>
+<script type="text/javascript" src="script/infobubble.js"></script>
+
+<script type="text/javascript">
+	var _gaq = _gaq || [];
+	_gaq.push(['_setAccount', wizards.sl.vars.gaAccount]);
+	_gaq.push(['_setDomainName', 'wizards.com']);
+	_gaq.push(['_trackPageview']);
+	(function() {
+		var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+		ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+		var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+	})();
+</script>
+
+<script>
+	(function(d, s, id) {
+		var js, fjs = d.getElementsByTagName(s)[0];
+		if (d.getElementById(id)) return;
+		js = d.createElement(s); js.id = id;
+		js.src = "//connect.facebook.net/en_US/all.js#xfbml=1";
+		fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));
+</script>
+</body>
+</html>

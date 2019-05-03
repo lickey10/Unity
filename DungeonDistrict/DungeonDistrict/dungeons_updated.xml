@@ -1,0 +1,230 @@
+<Dungeons>
+  <Dungeon id="3">
+    <Name>Collectons</Name>
+    <Favorite>False</Favorite>
+    <Phone>303-339-7777</Phone>
+    <Address>1750 30th StSte 1</Address>
+    <City>Boulder</City>
+    <State>CO</State>
+    <Zip>80301-1024</Zip>
+    <Rating>-1</Rating>
+    <Lat>-26.179257</Lat>
+    <Lon>27.782452</Lon>
+  </Dungeon>
+  <Dungeon id="11">
+    <Name>Collector's Hub</Name>
+    <Favorite>False</Favorite>
+    <Phone>307-514-1225</Phone>
+    <Address>312 W. 17th Street</Address>
+    <City>Cheyenne</City>
+    <State>WY</State>
+    <Zip>82001</Zip>
+    <Rating>-1</Rating>
+    <Lat>41.133262</Lat>
+    <Lon>-104.817725</Lon>
+  </Dungeon>
+  <Dungeon id="6">
+    <Name>Gryphon Games and Comics</Name>
+    <Favorite>False</Favorite>
+    <Phone>970-224-3599</Phone>
+    <Address>1119 W Drake Rd Ste C30</Address>
+    <City>Fort Collins</City>
+    <State>CO</State>
+    <Zip>80526-6038</Zip>
+    <Rating>-1</Rating>
+    <Lat>40.551784</Lat>
+    <Lon>-105.097592</Lon>
+  </Dungeon>
+  <Dungeon id="12">
+    <Name>The Game Trader</Name>
+    <Favorite>False</Favorite>
+    <Phone>303-637-7503</Phone>
+    <Address>2 S Main St</Address>
+    <City>Brighton</City>
+    <State>CO</State>
+    <Zip>80601</Zip>
+    <Rating>-1</Rating>
+    <Lat>39.98585</Lat>
+    <Lon>-104.82172</Lon>
+  </Dungeon>
+  <Dungeon id="2">
+    <Name>Atomic Goblin Games</Name>
+    <Favorite>False</Favorite>
+    <Phone>720-684-6074</Phone>
+    <Address>1801 Hover StSte D</Address>
+    <City>Longmont</City>
+    <State>CO</State>
+    <Zip>80501-7182</Zip>
+    <Rating>-1</Rating>
+    <Lat>36.270008</Lat>
+    <Lon>32.31364</Lon>
+  </Dungeon>
+  <Dungeon id="13">
+    <Name>Heroes and Horrors Games</Name>
+    <Favorite>False</Favorite>
+    <Phone>970-833-5128</Phone>
+    <Address>1215 Main StSte B</Address>
+    <City>Windsor</City>
+    <State>CO</State>
+    <Zip>80550-5987</Zip>
+    <Rating>-1</Rating>
+    <Lat>41.8526</Lat>
+    <Lon>-72.6437</Lon>
+  </Dungeon>
+  <Dungeon id="7">
+    <Name>The Nerd Store</Name>
+    <Favorite>False</Favorite>
+    <Phone>970-978-4275</Phone>
+    <Address>807 8th St</Address>
+    <City>Greeley</City>
+    <State>CO</State>
+    <Zip>80631</Zip>
+    <Rating>-1</Rating>
+    <Lat>40.425177</Lat>
+    <Lon>-104.691387</Lon>
+  </Dungeon>
+  <Dungeon id="14">
+    <Name>The Rogue's Roost</Name>
+    <Favorite>False</Favorite>
+    <Phone>970-619-8586</Phone>
+    <Address>229 E 10th St</Address>
+    <City>Loveland</City>
+    <State>CO</State>
+    <Zip>80537-4819</Zip>
+    <Rating>-1</Rating>
+    <Lat>40.40252</Lat>
+    <Lon>-105.073329</Lon>
+  </Dungeon>
+  <Dungeon id="4">
+    <Name>Olympus Games and Comics</Name>
+    <Favorite>False</Favorite>
+    <Phone>307-638-2424</Phone>
+    <Address>1710 Central Avenue</Address>
+    <City>Cheyenne</City>
+    <State>WY</State>
+    <Zip>82001</Zip>
+    <Rating>-1</Rating>
+    <Lat>41.134297</Lat>
+    <Lon>-104.8152</Lon>
+  </Dungeon>
+  <Dungeon id="15">
+    <Name>Grand Slam Sportscards and Comic Books</Name>
+    <Favorite>False</Favorite>
+    <Phone>970-667-8713</Phone>
+    <Address>1730 W Eisenhower Blvd</Address>
+    <City>Loveland</City>
+    <State>CO</State>
+    <Zip>80537</Zip>
+    <Rating>-1</Rating>
+    <Lat>40.406938</Lat>
+    <Lon>-105.102284</Lon>
+  </Dungeon>
+  <Dungeon id="8">
+    <Name>The Collection Guys</Name>
+    <Favorite>False</Favorite>
+    <Phone>307-287-7667</Phone>
+    <Address>1102 Logan Avenue</Address>
+    <City>Cheyenne</City>
+    <State>WY</State>
+    <Zip>82001</Zip>
+    <Rating>-1</Rating>
+    <Lat>41.135469</Lat>
+    <Lon>-104.793722</Lon>
+  </Dungeon>
+  <Dungeon id="16">
+    <Name>Total Escape Games</Name>
+    <Favorite>False</Favorite>
+    <Phone>303-482-1829</Phone>
+    <Address>6831 W 120th AveSte C</Address>
+    <City>Broomfield</City>
+    <State>CO</State>
+    <Zip>80020-2305</Zip>
+    <Rating>-1</Rating>
+    <Lat>39.91468</Lat>
+    <Lon>-105.072834</Lon>
+  </Dungeon>
+  <Dungeon id="1">
+    <Name>Dragon's Dice</Name>
+    <Favorite>False</Favorite>
+    <Phone>970-587-0404</Phone>
+    <Address>111 W South 1st StUnit A</Address>
+    <City>Johnstown</City>
+    <State>CO</State>
+    <Zip>80534</Zip>
+    <Rating>-1</Rating>
+    <Lat>40.334917</Lat>
+    <Lon>-104.906522</Lon>
+  </Dungeon>
+  <Dungeon id="17">
+    <Name>Haunted Game Cafe</Name>
+    <Favorite>False</Favorite>
+    <Phone>970-402-2466</Phone>
+    <Address>3307 S College Ave Suite 107</Address>
+    <City>Fort Collins</City>
+    <State>CO</State>
+    <Zip>80525</Zip>
+    <Rating>-1</Rating>
+    <Lat>40.542098</Lat>
+    <Lon>-105.079023</Lon>
+  </Dungeon>
+  <Dungeon id="9">
+    <Name>Time Warp Comics and Cards</Name>
+    <Favorite>False</Favorite>
+    <Phone>303-443-4500</Phone>
+    <Address>3105 28th St</Address>
+    <City>Boulder</City>
+    <State>CO</State>
+    <Zip>80301</Zip>
+    <Rating>-1</Rating>
+    <Lat>40.030883</Lat>
+    <Lon>-105.259448</Lon>
+  </Dungeon>
+  <Dungeon id="18">
+    <Name>Gamer's Guild - event by Gamer's Guild</Name>
+    <Favorite>False</Favorite>
+    <Phone>303-997-6496</Phone>
+    <Address>4550 N. BroadwayUnit C-3</Address>
+    <City>Boulder</City>
+    <State>CO</State>
+    <Zip>80304</Zip>
+    <Rating>-1</Rating>
+    <Lat>-1.56806</Lat>
+    <Lon>29.91028</Lon>
+  </Dungeon>
+  <Dungeon id="5">
+    <Name>Gamer's Guild</Name>
+    <Favorite>False</Favorite>
+    <Phone>303-997-6496</Phone>
+    <Address>4550 Broadway St</Address>
+    <City>Boulder</City>
+    <State>CO</State>
+    <Zip>80304</Zip>
+    <Rating>-1</Rating>
+    <Lat>40.056965</Lat>
+    <Lon>-105.281933</Lon>
+  </Dungeon>
+  <Dungeon id="19">
+    <Name>T and R Sportscards and More</Name>
+    <Favorite>False</Favorite>
+    <Phone>307-635-9101</Phone>
+    <Address>201 W 17th St</Address>
+    <City>Cheyenne</City>
+    <State>WY</State>
+    <Zip>82001</Zip>
+    <Rating>-1</Rating>
+    <Lat>41.133357</Lat>
+    <Lon>-104.815995</Lon>
+  </Dungeon>
+  <Dungeon id="10">
+    <Name>Smetch Rat Games</Name>
+    <Favorite>False</Favorite>
+    <Phone>303-827-9212</Phone>
+    <Address>195 South Main Street</Address>
+    <City>Longmont</City>
+    <State>CO</State>
+    <Zip>80501</Zip>
+    <Rating>-1</Rating>
+    <Lat>40.155744</Lat>
+    <Lon>-105.103813</Lon>
+  </Dungeon>
+</Dungeons>
