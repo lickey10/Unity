@@ -1,0 +1,43 @@
+********************************************************************************
+*                             Initializing Cubiquity                           *
+********************************************************************************
+[23:18:19, Info   ]: Creating empty voxel database as 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[23:26:32, Info   ]: Resizing compressed data buffer to 288486bytes. This should only happen once
+[23:26:38, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[23:27:00, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[23:27:43, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[23:27:58, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[23:28:11, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[23:28:22, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:10:23, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:10:35, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:10:50, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:11:09, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:11:34, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:12:56, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:13:23, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:13:41, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:14:28, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:14:45, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:15:28, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:15:46, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:19:48, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:20:10, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:20:28, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:20:46, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:24:36, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:24:46, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:25:04, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:25:25, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:28:45, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:29:05, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:29:18, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:29:34, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:30:34, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:31:00, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:32:48, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+[21:33:21, Info   ]: Creating voxel database from 'D:/utilities/Programming/Unity/MyProjects/Pinball/Pinball/Assets/StreamingAssets/Cubiquity/VoxelDatabases/15F03A87.vdb'
+********************************************************************************
+*                             Shutting down Cubiquity                          *
+********************************************************************************
+

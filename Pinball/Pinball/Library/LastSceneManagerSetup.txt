@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/Level2_FireAction.unity
+  isLoaded: 1
+  isActive: 1
