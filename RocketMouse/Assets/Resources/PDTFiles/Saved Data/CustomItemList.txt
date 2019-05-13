@@ -1,0 +1,16 @@
+- Custom Item List - 
+Count =2
+-
+Type =P3_1
+Prefab =Platform_3 (1) Variant
+Chance =1
+Unique =FALSE
+Pickupable =TRUE
+SpawnType =3
+-
+Type =P3_6
+Prefab =Platform_3 (6) Variant
+Chance =1
+Unique =FALSE
+Pickupable =TRUE
+SpawnType =4

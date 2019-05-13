@@ -1,0 +1,1507 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LangVersion>latest</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{E7E56DAD-D71A-85A6-61F6-9E0BB39307F3}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>.</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_6_OR_NEWER;UNITY_2017_1_OR_NEWER;UNITY_2017_2_OR_NEWER;UNITY_2017_3_OR_NEWER;UNITY_2017_4_OR_NEWER;UNITY_2018_1_OR_NEWER;UNITY_2018_2_OR_NEWER;UNITY_2018_3_OR_NEWER;UNITY_2018_3_0;UNITY_2018_3;UNITY_2018;UNITY_INCLUDE_TESTS;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITES;ENABLE_GRID;ENABLE_TILEMAP;ENABLE_TERRAIN;ENABLE_TEXTURE_STREAMING;ENABLE_DIRECTOR;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_COLLAB_SOFTLOCKS;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_USE_WEBREQUEST;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_HUB;ENABLE_EDITOR_HUB_LICENSE;ENABLE_WEBSOCKET_CLIENT;ENABLE_DIRECTOR_AUDIO;ENABLE_DIRECTOR_TEXTURE;ENABLE_TIMELINE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;ENABLE_MANAGED_JOBS;ENABLE_MANAGED_TRANSFORM_JOBS;ENABLE_MANAGED_ANIMATION_JOBS;INCLUDE_DYNAMIC_GI;INCLUDE_GI;ENABLE_MONO_BDWGC;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_VIDEO;ENABLE_CUSTOM_RENDER_TEXTURE;ENABLE_LOCALIZATION;PLATFORM_STANDALONE_WIN;PLATFORM_STANDALONE;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_OUT_OF_PROCESS_CRASH_HANDLER;ENABLE_EVENT_QUEUE;ENABLE_CLUSTER_SYNC;ENABLE_CLUSTERINPUT;ENABLE_VR;ENABLE_AR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;NET_STANDARD_2_0;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;ENABLE_UNITY_COLLECTIONS_CHECKS;ENABLE_BURST_AOT;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;GAME_FRAMEWORK;CSHARP_7_OR_LATER;CSHARP_7_3_OR_NEWER</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup>
+    <NoConfig>true</NoConfig>
+    <NoStdLib>true</NoStdLib>
+    <AddAdditionalExplicitAssemblyReferences>false</AddAdditionalExplicitAssemblyReferences>
+    <ImplicitlyExpandNETStandardFacades>false</ImplicitlyExpandNETStandardFacades>
+    <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <UnityProjectGenerator>Unity/VSTU</UnityProjectGenerator>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>2018.3.0f2</UnityVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="UnityEngine">
+      <HintPath>D:\Program Files\Unity\Editor\Data\Managed/UnityEngine/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>D:\Program Files\Unity\Editor\Data\Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\2D Destructible Objects\Assets\C#Scripts\Clown.cs" />
+    <Compile Include="Assets\2D Destructible Objects\Assets\C#Scripts\HitInformer.cs" />
+    <Compile Include="Assets\2D Destructible Objects\Assets\C#Scripts\IHittable.cs" />
+    <Compile Include="Assets\2D Destructible Objects\Assets\C#Scripts\Piece.cs" />
+    <Compile Include="Assets\2D Destructible Objects\Assets\C#Scripts\Shatterable.cs" />
+    <Compile Include="Assets\2D Destructible Objects\Assets\C#Scripts\Spawner.cs" />
+    <Compile Include="Assets\2D SpritePack\Demo\Scripts\CameraControlla.cs" />
+    <Compile Include="Assets\2D SpritePack\Demo\Scripts\Player2.cs" />
+    <Compile Include="Assets\2D SpritePack\Demo\Scripts\PlayerTriggerController.cs" />
+    <Compile Include="Assets\2D SpritePack\Demo\Scripts\Portal.cs" />
+    <Compile Include="Assets\2D SpritePack\Demo\Scripts\RestartLevel.cs" />
+    <Compile Include="Assets\2D SpritePack\Demo\Scripts\Saw.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\_Demo\About\Scripts\CustomSettings.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\_Demo\About\Scripts\Demo.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\_Demo\GameStructure\Scripts\Movement.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\_Demo\GameStructure\Scripts\SpawnCoins.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Advertising\AdMob\AdMob.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Advertising\AdMob\Components\AdMobManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Advertising\AdMob\Components\ShowHideAdvert.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Advertising\UnityAds\Components\OnButtonClickWatchAdvertForCoins.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Advertising\UnityAds\Components\ShowAdvert.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Advertising\UnityAds\UnityAds.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Animation\Components\SetAnimatorStartValues.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Animation\Components\SetBoolOnce.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Animation\Components\SetTriggerOnce.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Animation\ObjectModel\GameObjectToGameObjectAnimation.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Audio\Components\CopyBackgroundVolume.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Audio\Components\CopyGlobalEffectVolume.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Audio\Components\StartStopBackgroundMusic.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Audio\Messages\BackgroundVolumeChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Audio\Messages\EffectVolumeChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Billing\Components\EnableIfBillingEnabled.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Billing\Components\PaymentManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Billing\Messages\CharacterPurchasedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Billing\Messages\GenericGameItemPurchasedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Billing\Messages\ItemPurchasedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Billing\Messages\LevelPurchasedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Billing\Messages\UnlockGamePurchasedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Billing\Messages\WorldPurchasedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Billing\Payment.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Debugging\Components\DummyGameLoop.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Debugging\Components\LogToDisk.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Debugging\Components\LogToScreen.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Debugging\MyDebug.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Other\ColorHelper.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Other\ColorHSV.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Other\Components\GradientBackground.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Other\Components\GradientBackgroundSplitMiddle.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Other\Components\LevelOfDetail.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Other\Components\ScrollMaterialComponent.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Other\Components\SetCubeUvs.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Other\Components\SetQuadUvs.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Other\Components\SetSortingLayer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Other\CoRoutines.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Other\RendererExtensions.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Particles\Components\AutoDestructWhenParticleSystemFinished.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Particles\Components\ParticlePlayer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Placement\Components\AlignScreenBounds.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Placement\Components\CenterInCamera.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Placement\Components\FixedMovement.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Placement\Components\FixedRotation.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Placement\Components\LookAtTransform.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Placement\Components\MoveWithTransform.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Placement\Components\ObjectDestroyer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Placement\DisplayMetrics.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Placement\PositionHelper.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\EditorExtras\ConditionalHideAttribute.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\EditorExtras\HelpBoxAttribute.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Components\EnableIfFacebookSDK.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Components\EnableIfPermissionsGranted.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Components\EnableIfUserDataLoaded.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Components\FacebookConnection.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Components\FacebookManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Components\OnButtonClickAppRequest.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Components\OnButtonClickShareLink.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\FacebookFriend.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\HighScore.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Messages\FacebookAppRequestMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Messages\FacebookConnectingMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Messages\FacebookFriendsUsingAppMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Messages\FacebookHideUnityMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Messages\FacebookLoginMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Messages\FacebookProfilePictureMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Messages\FacebookShareLinkMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Facebook\Messages\FacebookUserPictureMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\FreePrize\Components\EnableIfPrizeAvailable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\FreePrize\Components\FreePrizeManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\FreePrize\Components\OnButtonClickShowFreePrizeDialog.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\FreePrize\Components\TimeToFreePrizeDisplay.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameFramework\Components\GameFrameworkHelper.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameFramework\GameFrameworkHelper.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\Components\AbstractClasses\EnableDisableGameObject.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\Components\AbstractClasses\EnableDisableGameObjectMessaging.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\Components\AbstractClasses\RunOnce.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\Components\AbstractClasses\RunOnState.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\Components\AutoDestructWhenNoChildren.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\Components\EnableBasedUponFlag.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\Components\EnableComponentOnce.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\Components\EnableGameObjectOnce.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\Components\Singleton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\Components\SingletonPersistant.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\GameObjectExtensions.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\GameObjectHelper.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameObjects\MinMax.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\BuyCharacterButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\CharacterButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\CharacterGameItemContext.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\CreateCharacterButtons.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\InstantiateCharacterPrefab.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\SetGradientBackgroundFromCharacterVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\SetImageToCharacterSprite.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\SetPositionFromCharacterVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\SetRotationFromCharacterVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\SetScaleFromCharacterVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\SetSpriteRendererToCharacterSprite.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\ShowCharacterCounter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\ShowCharacterInfo.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\ShowCharacterPrefab.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\UnlockCharacterButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Messages\CharacterChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\ObjectModel\Character.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\ObjectModel\CharacterGameItemManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\CoinCollider.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\GenericCollider.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\HealthCollider.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\LoseLevelCollider.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\PointsCollider.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\StarCollider.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Colliders\WinLevelCollider.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\Components\CollisionHandler.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\Components\ConditionalAction.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\Components\EnableBasedUponGameUnlocked.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\Components\RunGameActions.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActionHelper.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Audio\GameActionPlayAudioClip.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\GameItem\GameActionGameItemChangeCounterAmount.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\GameItem\GameActionGameItemSetCounterAmount.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\GameItem\GameActionGameItemUnlock.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Hierarchy\GameActionDestroyGameObject.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Hierarchy\GameActionDisableGameObject.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Hierarchy\GameActionEnableGameObject.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Hierarchy\GameActionInstantiatePrefab.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Hierarchy\GameActionSwapGameObjects.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Level\GameActionChangeLevelCoins.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Level\GameActionChangeLevelScore.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Level\GameActionLoseLevel.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Level\GameActionWinLevel.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Level\GameActionWinStar.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Physics2D\GameActionPhysics2DRigidbodyType.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Player\GameActionChangePlayerCoins.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Player\GameActionChangePlayerHealth.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Player\GameActionChangePlayerLives.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\Player\GameActionChangePlayerScore.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\ProPooling\GameActionAddPooledItem.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\ProPooling\GameActionProPoolingInformation.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameActions\UI\GameActionSetButtonInteractableState.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditionHelper.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\Game\GameConditionGameIsUnlocked.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\GameItem\GameConditionGameItemCanUnlockWithCoins.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\GameItem\GameConditionGameItemCanUnlockWithCompletion.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\GameItem\GameConditionGameItemCanUnlockWithPayment.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\GameItem\GameConditionGameItemCoins.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\GameItem\GameConditionGameItemCounterAmount.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\GameItem\GameConditionGameItemCounterAmountBest.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\GameItem\GameConditionGameItemMatchesGameItem.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\GameItem\GameConditionGameItemPlayerHasCoinsToUnlock.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\GameItem\GameConditionGameItemScore.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\GameItem\GameConditionGameItemUnlocked.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\Level\GameConditionLevelCoins.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\Level\GameConditionLevelScore.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\Level\GameConditionLevelUnlocked.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\Player\GameConditionPlayerCoins.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\Player\GameConditionPlayerHealth.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\Player\GameConditionPlayerLives.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameConditions\Player\GameConditionPlayerScore.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameHelper.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\Messages\DeviceOrientationChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\Messages\GameUnlockedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\Messages\ResolutionChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameAction.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameActionGameItemContext.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameActionGameItemContextSelectableType.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameActionGameItemContextSelectableTypeCounter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameActionTarget.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameCondition.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameConditionBool.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameConditionFloat.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameConditionGameItemContext.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameConditionGameItemContextSelectableType.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameConditionGameItemContextSelectableTypeBool.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameConditionGameItemContextSelectableTypeCounter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameConditionGameItemContextSelectableTypeInt.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameConditionGameItemContextSelectableTypeNumber.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameConditionInt.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\Abstract\GameConditionNumber.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\CounterConfiguration.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\GameActionReference.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\GameConditionReference.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Game\ObjectModel\GameConfiguration.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\BuyGameItemButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\CreateGameItemButtons.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\GameItemButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\GameItemContextBase.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\GameItemContextBaseRunnable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\GameItemContextBaseSelectableTypeRunnable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\GameItemContextBaseSelectableTypeRunnableCounter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\InstantiatePrefab.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\SetFromCounterNormalisedAmount.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\SetGradientBackgroundFromGameItemVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\SetImageToSprite.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\SetPositionFromGameItemVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\SetRotationFromGameItemVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\SetScaleFromGameItemVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\SetSprite.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\SetSpriteRendererToSprite.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\ShowGameItemCounter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\ShowGameItemInfo.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\ShowPrefab.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\AbstractClasses\UnlockGameItemButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\ChangeCounterOverTime.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\SetCounter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\SetImageColorFromCounter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\SetImageFillFromCounter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\SetSpriteRendererColorFromCounter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\SetTextColorFromCounter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\ShowCounter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Messages\CoinsChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Messages\CounterFloatAmountBestChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Messages\CounterFloatAmountChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Messages\CounterIntAmountBestChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Messages\CounterIntAmountChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Messages\HighScoreChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Messages\ScoreChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Messages\UpdateMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\ObjectModel\Counter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\ObjectModel\GameItem.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\ObjectModel\GameItemContext.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\ObjectModel\GameItemExtension.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\ObjectModel\GameItemManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\ObjectModel\NumberedGameItemReference.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GameManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GenericGameItems\Components\CreateGenericGameItemButtons.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GenericGameItems\Components\GenericGameItemButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GenericGameItems\Components\GenericGameItemManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GenericGameItems\Components\ShowGenericGameItemInfo.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GenericGameItems\Components\UnlockGenericGameItemButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\GenericGameItems\ObjectModel\GenericGameItem.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\BuyLevelButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\CreateLevelButtons.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\CreateStarIcons.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\EnableBasedUponNumberOfStarsWon.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\InstantiateLevelPrefab.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\LevelButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\LevelGameItemContext.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\SetGradientBackgroundFromLevelVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\SetImageToLevelSprite.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\SetPositionFromLevelVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\SetRotationFromLevelVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\SetScaleFromLevelVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\SetSpriteRendererToLevelSprite.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\ShowLevelCoins.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\ShowLevelCounter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\ShowLevelHighScore.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\ShowLevelInfo.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\ShowLevelPrefab.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\ShowLevelScore.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\StarsWonHandlerCoins.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\StarsWonHandlerScore.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\UnlockLevelButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\LevelManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Messages\LevelChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Messages\LevelCoinsChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Messages\LevelEndedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Messages\LevelHighScoreChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Messages\LevelPausedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Messages\LevelResumedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Messages\LevelScoreChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Messages\LevelStartedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Messages\StarsWonMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\ObjectModel\Level.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\ObjectModel\LevelGameItemManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\ObjectModel\NumberedLevelReference.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\CreateLivesIcons.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\DecreaseLivesWhenHealthIsZero.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\EnableBasedUponNumberOfLives.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\InstantiatePlayerPrefab.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\OnLifeLostEnableGameobject.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\PlayerButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\PlayerGameItemContext.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\SetGradientBackgroundFromPlayerVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\SetHealth.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\SetImageToPlayerSprite.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\SetLives.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\SetPositionFromPlayerVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\SetRotationFromPlayerVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\SetScaleFromPlayerVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\SetSpriteRendererToPlayerSprite.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\ShowCoins.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\ShowHealthImage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\ShowHighScore.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\ShowLives.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\ShowPlayerCounter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\ShowPlayerInfo.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\ShowPlayerPrefab.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\ShowScore.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Messages\CustomNameChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Messages\GameWonMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Messages\HealthChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Messages\LivesChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Messages\PlayerChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Messages\PlayerCoinsChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Messages\PlayerHighScoreChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Messages\PlayerScoreChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\ObjectModel\Player.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Players\ObjectModel\PlayerGameItemManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Variables\ObjectModel\Variables.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\BuyWorldButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\CreateWorldButtons.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\InstantiateWorldPrefab.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\SetGradientBackgroundFromWorldVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\SetImageToWorldSprite.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\SetPositionFromWorldVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\SetRotationFromWorldVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\SetScaleFromWorldVariable.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\SetSpriteRendererToWorldSprite.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\ShowWorldCounter.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\ShowWorldInfo.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\ShowWorldPrefab.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\UnlockWorldButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\WorldButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\WorldGameItemContext.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Messages\WorldChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\ObjectModel\World.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\ObjectModel\WorldGameItemManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Helper\ClassDetailsAttribute.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Helper\Components\GenericCallbackFunctions.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Helper\JSONObject.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Helper\ScriptableObjectContainer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Helper\UnityEvents\UnityGameObjectEvent.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Input\Components\AbstractClasses\OnMouseClickOrTap.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Input\Components\OnButtonLoadScene.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Input\Components\OnEscapeLoadLevel.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Input\Components\OnEscapeLoadScene.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Input\Components\OnEscapeQuit.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Input\Components\OnMouseClickOrTapLoadLevel.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Input\Components\OnMouseClickOrTapLoadScene.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Input\InputHelper.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\Components\EnableIfLanguage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\Components\EnableIfMultipleLanguages.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\Components\LocalisationConfiguration.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\Components\LocaliseImage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\Components\LocaliseSpriteRenderer.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\Components\LocaliseText.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\Components\OnButtonClickSetLanguage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\GlobalLocalisation.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\LocaliseText.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\Messages\LocalisationChangedMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\ObjectModel\AbstractClasses\LocalisableObject.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\ObjectModel\Languages.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\ObjectModel\LocalisablePrefab.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\ObjectModel\LocalisableSprite.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\ObjectModel\LocalisableText.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\ObjectModel\LocalisationData.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Localisation\ObjectModel\SimpleJSON.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Messaging\Components\AbstractClasses\RunOnMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Messaging\Components\AbstractClasses\RunOnMessageAttribute.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Messaging\DummyMessage.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Messaging\MessageBase.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Messaging\MessageLog.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Messaging\Messenger.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Networking\NetworkGameSetupInterfaceManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Networking\NetworkGameSetupJoinButton.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Networking\NetworkManagerCallbacks.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Networking\NetworkPlayManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Networking\PlayerNetworkPlayManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Networking\SetupLocalNetworking.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Preferences\IPreferences.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Preferences\PlayerPrefsIntegration\PlayerPrefsHandler.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Preferences\PreferencesFactory.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Preferences\PrefsEditorIntegration\PrefsEditorHandler.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Social\Components\EnableBasedUponModulusOfGamesPlayed.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Social\Components\EnableBasedUponModulusOfLevelsPlayed.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Social\Components\EnableBasedUponNumberOfGamesPlayed.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Social\Components\EnableBasedUponNumberOfLevelsPlayed.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Social\Components\ShowGameFeedback.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Social\GameFeedback.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Buttons\Components\AbstractClasses\OnButtonClick.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Buttons\Components\AbstractClasses\SyncState.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Buttons\Components\OnButtonClickExit.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Buttons\Components\OnButtonClickLoadScene.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Buttons\Components\OnButtonClickLoadUrl.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Buttons\Components\SyncStateImageColors.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Buttons\Components\SyncStateTextColors.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\DialogCallbackShowButtons.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\DialogInstance.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\DialogManager.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\GameOver.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\OnButtonClickPauseLevel.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\OnButtonClickShowSettings.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\OnButtonClickSwapDialogInstance.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\OnMouseClickOrTapSwapDialogInstance.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\PauseWindow.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\Settings.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\ShowDialogOnce.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Other\Components\AbstractClasses\ShowValueAnimated.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Other\Components\AbstractClasses\ShowValueAnimatedMessaging.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Other\Components\GradientText.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Other\Components\GridlayoutSizeWidthToFill.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Other\Components\MatchTextSizes.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Other\Components\ScaleTextBasedOnScreenSize.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Other\Components\ScrollRectEnsureVisible.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Other\Components\TimeRemaining.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\UI\Other\UIHelper.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Weighting\Components\DistanceWeight.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Weighting\DistanceWeightedItems.cs" />
+    <Compile Include="Assets\FlipWebApps\GameFramework\Scripts\Weighting\DistanceWeightValue.cs" />
+    <Compile Include="Assets\FurBall2D\Scripts\CameraController.cs" />
+    <Compile Include="Assets\FurBall2D\Scripts\DestroyCloud.cs" />
+    <Compile Include="Assets\FurBall2D\Scripts\HitVelDetection.cs" />
+    <Compile Include="Assets\FurBall2D\Scripts\Instantiation.cs" />
+    <Compile Include="Assets\FurBall2D\Scripts\PlayerController.cs" />
+    <Compile Include="Assets\FurBall2D_mobile\Scripts\CameraController_m.cs" />
+    <Compile Include="Assets\FurBall2D_mobile\Scripts\DestroyCloud_m.cs" />
+    <Compile Include="Assets\FurBall2D_mobile\Scripts\PlayerController_m.cs" />
+    <Compile Include="Assets\Gems Ultimate Pack\Scripts\AnimationScript.cs" />
+    <Compile Include="Assets\GracesGames\2DTileMapLevelEditor\Scripts\Functionalities\FillFunctionality.cs" />
+    <Compile Include="Assets\GracesGames\2DTileMapLevelEditor\Scripts\Functionalities\GridFunctionality.cs" />
+    <Compile Include="Assets\GracesGames\2DTileMapLevelEditor\Scripts\Functionalities\LayerFunctionality.cs" />
+    <Compile Include="Assets\GracesGames\2DTileMapLevelEditor\Scripts\Functionalities\LoadFunctionality.cs" />
+    <Compile Include="Assets\GracesGames\2DTileMapLevelEditor\Scripts\Functionalities\SaveFunctionality.cs" />
+    <Compile Include="Assets\GracesGames\2DTileMapLevelEditor\Scripts\Functionalities\UndoRedoFunctionality.cs" />
+    <Compile Include="Assets\GracesGames\2DTileMapLevelEditor\Scripts\Functionalities\ZoomFunctionality.cs" />
+    <Compile Include="Assets\GracesGames\2DTileMapLevelEditor\Scripts\GridOverlay.cs" />
+    <Compile Include="Assets\GracesGames\2DTileMapLevelEditor\Scripts\LevelBuilder\LevelBuilder.cs" />
+    <Compile Include="Assets\GracesGames\2DTileMapLevelEditor\Scripts\LevelBuilder\LevelBuilderDemoCaller.cs" />
+    <Compile Include="Assets\GracesGames\2DTileMapLevelEditor\Scripts\LevelEditor.cs" />
+    <Compile Include="Assets\GracesGames\2DTileMapLevelEditor\Scripts\MoveCamera.cs" />
+    <Compile Include="Assets\GracesGames\2DTileMapLevelEditor\Scripts\Tileset.cs" />
+    <Compile Include="Assets\GracesGames\2DTileMapLevelEditor\Scripts\UI\UserInterface.cs" />
+    <Compile Include="Assets\GracesGames\Common\Scripts\FiniteStack.cs" />
+    <Compile Include="Assets\GracesGames\Common\Scripts\Utilities.cs" />
+    <Compile Include="Assets\GracesGames\SimpleFileBrowser\Scripts\AlphanumComparatorFast.cs" />
+    <Compile Include="Assets\GracesGames\SimpleFileBrowser\Scripts\DemoCaller.cs" />
+    <Compile Include="Assets\GracesGames\SimpleFileBrowser\Scripts\FileBrowser.cs" />
+    <Compile Include="Assets\GracesGames\SimpleFileBrowser\Scripts\UI\FileButton.cs" />
+    <Compile Include="Assets\GracesGames\SimpleFileBrowser\Scripts\UI\LandscapeUserInterface.cs" />
+    <Compile Include="Assets\GracesGames\SimpleFileBrowser\Scripts\UI\PortraitUserInterface.cs" />
+    <Compile Include="Assets\GracesGames\SimpleFileBrowser\Scripts\UI\UserInterface.cs" />
+    <Compile Include="Assets\MenuPackage\Scripts\DrawGizmo.cs" />
+    <Compile Include="Assets\MenuPackage\Scripts\loadingLevelWithBlink.cs" />
+    <Compile Include="Assets\MenuPackage\Scripts\rayForCenter.cs" />
+    <Compile Include="Assets\MenuPackage\Scripts\ScriptForLevels.cs" />
+    <Compile Include="Assets\MenuPackage\Scripts\Scroller\LevelBoxMove.cs" />
+    <Compile Include="Assets\MenuPackage\Scripts\Scroller\levelSelection.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UIEquipmentSlot.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UIItemSlot.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UIItemStorage.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UIStorageSlot.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvAttachmentPoint.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvBaseItem.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvDatabase.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvEquipment.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvGameItem.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvStat.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\ChatInput.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\DownloadTexture.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\DragDropContainer.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\DragDropItem.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\DragDropRoot.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\DragDropSurface.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\LagPosition.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\LagRotation.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\LoadLevelOnClick.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\LookAtTarget.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\PanWithMouse.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\PlayIdleAnimations.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\SetColorOnSelection.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\ShaderQuality.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\Spin.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\SpinWithMouse.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\TypewriterEffect.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\UpdateManager.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\WindowAutoYaw.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\WindowDragTilt.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButton.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonActivate.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonKeyBinding.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonPlayAnimation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonSound.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonTween.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UICenterOnChild.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UICheckbox.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UICheckboxControlledComponent.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UICheckboxControlledObject.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDraggablePanel.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragObject.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragPanelContents.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIGrid.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIImageButton.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIInputValidator.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIPopupList.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UISavedOption.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UISlider.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UISliderColors.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UISoundVolume.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UITable.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\ActiveAnimation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\AnimationOrTween.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\BetterList.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\BMFont.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\BMGlyph.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\BMSymbol.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\ByteReader.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\IgnoreTimeScale.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\Localization.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\NGUIDebug.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\NGUIMath.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\NGUITools.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\SpringPanel.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIDrawCall.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIEventListener.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIGeometry.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UINode.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIWidget.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedAlpha.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedColor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\SpringPosition.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenAlpha.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenColor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenFOV.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenOrthoSize.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenPosition.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenRotation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenScale.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenTransform.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenVolume.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\UITweener.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIAnchor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIAtlas.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UICamera.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIFilledSprite.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIFont.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIInput.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIInputSaved.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UILabel.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UILocalize.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIPanel.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIRoot.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UISlicedSprite.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UISprite.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIStretch.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UITextList.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UITiledSprite.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+    <Compile Include="Assets\ObjectDistributor\Scripts\ObjectDistributor.cs" />
+    <Compile Include="Assets\PDT Item Spawner\Scripts\CustomItem.cs" />
+    <Compile Include="Assets\PDT Item Spawner\Scripts\CustomItemGatherer.cs" />
+    <Compile Include="Assets\PDT Item Spawner\Scripts\CustomItemManager.cs" />
+    <Compile Include="Assets\PDT Item Spawner\Scripts\CustomItemRespawn.cs" />
+    <Compile Include="Assets\PDT Item Spawner\Scripts\CustomItemSpawner.cs" />
+    <Compile Include="Assets\PDT Item Spawner\Scripts\CustomItemSpawnType.cs" />
+    <Compile Include="Assets\Placement Kit\Example Project Files\Scripts\GUIScript.cs" />
+    <Compile Include="Assets\Placement Kit\Placement Kit Files\Scripts\BuildingCollision.cs" />
+    <Compile Include="Assets\Placement Kit\Placement Kit Files\Scripts\BuildingList.cs" />
+    <Compile Include="Assets\Placement Kit\Placement Kit Files\Scripts\BuildManager.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrush.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\CurvedStairBrush.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\HollowBoxBrush.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\ShapeEditor\Bezier.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\ShapeEditor\Decomposition\BayazitDecomposer.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\ShapeEditor\Decomposition\SeidelDecomposer.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\ShapeEditor\ISelectable.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\ShapeEditor\Pivot.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\ShapeEditor\Project.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\ShapeEditor\Segment.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\ShapeEditor\SegmentType.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\ShapeEditor\Shape.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\ShapeEditor\ShapeEditorBrush.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\StairBrush.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\TrimBrush.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\GroupBrush.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\PrimitiveBrush.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\Volumes\PhysicsVolume\PhysicsVolume.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\Volumes\PhysicsVolume\PhysicsVolumeComponent.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\Volumes\PhysicsVolume\PhysicsVolumeForceMode.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\Volumes\PhysicsVolume\PhysicsVolumeForceSpace.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\Volumes\PhysicsVolume\PhysicsVolumeGravityMode.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\Volumes\TriggerVolume\TriggerVolume.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\Volumes\TriggerVolume\TriggerVolumeComponent.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\Volumes\TriggerVolume\TriggerVolumeEvent.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\Volumes\TriggerVolume\TriggerVolumeTriggerType.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Brushes\Volumes\Volume.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\CallbackEvents.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Compatibility\Vector2Int.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Constants.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\BrushBase.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\BuildEngine\BrushBuilder.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\BuildEngine\BrushCache.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\BuildEngine\CSGFactory.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\BuildEngine\MeshGroupManager.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\BuildEngine\Optimizer.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\BuildEngine\TriangulationNode.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\BuildMetrics.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\CSG\Brush.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\CSG\BrushChunk.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\CSG\Edge.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\CSG\Polygon.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\CSG\Vertex.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\CSG\VertexList.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\CSGBuildContext.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\CSGBuildSettings.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\Debugging\DebugTimer.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\Dictionaries\MaterialMeshDictionary.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\IDeepCopyable.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\MeshExtensions.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\PolygonEntry.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\PolygonFactory.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Core\SerializablePlane.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\CSGModel.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\CSGModelBase.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\CSGModelRuntime.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\CurrentSettings.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\ExpandPropertiesAttribute.cs.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Extensions\ColorHex.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Extensions\EditorHelper.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Extensions\EnumHelper.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Extensions\Extensions.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Extensions\MathHelper.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Extensions\Matrices\Matrix2x2.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Extensions\Matrices\Matrix3x2.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Extensions\StringHelper.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Extensions\TransformData.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Extensions\TransformHelper.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Extensions\WorldTransformData.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Geometry\AdjacencyFilters.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Geometry\AdjacencyHelper.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Geometry\BrushFactory.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Geometry\GeometryHelper.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Geometry\MeshHelper.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Geometry\OBJFactory.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Geometry\OBJVertexList.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Geometry\UVUtility.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\MaterialSearcher.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\Quake1\MapBrush.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\Quake1\MapBrushSide.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\Quake1\MapEntity.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\Quake1\MapImporter.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\Quake1\MapPlane.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\Quake1\MapVector2.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\Quake1\MapVector3.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\Quake1\MapWorld.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\Quake1\MapWorldConverter.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\UnrealGold\T3dActor.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\UnrealGold\T3dBrush.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\UnrealGold\T3dBrushFlags.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\UnrealGold\T3dImporter.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\UnrealGold\T3dMap.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\UnrealGold\T3dMapConverter.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\UnrealGold\T3dPolygon.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\UnrealGold\T3dPolygonFlags.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\UnrealGold\T3dRotator.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\UnrealGold\T3dVector3.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\ValveMapFormat2006\VmfAxis.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\ValveMapFormat2006\VmfEntity.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\ValveMapFormat2006\VmfImporter.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\ValveMapFormat2006\VmfPlane.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\ValveMapFormat2006\VmfSolid.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\ValveMapFormat2006\VmfSolidSide.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\ValveMapFormat2006\VmfVector3.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\ValveMapFormat2006\VmfWorld.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Importers\ValveMapFormat2006\VmfWorldConverter.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Input\EditorKeyMappings.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Input\KeyMappings.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\IPostBuildListener.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\LinearFPSCam.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Pair.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\ClipEditor.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\DrawEditor.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\EdgeEditor.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\PaintEditor.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\ResizeEditor.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\ResizeHandlePair.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\SurfaceEditor.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\Tool.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\ToolSettingsPopup.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\TransformModelEditor.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\Utilities\BrushUtility.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\Utilities\ClipUtility.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\Utilities\DrawUtility.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\Utilities\EdgeUtility.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\Utilities\SurfaceUtility.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\Utilities\Vertex Weld Ops\VertexWeldCentroidOperation.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\Utilities\Vertex Weld Ops\VertexWeldOperation.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\Utilities\Vertex Weld Ops\VertexWeldToleranceOperation.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\Utilities\VertexUtility.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\Tools\VertexEditor.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\CSGGrid.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\GridManager.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\MaterialPaletteWindow.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\NamedVerticalScope.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\PaletteWindow.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\RadialMenu.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\SabreCSGPreferences.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\SabreCSGResources.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\SabreEditorGUI.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\SabreGraphics.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\SabreGUIHelper.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\SabreGUILayout.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\SabreInput.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\SabreMouse.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\Toolbar.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UI\VertexColorWindow.cs" />
+    <Compile Include="Assets\SabreCSG\Scripts\UpdateUtility.cs" />
+    <Compile Include="Assets\Scripts\AutoLevelGenerator.cs" />
+    <Compile Include="Assets\Scripts\AutoLevelGeneratorEditor.cs" />
+    <Compile Include="Assets\Scripts\BoxItem.cs" />
+    <Compile Include="Assets\Scripts\BoxObjects.cs" />
+    <Compile Include="Assets\Scripts\CameraFollow.cs" />
+    <Compile Include="Assets\Scripts\CameraFollow2.cs" />
+    <Compile Include="Assets\Scripts\CoinScript.cs" />
+    <Compile Include="Assets\Scripts\DeathTrapItem.cs" />
+    <Compile Include="Assets\Scripts\DeathTrapObjects.cs" />
+    <Compile Include="Assets\Scripts\DecorationItem.cs" />
+    <Compile Include="Assets\Scripts\DecorationObjects.cs" />
+    <Compile Include="Assets\Scripts\Destroy.cs" />
+    <Compile Include="Assets\Scripts\gamestart.cs" />
+    <Compile Include="Assets\Scripts\gamestate.cs" />
+    <Compile Include="Assets\Scripts\GameStateObject.cs" />
+    <Compile Include="Assets\Scripts\GeneratorScript.cs" />
+    <Compile Include="Assets\Scripts\HammerController.cs" />
+    <Compile Include="Assets\Scripts\JsonHelper.cs" />
+    <Compile Include="Assets\Scripts\LaserScript.cs" />
+    <Compile Include="Assets\Scripts\MouseController.cs" />
+    <Compile Include="Assets\Scripts\ParallaxScroll.cs" />
+    <Compile Include="Assets\Scripts\ParticleSortingLayerFIx.cs" />
+    <Compile Include="Assets\Scripts\PickupItem.cs" />
+    <Compile Include="Assets\Scripts\PickupObjects.cs" />
+    <Compile Include="Assets\Scripts\PlatformObjects.cs" />
+    <Compile Include="Assets\Scripts\Point.cs" />
+    <Compile Include="Assets\Scripts\Point2.cs" />
+    <Compile Include="Assets\Scripts\PopUpMessage.cs" />
+    <Compile Include="Assets\SwipeMenu\Scripts\Demo Scripts\DemoSceneSwitcher.cs" />
+    <Compile Include="Assets\SwipeMenu\Scripts\Demo Scripts\ExampleCharacterSelector.cs" />
+    <Compile Include="Assets\SwipeMenu\Scripts\Demo Scripts\ExampleMenuAudioPlayer.cs" />
+    <Compile Include="Assets\SwipeMenu\Scripts\Demo Scripts\MoveBetweenMenus.cs" />
+    <Compile Include="Assets\SwipeMenu\Scripts\Demo Scripts\ShowTextOnMenuCentred.cs" />
+    <Compile Include="Assets\SwipeMenu\Scripts\Demo Scripts\SwipeMenuAudioPlayer.cs" />
+    <Compile Include="Assets\SwipeMenu\Scripts\Demo Scripts\UpdateMenuItemOnClick.cs" />
+    <Compile Include="Assets\SwipeMenu\Scripts\Demo Scripts\UpdateTextColourOnMenuClick.cs" />
+    <Compile Include="Assets\SwipeMenu\Scripts\SwipeMenu\Helper.cs" />
+    <Compile Include="Assets\SwipeMenu\Scripts\SwipeMenu\Input\SwipeHandler.cs" />
+    <Compile Include="Assets\SwipeMenu\Scripts\SwipeMenu\Input\TouchHandler.cs" />
+    <Compile Include="Assets\SwipeMenu\Scripts\SwipeMenu\Menu.cs" />
+    <Compile Include="Assets\SwipeMenu\Scripts\SwipeMenu\MenuItem.cs" />
+    <Compile Include="Assets\SwipeMenu\Scripts\SwipeMenu\SubMenuItem.cs" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth Cutout.shader" />
+    <None Include="Assets\FlipWebApps\GameFramework\Readme.txt" />
+    <None Include="Assets\NGUI\Examples\Models\Orc\Orc Skin.shader" />
+    <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo20.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo14.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (SoftClip).shader" />
+    <None Include="Assets\SabreCSG\Shaders\Handle.shader" />
+    <None Include="Assets\SabreCSG\Shaders\Line.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (AlphaClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Masked Colored.shader" />
+    <None Include="Assets\SabreCSG\Internal\Shaders\BrushPreview.shader" />
+    <None Include="Assets\NGUI\Examples\Atlases\Wooden\Arimo18.txt" />
+    <None Include="Assets\FlipWebApps\GameFramework\_Demo\GameStructure\Models\Credits.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (AlphaClip) .shader" />
+    <None Include="Assets\GracesGames\2DTileMapLevelEditor\Sprites\Kenney\Sokoban Pack\License.txt" />
+    <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Header.txt" />
+    <None Include="Assets\SabreCSG\Shaders\UINoAlpha.shader" />
+    <None Include="Assets\GracesGames\2DTileMapLevelEditor\Sprites\Kenney\UI Pack\license.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (AlphaClip).shader" />
+    <None Include="Assets\GracesGames\SimpleFileBrowser\ReadMe.txt" />
+    <None Include="Assets\Placement Kit\Example Project Files\Standard Assets\Skyboxes\_skybox info.txt" />
+    <None Include="Assets\GracesGames\SimpleFileBrowser\DemoFiles\TextFileWithNewLines.txt" />
+    <None Include="Assets\FlipWebApps\GameFramework\Release Notes.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (AlphaClip).shader" />
+    <None Include="Assets\GracesGames\LICENSE.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\GUI - Text Shader (AlphaClip).shader" />
+    <None Include="Assets\SabreCSG\Shaders\ShapeEditorLine.shader" />
+    <None Include="Assets\NGUI\Examples\Atlases\Fantasy\Fantasy Font - Normal.txt" />
+    <None Include="Assets\FlipWebApps\GameFramework\_Demo\GameStructure\ReadMe.txt" />
+    <None Include="Assets\SabreCSG\Shaders\Preview.shader" />
+    <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Normal.txt" />
+    <None Include="Assets\GracesGames\SimpleFileBrowser\Sprites\IconMonstrLicense.txt" />
+    <None Include="Assets\GracesGames\2DTileMapLevelEditor\Sprites\Kenney\Platformer Pack\License.txt" />
+    <None Include="Assets\FlipWebApps\GameFramework\Scripts\Display\Other\Components\GradientBackgroundShader.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font (SoftClip).shader" />
+    <None Include="Assets\FlipWebApps\GameFramework\_Demo\About\ReadMe.txt" />
+    <None Include="Assets\SabreCSG\Shaders\Diffuse-VertexColoredLit.shader" />
+    <None Include="Assets\Resources\PDTFiles\Saved Data\CustomItemList.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed) (SoftClip).shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored (SoftClip).shader" />
+    <None Include="Assets\FlipWebApps\GameFramework\Upgrade Guide.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Premultiplied Colored.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Dynamic Font.shader" />
+    <None Include="Assets\SabreCSG\Shaders\Tri-Planar.shader" />
+    <None Include="Assets\SabreCSG\Scripts\Brushes\CompoundBrushes\ShapeEditor\Decomposition\LICENSE.txt" />
+    <None Include="Assets\NGUI\ReadMe - 2.7.0.txt" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored.shader" />
+    <None Include="Assets\SabreCSG\Shaders\Diffuse-VertexColored.shader" />
+    <None Include="Assets\GracesGames\Third-Party Notices.txt" />
+    <None Include="Assets\SabreCSG\Shaders\SeeExcluded.shader" />
+    <None Include="Assets\GracesGames\SimpleFileBrowser\DemoFiles\DemoText.txt" />
+    <None Include="Assets\GracesGames\2DTileMapLevelEditor\Sprites\Kenney\KenneySpritesLicense.txt" />
+    <None Include="Assets\NGUI\Examples\Other\English.txt" />
+    <None Include="Assets\NGUI\Examples\Other\French.txt" />
+    <None Include="Assets\SabreCSG\Shaders\LineDashed.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (Packed).shader" />
+    <None Include="Assets\GracesGames\SimpleFileBrowser\Sprites\KenneySpritesLicense.txt" />
+    <None Include="Assets\GradientGUIBars\ReadMe\AboutFonts.txt" />
+    <None Include="Assets\SabreCSG\Shaders\ShapeEditorGrid.shader" />
+    <None Include="Assets\GracesGames\2DTileMapLevelEditor\Sprites\Custom\IconMonstrLicense.txt" />
+    <None Include="Assets\SabreCSG\Shaders\Plane.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Additive Colored.shader" />
+    <None Include="Assets\NGUI\Examples\Atlases\Refractive\Refractive Font - Header.txt" />
+    <None Include="Assets\NGUI\Examples\Shaders\Refractive.shader" />
+    <None Include="Assets\SabreCSG\Shaders\VertexTinted.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Depth.shader" />
+    <None Include="Assets\NGUI\Examples\Atlases\SciFi\SciFi Font - Normal.txt" />
+    <None Include="Assets\SabreCSG\Example Materials\Textures\update.txt" />
+    <None Include="Assets\SabreCSG\Internal\Shaders\Grayscale-GUITexture.shader" />
+    <None Include="Assets\NGUI\Resources\Shaders\Unlit - Transparent Colored (SoftClip).shader" />
+    <None Include="Assets\Sets - Gems\Shaders\Gem.shader" />
+    <None Include="Assets\GracesGames\2DTileMapLevelEditor\ReadMe.txt" />
+    <None Include="Assets\NGUI\Examples\Models\Orc Armor\Orc Armor.shader" />
+    <None Include="Assets\Placement Kit\Setup Guide.txt" />
+    <None Include="Assets\SabreCSG\Shaders\LineDashedAlpha.shader" />
+    <None Include="Assets\PDT Item Spawner\Documentation\README.txt" />
+    <Reference Include="Unity.TextMeshPro.Editor">
+      <HintPath>D:/utilities/Programming/Unity/Projects/trunk/RocketMouse/RocketMouse/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.PackageManagerUI.Editor">
+      <HintPath>D:/utilities/Programming/Unity/Projects/trunk/RocketMouse/RocketMouse/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.CollabProxy.Editor">
+      <HintPath>D:/utilities/Programming/Unity/Projects/trunk/RocketMouse/RocketMouse/Library/ScriptAssemblies/Unity.CollabProxy.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>D:/utilities/Programming/Unity/Projects/trunk/RocketMouse/RocketMouse/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.DataPrivacy">
+      <HintPath>D:/utilities/Programming/Unity/Projects/trunk/RocketMouse/RocketMouse/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AIModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ARModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ARModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AccessibilityModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AccessibilityModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.BaselibModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.BaselibModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClothModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClothModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterInputModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterInputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ClusterRendererModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ClusterRendererModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CrashReportingModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.CrashReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.DirectorModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.DirectorModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.FileSystemHttpModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.FileSystemHttpModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GameCenterModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GameCenterModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GridModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.GridModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.HotReloadModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.HotReloadModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.IMGUIModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.IMGUIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.InputModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.InputModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.JSONSerializeModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.JSONSerializeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.LocalizationModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.LocalizationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ParticleSystemModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ParticleSystemModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PerformanceReportingModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PerformanceReportingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.PhysicsModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.PhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Physics2DModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.Physics2DModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ProfilerModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ProfilerModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ScreenCaptureModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.ScreenCaptureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SharedInternalsModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SharedInternalsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteMaskModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteMaskModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpriteShapeModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SpriteShapeModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StreamingModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StreamingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.StyleSheetsModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.StyleSheetsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SubstanceModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.SubstanceModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TLSModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TLSModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TerrainPhysicsModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TerrainPhysicsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextCoreModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextCoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TextRenderingModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TextRenderingModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TilemapModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TilemapModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TimelineModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.TimelineModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UIElementsModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UIElementsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UNETModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UNETModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UmbraModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UmbraModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityAnalyticsModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityAnalyticsModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityConnectModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityConnectModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityTestProtocolModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityTestProtocolModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAssetBundleModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestAudioModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestAudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestTextureModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestTextureModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UnityWebRequestWWWModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.UnityWebRequestWWWModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VFXModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VFXModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VRModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VehiclesModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VehiclesModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.VideoModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.VideoModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.WindModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.WindModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.XRModule">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.XRModule.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Locator">
+      <HintPath>D:/Program Files/Unity/Editor/Data/Managed/Unity.Locator.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.TestRunner">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/UnityEngine.TestRunner.dll</HintPath>
+    </Reference>
+    <Reference Include="nunit.framework">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/TestRunner/net35/unity-custom/nunit.framework.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Timeline">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Timeline/RuntimeEditor/UnityEngine.Timeline.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="Vuforia.UnityExtensions">
+      <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/VuforiaSupport/Managed/Runtime/Vuforia.UnityExtensions.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.GoogleAudioSpatializer">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityGoogleAudioSpatializer/RuntimeEditor/UnityEngine.GoogleAudioSpatializer.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.SpatialTracking">
+      <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnitySpatialTracking/RuntimeEditor/UnityEngine.SpatialTracking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements">
+      <HintPath>D:/utilities/Programming/Unity/Projects/trunk/RocketMouse/RocketMouse/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Advertisements.Editor">
+      <HintPath>D:/utilities/Programming/Unity/Projects/trunk/RocketMouse/RocketMouse/Library/PackageCache/com.unity.ads@2.3.1/Runtime/UnityEngine.Advertisements.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Editor">
+      <HintPath>D:/utilities/Programming/Unity/Projects/trunk/RocketMouse/RocketMouse/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.StandardEvents">
+      <HintPath>D:/utilities/Programming/Unity/Projects/trunk/RocketMouse/RocketMouse/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.StandardEvents.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.Analytics.Tracker">
+      <HintPath>D:/utilities/Programming/Unity/Projects/trunk/RocketMouse/RocketMouse/Library/PackageCache/com.unity.analytics@3.2.2/Unity.Analytics.Tracker.dll</HintPath>
+    </Reference>
+    <Reference Include="netstandard">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.Win32.Primitives">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/Microsoft.Win32.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.AppContext">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.AppContext.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Concurrent">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Concurrent.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.NonGeneric">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.NonGeneric.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Collections.Specialized">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Collections.Specialized.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.EventBasedAsync">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.EventBasedAsync.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Primitives">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.TypeConverter">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ComponentModel.TypeConverter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Console">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Console.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.Common">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Data.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Contracts">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Contracts.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Debug">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Debug.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.FileVersionInfo">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.FileVersionInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Process">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Process.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.StackTrace">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.StackTrace.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TextWriterTraceListener">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TextWriterTraceListener.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tools">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tools.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.TraceSource">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.TraceSource.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Diagnostics.Tracing">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Diagnostics.Tracing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing.Primitives">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Drawing.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Dynamic.Runtime">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Dynamic.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Calendars">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Calendars.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Globalization.Extensions">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Globalization.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.ZipFile">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Compression.ZipFile.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.DriveInfo">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.DriveInfo.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Primitives">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.FileSystem.Watcher">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.FileSystem.Watcher.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.IsolatedStorage">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.IsolatedStorage.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.MemoryMappedFiles">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.MemoryMappedFiles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Pipes">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.Pipes.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.UnmanagedMemoryStream">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.IO.UnmanagedMemoryStream.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Expressions">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Expressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Parallel">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Linq.Queryable">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Linq.Queryable.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NameResolution">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NameResolution.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.NetworkInformation">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.NetworkInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Ping">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Ping.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Primitives">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Requests">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Requests.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Security">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Security.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Sockets">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.Sockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebHeaderCollection">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebHeaderCollection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets.Client">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.Client.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.WebSockets">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Net.WebSockets.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ObjectModel">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ObjectModel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Extensions">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Reflection.Primitives">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Reflection.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Reader">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Reader.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.ResourceManager">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Resources.Writer">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Resources.Writer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.VisualC">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.CompilerServices.VisualC.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Extensions">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Handles">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Handles.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.RuntimeInformation">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.InteropServices.RuntimeInformation.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Numerics">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Formatters">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Formatters.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Json">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Primitives">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization.Xml">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Runtime.Serialization.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Claims">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Claims.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Csp">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Csp.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Principal">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.Principal.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.SecureString">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Security.SecureString.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Encoding.Extensions">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.Encoding.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.RegularExpressions">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Text.RegularExpressions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Overlapped">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Overlapped.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Parallel">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Tasks.Parallel.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Thread">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Thread.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.ThreadPool">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.ThreadPool.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Timer">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Threading.Timer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.ReaderWriter">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.ReaderWriter.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XDocument">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlDocument">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XmlSerializer">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XmlSerializer.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.XPath.XDocument">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netstandard/System.Xml.XPath.XDocument.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics.Vectors">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/Extensions/2.0.0/System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.InteropServices.WindowsRuntime">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/Extensions/2.0.0/System.Runtime.InteropServices.WindowsRuntime.dll</HintPath>
+    </Reference>
+    <Reference Include="mscorlib">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ComponentModel.Composition">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ComponentModel.Composition.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="System">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Drawing.dll</HintPath>
+    </Reference>
+    <Reference Include="System.IO.Compression.FileSystem">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.IO.Compression.FileSystem.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Net.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Numerics.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Runtime.Serialization.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ServiceModel.Web">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.ServiceModel.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Transactions">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Transactions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Windows">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Windows.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Serialization">
+      <HintPath>D:/Program Files/Unity/Editor/Data/NetStandard/compat/2.0.0/shims/netfx/System.Xml.Serialization.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{4283DD3C-624D-C842-D970-F9AC72E963D7}</Project>
+      <Name>Assembly-CSharp-firstpass</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="GenerateTargetFrameworkMonikerAttribute" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
