@@ -1,0 +1,362 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{C08A39AB-40BC-060C-D9C8-4812F9277D00}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>Android:13</UnityBuildTarget>
+    <UnityVersion>5.4.0f3</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_4_0;UNITY_5_4;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_EDITOR_RETINA;ENABLE_RETINA_GUISTYLES;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;INCLUDE_PUBNUB;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_ANDROID;UNITY_ANDROID_API;ENABLE_SUBSTANCE;UNITY_ANDROID_API;ENABLE_TEXTUREID_MAP;ENABLE_EGL;ENABLE_NETWORK;ENABLE_RUNTIME_GI;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;PLATFORM_SUPPORTS_ADS_ID;UNITY_CAN_SHOW_SPLASH_SCREEN;ENABLE_UNITYADS_RUNTIME;UNITY_UNITYADS_API;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;ENABLE_VSTU;CROSS_PLATFORM_INPUT;MOBILE_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="OSCsharp">
+      <HintPath>Assets\TouchScript\Modules\TUIO\Libraries\OSCsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="TUIOsharp">
+      <HintPath>Assets\TouchScript\Modules\TUIO\Libraries\TUIOsharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Strategy Game.CSharp.Plugins.csproj">
+      <Project>{9AD40FD3-B666-3E77-4000-C91208A7DBF1}</Project>
+      <Name>Strategy Game.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Fx Explosion Pack\Script\DestroyEffect.cs" />
+    <Compile Include="Assets\Fx Explosion Pack\Script\csLightControl.cs" />
+    <Compile Include="Assets\Imported\Models\KnightInChainMail\MyScripts\Mecanim_Control_melee.cs" />
+    <Compile Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
+    <Compile Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+    <Compile Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
+    <Compile Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\EdgeDetectEffect.cs" />
+    <Compile Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\GlowEffect.cs" />
+    <Compile Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\GrayscaleEffect.cs" />
+    <Compile Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\ImageEffectBase.cs" />
+    <Compile Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\ImageEffects.cs" />
+    <Compile Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\MotionBlur.cs" />
+    <Compile Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\NoiseEffect.cs" />
+    <Compile Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\SSAOEffect.cs" />
+    <Compile Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\SepiaToneEffect.cs" />
+    <Compile Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\TwirlEffect.cs" />
+    <Compile Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\VortexEffect.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\SimpleDrag.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\SimpleInfo.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\SimpleMove.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\SimpleOrthographicZoom.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\SimpleRotateScale.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\SimpleRotateScaleRelative.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\SimpleSnapshots.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\SimpleSplitScreen.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\SimpleSwipe.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\SimpleSwipeDirection.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\SimpleTap.cs" />
+    <Compile Include="Assets\LeanTouch\Examples\SimpleZoom.cs" />
+    <Compile Include="Assets\LeanTouch\Scripts\LeanFinger.cs" />
+    <Compile Include="Assets\LeanTouch\Scripts\LeanTouch.cs" />
+    <Compile Include="Assets\Scripts\Board.cs" />
+    <Compile Include="Assets\Scripts\Camera\TouchCamera.cs" />
+    <Compile Include="Assets\Scripts\GameOverScript.cs" />
+    <Compile Include="Assets\Scripts\GameStateObject.cs" />
+    <Compile Include="Assets\Scripts\LevelComplete.cs" />
+    <Compile Include="Assets\Scripts\LevelMenu.cs" />
+    <Compile Include="Assets\Scripts\Logo.cs" />
+    <Compile Include="Assets\Scripts\PauseMenuScript.cs" />
+    <Compile Include="Assets\Scripts\ScoreAndLives.cs" />
+    <Compile Include="Assets\Scripts\ShootSpell.cs" />
+    <Compile Include="Assets\Scripts\SoundEffectsHelper.cs" />
+    <Compile Include="Assets\Scripts\SpecialEffectsHelper.cs" />
+    <Compile Include="Assets\Scripts\SwipeManager.cs" />
+    <Compile Include="Assets\Scripts\YouWon.cs" />
+    <Compile Include="Assets\Scripts\button.cs" />
+    <Compile Include="Assets\Scripts\gamestart.cs" />
+    <Compile Include="Assets\Scripts\gamestate.cs" />
+    <Compile Include="Assets\Scripts\levelgui.cs" />
+    <Compile Include="Assets\Scripts\startupScript.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Buff.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\CellGrid.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Cells\Cell.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Cells\Hexagon.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Cells\Square.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\CustomObstacleGenerator.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\GridGenerators\CustomCellGridGenerator.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\GridGenerators\EquilateralHexGridGenerator.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\GridGenerators\HexagonalHexGridGenerator.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\GridGenerators\ICellGridGenerator.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\GridGenerators\RectangularHexGridGenerator.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\GridGenerators\RectangularSquareGridGenerator.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\GridGenerators\TriangularHexGridGenerator.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\GridStates\CellGridState.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\GridStates\CellGridStateAiTurn.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\GridStates\CellGridStateGameOver.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\GridStates\CellGridStateTurnChanging.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\GridStates\CellGridStateUnitSelected.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\GridStates\CellGridStateWaitingForInput.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Pathfinding\AStarPathfinding.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Pathfinding\BreadthFirstSearch.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Pathfinding\DijkstraPathfinding.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Pathfinding\GreedyBestFirstSearch.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Pathfinding\IGraphNode.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Pathfinding\IPathfinding.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Pathfinding\PriorityQueue\HeapPriorityQueue.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Pathfinding\PriorityQueue\IPriorityQueue.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Pathfinding\PriorityQueue\ListPriorityQueue.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Players\HumanPlayer.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Players\NaiveAiPlayer.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Players\Player.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\Unit.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\UnitStates\UnitState.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\UnitStates\UnitStateMarkedAsFinished.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\UnitStates\UnitStateMarkedAsFriendly.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\UnitStates\UnitStateMarkedAsReachableEnemy.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\UnitStates\UnitStateMarkedAsSelected.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\UnitStates\UnitStateNormal.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\UnitsSpawners\CustomUnitGenerator.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\UnitsSpawners\IUnitGenerator.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Core\UnitsSpawners\RandomUnitGenerator.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example1\Buffs\AttackBuff.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example1\Buffs\BuffSpawner.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example1\Buffs\DefenceBuff.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example1\Buffs\HealingBuff.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example1\GuiController.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example1\MyHexagon.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example1\RandomObstacleGenerator.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example1\Units\Archer.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example1\Units\Hero.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example1\Units\MyUnit.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example1\Units\Paladin.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example1\Units\Spearman.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example1\Units\SpearmanSkeleton.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example2\MyOtherHexagon.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example2\OtherGuiController.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example2\Units\Alien.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example2\Units\FlyingAlien.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example3\GenericUnit.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example3\MySquare.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Example3\NextGuiController.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Tutorial\GUIController.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Tutorial\SampleSquare.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\Examlpes\Tutorial\SampleUnit.cs" />
+    <Compile Include="Assets\TBS Framework\Scripts\SampleSquareTest.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Camera\Scripts\CameraController.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Checkers\Scripts\Board.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Checkers\Scripts\Exclusive.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Colors\Scripts\Circle.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Colors\Scripts\Colors.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Cube\Scripts\CustomTouchProxy.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Cube\Scripts\Init.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Cube\Scripts\LayerDelegate.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Cube\Scripts\RedirectInput.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Multiuser\Scripts\Logo.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Photos\Scripts\Container.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Photos\Scripts\SetColor.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Portal\Scripts\Planet.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Portal\Scripts\Rotator.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Portal\Scripts\Vortex.cs" />
+    <Compile Include="Assets\TouchScript\Examples\RawInput\Scripts\Ball.cs" />
+    <Compile Include="Assets\TouchScript\Examples\RawInput\Scripts\Spawner.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Taps\Scripts\Break.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Taps\Scripts\Kick.cs" />
+    <Compile Include="Assets\TouchScript\Examples\Taps\Scripts\Spawn.cs" />
+    <Compile Include="Assets\TouchScript\Examples\_misc\Scripts\Checker.cs" />
+    <Compile Include="Assets\TouchScript\Examples\_misc\Scripts\KillMe.cs" />
+    <Compile Include="Assets\TouchScript\Examples\_misc\Scripts\Runner.cs" />
+    <Compile Include="Assets\TouchScript\Modules\TUIO\Scripts\InputSources\TuioInput.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Behaviors\TouchScriptInputModule.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Behaviors\Transformer.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Behaviors\Visualizer\TouchProxy.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Behaviors\Visualizer\TouchVisualizer.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Clusters\Clusters.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\DebuggableMonoBehaviour.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Devices\Display\DisplayDevice.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Devices\Display\GenericDisplayDevice.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Devices\Display\IDisplayDevice.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\GestureManager.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\GestureManagerInstance.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\Base\PinnedTransformGestureBase.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\Base\TransformGestureBase.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\Clustered\ClusteredPinnedTransformGesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\Clustered\ClusteredScreenTransformGesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\Clustered\ClusteredTransformGesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\FlickGesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\Gesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\IGestureDelegate.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\ITransformGesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\LongPressGesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\MetaGesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\PinnedTransformGesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\PressGesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\ReleaseGesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\ScreenTransformGesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\TapGesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\TransformGesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Gestures\UI\UIGesture.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Hit\HitTest.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Hit\TouchHit.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Hit\Untouchable.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\IDebuggable.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\IGestureManager.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\ITouchManager.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\InputSources\ICoordinatesRemapper.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\InputSources\IInputSource.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\InputSources\InputHandlers\MouseHandler.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\InputSources\InputHandlers\TouchHandler.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\InputSources\InputHandlers\WindowsTouchHandlers.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\InputSources\InputSource.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\InputSources\MobileInput.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\InputSources\MouseInput.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\InputSources\StandardInput.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Layers\CameraLayer.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Layers\CameraLayer2D.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Layers\CameraLayerBase.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Layers\FullscreenLayer.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Layers\ILayerDelegate.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Layers\ProjectionParams.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Layers\TouchLayer.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Layers\UILayer.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Tags.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\TouchManager.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\TouchManagerInstance.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\TouchPoint.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Utils\Attributes\NullToggleAttribute.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Utils\Attributes\ToggleLeftAttribute.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Utils\ClusterUtils.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Utils\Debug\DebugHelper.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Utils\Debug\GLDebug.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Utils\EventHandlerExtensions.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Utils\Geom\TwoD.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Utils\ObjectPool.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Utils\ProjectionUtils.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Utils\TimedSequence.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Utils\TouchUtils.cs" />
+    <Compile Include="Assets\TouchScript\Scripts\Utils\TransformUtils.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Imported\Models\Skeletons\SkeletonData\animations.txt" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Adaptation.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Apply.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\Luminance.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Contrast Stretch\MinMaxReduction.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectX.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GrayscaleEffect.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\MotionBlur.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderRGB.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseEffectShaderYUV.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SSAOShader.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SepiaToneEffect.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\TwirlEffect.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VortexEffect.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+    <None Include="Assets\Imported\Models\Terrain Assets\Rocks Pack\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+    <None Include="Assets\Imported\Models\overlord\models\overlord\Materials\clothshader.shader" />
+    <None Include="Assets\Imported\Models\overlord\readme.txt" />
+    <None Include="Assets\Imported\Sounds\Blade Sounds\Blade Sounds Readme.txt" />
+    <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+    <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water\Shaders\FXWaterPro.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Advanced.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
+    <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\WaterInclude.cginc" />
+    <None Include="Assets\TouchScript\Examples\_misc\Shaders\BorderDiffuse.shader" />
+    <None Include="Assets\TouchScript\Examples\_misc\Shaders\UnlitColor.shader" />
+    <None Include="Assets\TouchScript\Shaders\DebugDepthTest.shader" />
+    <None Include="Assets\TouchScript\Shaders\DebugMultiplyDepthTest.shader" />
+    <None Include="Assets\TouchScript\Shaders\DebugMultiplyNoDepthTest.shader" />
+    <None Include="Assets\TouchScript\Shaders\DebugNoDepthTest.shader" />
+    <None Include="Assets\TouchScript\license.txt" />
+    <None Include="Assets\_SFB_Particle Package 1\Demo &amp; Read Me\SFB_ParticlePackage1_ReadMe.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>

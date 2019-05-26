@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\HappyBaby\HappyBaby\Assets\Scripts\SoundEffectsHelper.cs">
+    <Files>
+      <File FileName="..\HappyBaby\HappyBaby\Assets\Scripts\SceneManager.cs" Line="131" Column="4" />
+      <File FileName="..\HappyBaby\HappyBaby\Assets\Scripts\SoundEffectsHelper.cs" Line="23" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
