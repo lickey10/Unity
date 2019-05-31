@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATAPACKET Version="1.0">
+  <METADATA>
+    <FIELDS>
+      <FIELD ATTRNAME="ID" FIELDTYPE="Integer" WIDTH="74"/>
+      <FIELD ATTRNAME="Outcomes" FIELDTYPE="String" WIDTH="1789"/>
+      <FIELD ATTRNAME="DateCreated" FIELDTYPE="String" WIDTH="1789"/>
+    </FIELDS>
+  </METADATA>
+  <ROWDATA>
+    <ROW ID="1" Outcomes="American Macro Lager" DateCreated=""/>
+    <ROW ID="2" Outcomes="Pilsner" DateCreated=""/>
+    <ROW ID="3" Outcomes="Wheat Beer" DateCreated=""/>
+    <ROW ID="4" Outcomes="Farmhouse/Saison" DateCreated=""/>
+    <ROW ID="5" Outcomes="Porter or Stout" DateCreated=""/>
+    <ROW ID="6" Outcomes="Pale Ale" DateCreated=""/>
+    <ROW ID="7" Outcomes="IPA" DateCreated=""/>
+    <ROW ID="8" Outcomes="Barrel-Aged Stout" DateCreated=""/>
+    <ROW ID="9" Outcomes="Sour" DateCreated=""/>
+    <ROW ID="10" Outcomes="BarleyWine" DateCreated=""/>
+  </ROWDATA>
+</DATAPACKET>

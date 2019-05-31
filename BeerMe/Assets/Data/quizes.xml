@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATAPACKET Version="1.0">
+  <METADATA>
+    <FIELDS>
+      <FIELD ATTRNAME="ID" FIELDTYPE="String" WIDTH="1789"/>
+      <FIELD ATTRNAME="Name" FIELDTYPE="String" WIDTH="1789"/>
+      <FIELD ATTRNAME="Description" FIELDTYPE="String" WIDTH="1789"/>
+      <FIELD ATTRNAME="DateCreated" FIELDTYPE="String" WIDTH="1789"/>
+    </FIELDS>
+  </METADATA>
+  <ROWDATA>
+    <ROW ID="28" Name="BeerMe" Description="" DateCreated="2/28/2015 12:24:26 PM"/>
+  </ROWDATA>
+</DATAPACKET>

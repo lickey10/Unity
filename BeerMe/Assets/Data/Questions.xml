@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<DATAPACKET Version="1.0">
+  <METADATA>
+    <FIELDS>
+      <FIELD ATTRNAME="ID" FIELDTYPE="String" WIDTH="1789"/>
+      <FIELD ATTRNAME="quizID" FIELDTYPE="String" WIDTH="1789"/>
+      <FIELD ATTRNAME="question" FIELDTYPE="String" WIDTH="1789"/>
+      <FIELD ATTRNAME="additionalInfo" FIELDTYPE="String" WIDTH="1789"/>
+      <FIELD ATTRNAME="RawImage" FIELDTYPE="String" WIDTH="1789"/>
+      <FIELD ATTRNAME="DateCreated" FIELDTYPE="String" WIDTH="1789"/>
+    </FIELDS>
+  </METADATA>
+  <ROWDATA>
+    <ROW ID="507" quizID="28" question="Are you just wanting to get drunk and don't care about taste?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:25:30 PM"/>
+    <ROW ID="508" quizID="28" question="Are you drinking outside?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:25:48 PM"/>
+    <ROW ID="509" quizID="28" question="Is it hot out?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:26:05 PM"/>
+    <ROW ID="510" quizID="28" question="Is it a cold winter night?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:26:27 PM"/>
+    <ROW ID="511" quizID="28" question="Are you doing something active?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:26:50 PM"/>
+    <ROW ID="512" quizID="28" question="Are you wanting to get really drunk?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:27:22 PM"/>
+    <ROW ID="513" quizID="28" question="Are you wanting Fun and Funky or Easy and Refreshing?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:28:07 PM"/>
+    <ROW ID="514" quizID="28" question="Are you drinking with food?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:28:23 PM"/>
+    <ROW ID="515" quizID="28" question="Do you like hoppy beer?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:28:43 PM"/>
+    <ROW ID="516" quizID="28" question="Do you enjoy a challenge?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:28:58 PM"/>
+    <ROW ID="517" quizID="28" question="Do you like a bitter hop bite?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:29:23 PM"/>
+    <ROW ID="518" quizID="28" question="Are you having light or heavy food?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:29:57 PM"/>
+    <ROW ID="519" quizID="28" question="Do you like a hoppy or roasty taste?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:30:31 PM"/>
+    <ROW ID="520" quizID="28" question="Do you like hoppy beers?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:30:50 PM"/>
+    <ROW ID="521" quizID="28" question="Are you having a meal or a dessert?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:31:14 PM"/>
+    <ROW ID="522" quizID="28" question="Do you like sour candy?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:31:33 PM"/>
+    <ROW ID="523" quizID="28" question="Do you like hoppy beers?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:32:06 PM"/>
+    <ROW ID="524" quizID="28" question="Do you like roasted coffee?" additionalInfo="" RawImage="" DateCreated="2/28/2015 12:32:31 PM"/>
+  </ROWDATA>
+</DATAPACKET>
