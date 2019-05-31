@@ -1,0 +1,824 @@
+fileFormatVersion: 2
+guid: ce7c141f575a5074e8ddda8e4d7c1b5f
+ModelImporter:
+  serializedVersion: 16
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Armature
+    100004: PEPE_Head
+    100006: PEPE_L_Calf
+    100008: PEPE_L_Clavicle
+    100010: PEPE_L_Finger0
+    100012: PEPE_L_Finger01
+    100014: PEPE_L_Finger02
+    100016: PEPE_L_Finger1
+    100018: PEPE_L_Finger11
+    100020: PEPE_L_Finger12
+    100022: PEPE_L_Finger2
+    100024: PEPE_L_Finger21
+    100026: PEPE_L_Finger22
+    100028: PEPE_L_Finger3
+    100030: PEPE_L_Finger31
+    100032: PEPE_L_Finger32
+    100034: PEPE_L_Foot
+    100036: PEPE_L_Forearm
+    100038: PEPE_L_Hand
+    100040: PEPE_L_Thigh
+    100042: PEPE_L_Toe0
+    100044: PEPE_L_UpperArm
+    100046: PEPE_Mesh
+    100048: PEPE_Neck
+    100050: PEPE_Neck1
+    100052: PEPE_Neck2
+    100054: PEPE_Pelvis
+    100056: PEPE_Ponytail1
+    100058: PEPE_Ponytail11
+    100060: PEPE_Ponytail12
+    100062: PEPE_Ponytail13
+    100064: PEPE_Ponytail1Nub
+    100066: PEPE_R_Calf
+    100068: PEPE_R_Clavicle
+    100070: PEPE_R_Finger0
+    100072: PEPE_R_Finger01
+    100074: PEPE_R_Finger02
+    100076: PEPE_R_Finger1
+    100078: PEPE_R_Finger11
+    100080: PEPE_R_Finger12
+    100082: PEPE_R_Finger2
+    100084: PEPE_R_Finger21
+    100086: PEPE_R_Finger22
+    100088: PEPE_R_Finger3
+    100090: PEPE_R_Finger31
+    100092: PEPE_R_Finger32
+    100094: PEPE_R_Foot
+    100096: PEPE_R_Forearm
+    100098: PEPE_R_Hand
+    100100: PEPE_R_Thigh
+    100102: PEPE_R_Toe0
+    100104: PEPE_R_UpperArm
+    100106: PEPE_Spine
+    100108: PEPE_Spine1
+    100110: PEPE_Spine2
+    100112: PEPE_Spine3
+    400000: //RootNode
+    400002: Armature
+    400004: PEPE_Head
+    400006: PEPE_L_Calf
+    400008: PEPE_L_Clavicle
+    400010: PEPE_L_Finger0
+    400012: PEPE_L_Finger01
+    400014: PEPE_L_Finger02
+    400016: PEPE_L_Finger1
+    400018: PEPE_L_Finger11
+    400020: PEPE_L_Finger12
+    400022: PEPE_L_Finger2
+    400024: PEPE_L_Finger21
+    400026: PEPE_L_Finger22
+    400028: PEPE_L_Finger3
+    400030: PEPE_L_Finger31
+    400032: PEPE_L_Finger32
+    400034: PEPE_L_Foot
+    400036: PEPE_L_Forearm
+    400038: PEPE_L_Hand
+    400040: PEPE_L_Thigh
+    400042: PEPE_L_Toe0
+    400044: PEPE_L_UpperArm
+    400046: PEPE_Mesh
+    400048: PEPE_Neck
+    400050: PEPE_Neck1
+    400052: PEPE_Neck2
+    400054: PEPE_Pelvis
+    400056: PEPE_Ponytail1
+    400058: PEPE_Ponytail11
+    400060: PEPE_Ponytail12
+    400062: PEPE_Ponytail13
+    400064: PEPE_Ponytail1Nub
+    400066: PEPE_R_Calf
+    400068: PEPE_R_Clavicle
+    400070: PEPE_R_Finger0
+    400072: PEPE_R_Finger01
+    400074: PEPE_R_Finger02
+    400076: PEPE_R_Finger1
+    400078: PEPE_R_Finger11
+    400080: PEPE_R_Finger12
+    400082: PEPE_R_Finger2
+    400084: PEPE_R_Finger21
+    400086: PEPE_R_Finger22
+    400088: PEPE_R_Finger3
+    400090: PEPE_R_Finger31
+    400092: PEPE_R_Finger32
+    400094: PEPE_R_Foot
+    400096: PEPE_R_Forearm
+    400098: PEPE_R_Hand
+    400100: PEPE_R_Thigh
+    400102: PEPE_R_Toe0
+    400104: PEPE_R_UpperArm
+    400106: PEPE_Spine
+    400108: PEPE_Spine1
+    400110: PEPE_Spine2
+    400112: PEPE_Spine3
+    4300000: PEPE_Mesh
+    7400000: Balance
+    7400002: Rise
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: PEPE_Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 3
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: .100000001
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: PEPE_Pelvis
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Thigh
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Thigh
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Calf
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Calf
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Foot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Foot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_Spine1
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_Spine2
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_Neck1
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Clavicle
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Clavicle
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_UpperArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_UpperArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Forearm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Forearm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Hand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Hand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Toe0
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Toe0
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Finger0
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Finger01
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Finger02
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Finger1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Finger11
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Finger12
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Finger2
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Finger21
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Finger22
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Finger3
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Finger31
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_L_Finger32
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Finger0
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Finger01
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Finger02
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Finger1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Finger11
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Finger12
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Finger2
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Finger21
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Finger22
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Finger3
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Finger31
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: PEPE_R_Finger32
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: __pepe(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Armature
+      position: {x: 0, y: -.00774526596, z: 0}
+      rotation: {x: -3.77489506e-08, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: PEPE_Pelvis
+      position: {x: -0, y: 3.05908346, z: -.335010916}
+      rotation: {x: .707055807, y: -.00852004718, z: -.707055151, w: .00852157641}
+      scale: {x: .999999881, y: .999999762, z: 1}
+      transformModified: 1
+    - name: PEPE_Spine
+      position: {x: -.452018082, y: -6.29996322e-09, z: 1.07099998e-13}
+      rotation: {x: 3.60970876e-06, y: 6.64810841e-06, z: -.696146786, w: -.717899501}
+      scale: {x: .999999583, y: .999999523, z: .999999642}
+      transformModified: 1
+    - name: PEPE_Spine1
+      position: {x: -.398468405, y: -.0195371192, z: 1.0676215e-06}
+      rotation: {x: -5.15811371e-06, y: -4.23865515e-07, z: -.13624236, w: -.990675509}
+      scale: {x: 1.00000024, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: PEPE_Spine2
+      position: {x: -.624321878, y: 8.29584081e-08, z: -1.44000006e-14}
+      rotation: {x: 7.38428962e-09, y: 2.26931391e-07, z: -.0447546691, w: .998997986}
+      scale: {x: .999999762, y: .999999702, z: 1}
+      transformModified: 1
+    - name: PEPE_Spine3
+      position: {x: -.358386219, y: 4.93804748e-08, z: -2.10600011e-13}
+      rotation: {x: 2.68521632e-07, y: -1.15761259e-06, z: .22396107, w: -.974598169}
+      scale: {x: .999999762, y: .999999702, z: .999999881}
+      transformModified: 1
+    - name: PEPE_Neck
+      position: {x: -.290437222, y: -4.42462387e-08, z: 3.39499994e-13}
+      rotation: {x: 2.52732161e-06, y: 1.76373965e-06, z: -.136879474, w: -.990587771}
+      scale: {x: 1.00000036, y: 1.00000036, z: 1.00000036}
+      transformModified: 1
+    - name: PEPE_Neck1
+      position: {x: -.315656722, y: .0405835398, z: 6.36478148e-07}
+      rotation: {x: -2.03455147e-06, y: -3.19597257e-06, z: .386880785, w: -.92212975}
+      scale: {x: 1, y: .999999881, z: .999999702}
+      transformModified: 1
+    - name: PEPE_Neck2
+      position: {x: -.350877464, y: -1.66142542e-07, z: 9.10700009e-13}
+      rotation: {x: -2.29967636e-08, y: -1.4442071e-06, z: .319609731, w: .947549224}
+      scale: {x: .999999821, y: .99999994, z: 1.00000012}
+      transformModified: 1
+    - name: PEPE_Head
+      position: {x: -.308177084, y: -1.33240846e-07, z: -2.93100017e-13}
+      rotation: {x: 3.87288964e-07, y: -1.52224686e-06, z: .121748604, w: .992561042}
+      scale: {x: 1.00000036, y: 1.00000036, z: 1.00000024}
+      transformModified: 1
+    - name: PEPE_Ponytail1
+      position: {x: -1.08252549, y: -.014152281, z: 1.42471686e-06}
+      rotation: {x: -1.30059266e-06, y: 1.20311779e-06, z: -.488012403, w: -.872836709}
+      scale: {x: .999999464, y: .999999762, z: .999999642}
+      transformModified: 1
+    - name: PEPE_Ponytail11
+      position: {x: -.459955692, y: 3.75937333e-07, z: 1.49380009e-12}
+      rotation: {x: 5.71902433e-07, y: -2.8532304e-07, z: .169238821, w: .98557508}
+      scale: {x: 1, y: .999999881, z: .99999994}
+      transformModified: 1
+    - name: PEPE_Ponytail12
+      position: {x: -.381856173, y: 4.15470566e-07, z: 5.66400008e-13}
+      rotation: {x: 4.13794758e-08, y: -3.52196082e-07, z: .142252222, w: .989830434}
+      scale: {x: .999999881, y: .999999821, z: 1.00000024}
+      transformModified: 1
+    - name: PEPE_Ponytail13
+      position: {x: -.348732442, y: 2.87050312e-07, z: 2.40100013e-13}
+      rotation: {x: 1.12022342e-07, y: -2.38628303e-07, z: .144441575, w: .989513338}
+      scale: {x: 1, y: 1, z: 1.00000012}
+      transformModified: 1
+    - name: PEPE_Ponytail1Nub
+      position: {x: -.274359047, y: 4.18599939e-07, z: 7.44300021e-13}
+      rotation: {x: .996433973, y: .0843768641, z: -5.30904913e-07, w: -1.02582464e-06}
+      scale: {x: 1.00000012, y: .999999523, z: .999999523}
+      transformModified: 1
+    - name: PEPE_L_Clavicle
+      position: {x: -.112953953, y: .000160403011, z: .0964571014}
+      rotation: {x: -.47689274, y: .573560119, z: .473201513, w: .468702912}
+      scale: {x: .999999762, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: PEPE_L_UpperArm
+      position: {x: -.358269572, y: 1.58703752e-08, z: 1.93773819e-09}
+      rotation: {x: -.0615226179, y: -.0925555155, z: -.059184324, w: .992041171}
+      scale: {x: 1, y: 1.00000012, z: 1.00000024}
+      transformModified: 1
+    - name: PEPE_L_Forearm
+      position: {x: -.737935364, y: -5.63617171e-08, z: 1.38902214e-08}
+      rotation: {x: .0135708386, y: .0753179267, z: .0124210324, w: .996989846}
+      scale: {x: .999999762, y: .999999702, z: .999999821}
+      transformModified: 1
+    - name: PEPE_L_Hand
+      position: {x: -.995731831, y: 6.07131412e-08, z: -2.39035097e-10}
+      rotation: {x: .945831597, y: -.0788235217, z: -.202571094, w: -.241152197}
+      scale: {x: 1.00000012, y: .99999994, z: 1}
+      transformModified: 1
+    - name: PEPE_L_Finger0
+      position: {x: -.298852682, y: -.0776345059, z: -.207650259}
+      rotation: {x: -.940690815, y: .00346520566, z: -.119772762, w: -.317401022}
+      scale: {x: .99999994, y: .999999881, z: .999999523}
+      transformModified: 1
+    - name: PEPE_L_Finger01
+      position: {x: -.204875231, y: 5.76351367e-09, z: -1.28244423e-07}
+      rotation: {x: -3.35965666e-07, y: -4.66096708e-08, z: -4.50497666e-08, w: 1}
+      scale: {x: .999999642, y: 1.00000024, z: 1}
+      transformModified: 1
+    - name: PEPE_L_Finger02
+      position: {x: -.204875514, y: -2.12549921e-07, z: -9.37630008e-12}
+      rotation: {x: .0285760593, y: -.0296229832, z: .013298857, w: .999064147}
+      scale: {x: 1.00000024, y: 1.00000036, z: 1.00000036}
+      transformModified: 1
+    - name: PEPE_L_Finger1
+      position: {x: -.482540429, y: .00920694601, z: -.057131052}
+      rotation: {x: .204436347, y: .0165323205, z: -.0104408422, w: .978684604}
+      scale: {x: .999999762, y: 1, z: 1}
+      transformModified: 1
+    - name: PEPE_L_Finger11
+      position: {x: -.250380278, y: 2.75653179e-07, z: -3.08245625e-08}
+      rotation: {x: -3.02366402e-07, y: 1.44338141e-08, z: 7.17962081e-08, w: 1}
+      scale: {x: 1, y: 1, z: .99999994}
+      transformModified: 1
+    - name: PEPE_L_Finger12
+      position: {x: -.250380009, y: -9.66263798e-08, z: -3.42506638e-07}
+      rotation: {x: -.50935936, y: .0598981678, z: .0137387952, w: -.858356893}
+      scale: {x: .99999994, y: .99999994, z: .99999994}
+      transformModified: 1
+    - name: PEPE_L_Finger2
+      position: {x: -.42704758, y: .082760714, z: .120452218}
+      rotation: {x: -.847648442, y: .0286271051, z: .0275232606, w: -.529070139}
+      scale: {x: .999999285, y: 1.00000024, z: 1.00000024}
+      transformModified: 1
+    - name: PEPE_L_Finger21
+      position: {x: -.301103681, y: -3.87627324e-07, z: 3.45156828e-08}
+      rotation: {x: 4.6031353e-08, y: 1.49188895e-09, z: -4.69333372e-08, w: 1}
+      scale: {x: .999999881, y: 1, z: .999999881}
+      transformModified: 1
+    - name: PEPE_L_Finger22
+      position: {x: -.301103503, y: -2.62229577e-07, z: 2.99610257e-08}
+      rotation: {x: -.47369194, y: .03217794, z: -.0125142606, w: .880013525}
+      scale: {x: .999999821, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: PEPE_L_Finger3
+      position: {x: -.371672899, y: .153175935, z: .290824533}
+      rotation: {x: -.729787707, y: .0243407004, z: .028158037, w: -.682659984}
+      scale: {x: .999999642, y: 1, z: .999999821}
+      transformModified: 1
+    - name: PEPE_L_Finger31
+      position: {x: -.220599338, y: 2.30045227e-08, z: -1.53284432e-07}
+      rotation: {x: -1.48571459e-07, y: -2.5593363e-09, z: -1.323225e-08, w: 1}
+      scale: {x: 1, y: .999999821, z: 1}
+      transformModified: 1
+    - name: PEPE_L_Finger32
+      position: {x: -.220598936, y: 1.24439168e-07, z: 1.66599285e-08}
+      rotation: {x: .765062869, y: -.0091199521, z: .0404564664, w: .642618835}
+      scale: {x: 1.00000012, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: PEPE_R_Clavicle
+      position: {x: -.112953953, y: .000162183685, z: -.0964571014}
+      rotation: {x: -.476898849, y: .573562622, z: -.473196566, w: -.46869877}
+      scale: {x: .99999994, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: PEPE_R_UpperArm
+      position: {x: -.358269304, y: -2.89233014e-07, z: 3.71447157e-08}
+      rotation: {x: .0615224838, y: .0925552472, z: -.0591835119, w: .99204123}
+      scale: {x: .999999821, y: .999999821, z: .999999881}
+      transformModified: 1
+    - name: PEPE_R_Forearm
+      position: {x: -.737935901, y: -1.03863478e-07, z: -2.63494453e-08}
+      rotation: {x: -.0135707231, y: -.0753180534, z: .0124215437, w: .996989906}
+      scale: {x: .999999821, y: 1.00000012, z: .999999821}
+      transformModified: 1
+    - name: PEPE_R_Hand
+      position: {x: -.995730579, y: -2.8648634e-07, z: 2.24954411e-09}
+      rotation: {x: .566644192, y: -.100472555, z: .0142746186, w: .817689359}
+      scale: {x: .999999881, y: 1, z: .999999821}
+      transformModified: 1
+    - name: PEPE_R_Finger0
+      position: {x: -.234307155, y: -.28034845, z: -.102433458}
+      rotation: {x: -.483424932, y: -.16090478, z: .183918238, w: .84058553}
+      scale: {x: 1.00000012, y: .999999464, z: .999999583}
+      transformModified: 1
+    - name: PEPE_R_Finger01
+      position: {x: -.209680587, y: -2.73222494e-08, z: 1.44938666e-08}
+      rotation: {x: 3.75587604e-07, y: 4.60741632e-08, z: -9.07329252e-08, w: 1}
+      scale: {x: 1.00000012, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: PEPE_R_Finger02
+      position: {x: -.209680662, y: 2.89761374e-07, z: 2.82498949e-08}
+      rotation: {x: -.052434694, y: .0503352173, z: .0253314897, w: .997033298}
+      scale: {x: .999999702, y: .999999881, z: .999999642}
+      transformModified: 1
+    - name: PEPE_R_Finger1
+      position: {x: -.456234217, y: -.17268388, z: -.0100806225}
+      rotation: {x: -.496295154, y: -.0421259739, z: .0962341204, w: .861774683}
+      scale: {x: .999999821, y: .999999762, z: .999999821}
+      transformModified: 1
+    - name: PEPE_R_Finger11
+      position: {x: -.253948659, y: 1.34383882e-07, z: -1.03697893e-07}
+      rotation: {x: -3.49991467e-07, y: -3.109189e-08, z: 1.37690499e-08, w: 1}
+      scale: {x: 1.00000012, y: 1, z: 1}
+      transformModified: 1
+    - name: PEPE_R_Finger12
+      position: {x: -.253948659, y: 1.58715011e-07, z: -3.35247776e-08}
+      rotation: {x: .216522604, y: -.00517333439, z: -.0102141881, w: .976210475}
+      scale: {x: .999999762, y: .999999583, z: .999999821}
+      transformModified: 1
+    - name: PEPE_R_Finger2
+      position: {x: -.448896319, y: .0212380979, z: .0424611606}
+      rotation: {x: -.317202121, y: -.0253713131, z: .106930807, w: .941968679}
+      scale: {x: 1.00000024, y: .999999762, z: 1.00000048}
+      transformModified: 1
+    - name: PEPE_R_Finger21
+      position: {x: -.287713736, y: 1.82523578e-07, z: 5.97080572e-08}
+      rotation: {x: 2.14114905e-07, y: -1.92813872e-08, z: 1.56186921e-08, w: 1}
+      scale: {x: .999999702, y: 1, z: .999999881}
+      transformModified: 1
+    - name: PEPE_R_Finger22
+      position: {x: -.287714243, y: 2.01331019e-07, z: 1.5703796e-07}
+      rotation: {x: -.434317678, y: .00434884848, z: .0218836721, w: .900483429}
+      scale: {x: .99999994, y: 1, z: 1.00000024}
+      transformModified: 1
+    - name: PEPE_R_Finger3
+      position: {x: -.441911668, y: .205825806, z: .0924739316}
+      rotation: {x: -.119480364, y: -.00507639442, z: .114395566, w: .986211121}
+      scale: {x: .999999642, y: .999999881, z: 1}
+      transformModified: 1
+    - name: PEPE_R_Finger31
+      position: {x: -.210693702, y: 1.19551473e-07, z: -4.96350822e-07}
+      rotation: {x: 3.29594769e-08, y: -8.41104875e-09, z: 1.00022763e-08, w: 1}
+      scale: {x: .99999994, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: PEPE_R_Finger32
+      position: {x: -.210693881, y: 1.21627863e-07, z: -1.01425989e-07}
+      rotation: {x: .0189768244, y: -.000961517391, z: -.000522969523, w: .999819398}
+      scale: {x: .99999994, y: 1, z: .999999642}
+      transformModified: 1
+    - name: PEPE_L_Thigh
+      position: {x: .0116724027, y: -.116804145, z: .275590062}
+      rotation: {x: .0611521415, y: -.331632435, z: -.941424549, w: -.000567535637}
+      scale: {x: 1, y: 1, z: .999999881}
+      transformModified: 1
+    - name: PEPE_L_Calf
+      position: {x: -1.18792856, y: 1.19883694e-07, z: 2.40266615e-08}
+      rotation: {x: .940598249, y: -.0522781163, z: .0850510597, w: -.324512482}
+      scale: {x: 1.00000012, y: .999999881, z: .999999881}
+      transformModified: 1
+    - name: PEPE_L_Foot
+      position: {x: -1.42487645, y: 8.86568259e-08, z: -8.69937988e-09}
+      rotation: {x: -.584803283, y: -.360748738, z: -.465325296, w: .557976723}
+      scale: {x: .999999642, y: .999999821, z: .999999762}
+      transformModified: 1
+    - name: PEPE_L_Toe0
+      position: {x: -.975972116, y: 9.29199899e-08, z: -1.42961722e-08}
+      rotation: {x: 5.03866943e-07, y: -3.38384268e-07, z: -.227282584, w: .973828912}
+      scale: {x: .999999881, y: .999999821, z: 1}
+      transformModified: 1
+    - name: PEPE_R_Thigh
+      position: {x: .0116701713, y: -.116796754, z: -.275594085}
+      rotation: {x: .0611559153, y: -.331641644, z: .941420972, w: .000567627838}
+      scale: {x: 1.00000012, y: 1.00000012, z: .99999994}
+      transformModified: 1
+    - name: PEPE_R_Calf
+      position: {x: -1.18792856, y: 1.01125202e-07, z: -3.64151305e-08}
+      rotation: {x: -.940591753, y: .0522770584, z: .0850515962, w: -.324531138}
+      scale: {x: 1.00000012, y: 1, z: 1.00000048}
+      transformModified: 1
+    - name: PEPE_R_Foot
+      position: {x: -1.42487586, y: 8.20655472e-08, z: -6.39721875e-09}
+      rotation: {x: .584812701, y: .360755593, z: -.465319693, w: .557966948}
+      scale: {x: 1, y: 1.00000012, z: 1.00000012}
+      transformModified: 1
+    - name: PEPE_R_Toe0
+      position: {x: -.975971878, y: 5.98680785e-08, z: 3.15905213e-09}
+      rotation: {x: 2.5991028e-07, y: -2.78376291e-07, z: -.227282584, w: .973828852}
+      scale: {x: .999999821, y: 1.00000012, z: 1}
+      transformModified: 1
+    - name: PEPE_Mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -.707106769, y: 0, z: -0, w: .707106829}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  additionalBone: 0
+  userData: 

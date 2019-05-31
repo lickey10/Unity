@@ -1,0 +1,14 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\NothingButNet\Scripts\Player.cs">
+    <Files>
+      <File FileName="Assets\NothingButNet\Scripts\Player.cs" Line="207" Column="1" />
+      <File FileName="Assets\NothingButNet\Scripts\Ball.cs" Line="77" Column="48" />
+      <File FileName="Assets\NothingButNet\Scripts\GameController.cs" Line="256" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
