@@ -1,0 +1,23 @@
+fileFormatVersion: 2
+guid: ac83e278845224f4088c37f4a81bbdb9
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - EnemyHitSound: {fileID: 8300000, guid: 131abbcc69983e140943a67e630c2dc4, type: 3}
+  - CauldronHitSound: {fileID: 8300000, guid: 6e6a43a818a0bba4da84186d34f228e0, type: 3}
+  - DemonHitSound: {instanceID: 0}
+  - PaddleHitSound: {fileID: 8300000, guid: f1658b050b2a4574ebffa9ce0dfa3377, type: 3}
+  - TreasureSound: {fileID: 8300000, guid: 65160f9173feb03479fb4c9cf34a78d1, type: 3}
+  - PickupSound: {fileID: 8300000, guid: 4072adef5d0f2b940aca02c86bf0c86b, type: 3}
+  - gameOverSound: {fileID: 8300000, guid: e9a848ed586d11f4bbe6961b7a69d5ac, type: 3}
+  - youWonSound: {fileID: 8300000, guid: 3bf60cf97f63642418b09cc23e64fe5a, type: 3}
+  - levelCompleteSound: {fileID: 8300000, guid: 65160f9173feb03479fb4c9cf34a78d1,
+      type: 3}
+  - levelEndedSound: {instanceID: 0}
+  - levelLockedSound: {instanceID: 0}
+  - levelStartedSound: {fileID: 8300000, guid: 3502599eaf119014da961ee18e835b8a, type: 3}
+  - GuitarSound: {fileID: 8300000, guid: 61a0b69c7aae00f42946ea635da4deb3, type: 3}
+  - MultiBallSound: {fileID: 8300000, guid: 2899566de356b9441a5829686fb72774, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
