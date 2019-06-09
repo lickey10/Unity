@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/crRPGSystem/_Demos/CSharp/SlidingMenusDemo.unity
+  isLoaded: 1
+  isActive: 1
