@@ -1,0 +1,813 @@
+fileFormatVersion: 2
+guid: 059659377357c7f4da639e9b3ab32204
+labels:
+- WhiteRabbiTsTudio
+- WhiteRabbiT
+- White
+- RabbiT
+- sTudio
+- LowPoly
+- Low
+- Poly
+timeCreated: 1469117318
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Armature
+    100002: ArmLeft[LerpAnim]
+    100004: ArmRight[LerpAnim]
+    100006: Body[LerpAnim]
+    100008: BodyRot
+    100010: Camera
+    100012: ClavicleLeft[Bone]
+    100014: ClavicleRight[Bone]
+    100016: Dummies
+    100018: DummyHeadTransform
+    100020: EarLeft0[Bone]
+    100022: EarLeft1[Bone][Kine]
+    100024: EarLeft2[Bone][Kine]
+    100026: EarLeft[LerpAnim]
+    100028: EarRight0[Bone]
+    100030: EarRight1[Bone][Kine]
+    100032: EarRight2[Bone][Kine]
+    100034: EarRight[LerpAnim]
+    100036: FingerLeft00[Bone]
+    100038: FingerLeft01[Bone]
+    100040: FingerLeft02[Bone]
+    100042: FingerLeft10[Bone]
+    100044: FingerLeft11[Bone]
+    100046: FingerLeft12[Bone]
+    100048: FingerLeft30[Bone]
+    100050: FingerLeft31[Bone]
+    100052: FingerLeft32[Bone]
+    100054: FingerRight00[Bone]
+    100056: FingerRight01[Bone]
+    100058: FingerRight02[Bone]
+    100060: FingerRight10[Bone]
+    100062: FingerRight11[Bone]
+    100064: FingerRight12[Bone]
+    100066: FingerRight20[Bone]
+    100068: FingerRight21[Bone]
+    100070: FingerRight22[Bone]
+    100072: FootLeft[Bone][IK:FootLeft:1]
+    100074: FootLeft[LerpAnim]
+    100076: FootRight[Bone][IK:FootRight:1]
+    100078: FootRight[LerpAnim]
+    100080: ForearmLeft[Bone][IK:ArmLeft:2]
+    100082: ForearmRight[Bone][IK:ArmRight:2]
+    100084: Head0[Bone][IK:Head:1]
+    100086: Head1[Bone]
+    100088: Head[LerpAnim]
+    100090: Lamp
+    100092: LegLeft[LerpAnim]
+    100094: LegRight[LerpAnim]
+    100096: Neck[Bone][IK:Neck:1]
+    100098: Neck[LerpAnim]
+    100100: Pelvis[Bone][CpyLoc:BodyRot]
+    100102: PelvisLeft[Bone]
+    100104: PelvisRight[Bone]
+    100106: Rabbit_LowPoly
+    100108: //RootNode
+    100110: ShinLeft[Bone][IK:LegLeft:2]
+    100112: ShinRight[Bone][IK:LegRight:2]
+    100114: ShoulderLeft[Bone]
+    100116: ShoulderRight[Bone]
+    100118: Spine0[Bone]
+    100120: Spine1[Bone][IK:Spine:2]
+    100122: Spine[LerpAnim]
+    100124: Tail0[Bone]
+    100126: Tail1[Bone][Kine]
+    100128: ThumbLeft0[Bone]
+    100130: ThumbLeft1[Bone]
+    100132: ThumbLeft2[Bone]
+    100134: ThumbRight0[Bone]
+    100136: ThumbRight1[Bone]
+    100138: ThumbRight2[Bone]
+    100140: TighLeft[Bone]
+    100142: TighRight[Bone]
+    100144: ToesLeft[Bone][IK:ToesLeft:1]
+    100146: ToesLeft[LerpAnim]
+    100148: ToesRight[Bone][IK:ToesRight:1]
+    100150: ToesRight[LerpAnim]
+    400000: Armature
+    400002: ArmLeft[LerpAnim]
+    400004: ArmRight[LerpAnim]
+    400006: Body[LerpAnim]
+    400008: BodyRot
+    400010: Camera
+    400012: ClavicleLeft[Bone]
+    400014: ClavicleRight[Bone]
+    400016: Dummies
+    400018: DummyHeadTransform
+    400020: EarLeft0[Bone]
+    400022: EarLeft1[Bone][Kine]
+    400024: EarLeft2[Bone][Kine]
+    400026: EarLeft[LerpAnim]
+    400028: EarRight0[Bone]
+    400030: EarRight1[Bone][Kine]
+    400032: EarRight2[Bone][Kine]
+    400034: EarRight[LerpAnim]
+    400036: FingerLeft00[Bone]
+    400038: FingerLeft01[Bone]
+    400040: FingerLeft02[Bone]
+    400042: FingerLeft10[Bone]
+    400044: FingerLeft11[Bone]
+    400046: FingerLeft12[Bone]
+    400048: FingerLeft30[Bone]
+    400050: FingerLeft31[Bone]
+    400052: FingerLeft32[Bone]
+    400054: FingerRight00[Bone]
+    400056: FingerRight01[Bone]
+    400058: FingerRight02[Bone]
+    400060: FingerRight10[Bone]
+    400062: FingerRight11[Bone]
+    400064: FingerRight12[Bone]
+    400066: FingerRight20[Bone]
+    400068: FingerRight21[Bone]
+    400070: FingerRight22[Bone]
+    400072: FootLeft[Bone][IK:FootLeft:1]
+    400074: FootLeft[LerpAnim]
+    400076: FootRight[Bone][IK:FootRight:1]
+    400078: FootRight[LerpAnim]
+    400080: ForearmLeft[Bone][IK:ArmLeft:2]
+    400082: ForearmRight[Bone][IK:ArmRight:2]
+    400084: Head0[Bone][IK:Head:1]
+    400086: Head1[Bone]
+    400088: Head[LerpAnim]
+    400090: Lamp
+    400092: LegLeft[LerpAnim]
+    400094: LegRight[LerpAnim]
+    400096: Neck[Bone][IK:Neck:1]
+    400098: Neck[LerpAnim]
+    400100: Pelvis[Bone][CpyLoc:BodyRot]
+    400102: PelvisLeft[Bone]
+    400104: PelvisRight[Bone]
+    400106: Rabbit_LowPoly
+    400108: //RootNode
+    400110: ShinLeft[Bone][IK:LegLeft:2]
+    400112: ShinRight[Bone][IK:LegRight:2]
+    400114: ShoulderLeft[Bone]
+    400116: ShoulderRight[Bone]
+    400118: Spine0[Bone]
+    400120: Spine1[Bone][IK:Spine:2]
+    400122: Spine[LerpAnim]
+    400124: Tail0[Bone]
+    400126: Tail1[Bone][Kine]
+    400128: ThumbLeft0[Bone]
+    400130: ThumbLeft1[Bone]
+    400132: ThumbLeft2[Bone]
+    400134: ThumbRight0[Bone]
+    400136: ThumbRight1[Bone]
+    400138: ThumbRight2[Bone]
+    400140: TighLeft[Bone]
+    400142: TighRight[Bone]
+    400144: ToesLeft[Bone][IK:ToesLeft:1]
+    400146: ToesLeft[LerpAnim]
+    400148: ToesRight[Bone][IK:ToesRight:1]
+    400150: ToesRight[LerpAnim]
+    4300000: Rabbit_LowPoly
+    7400000: Scene
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Rabbit_LowPoly
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Scene
+      takeName: Scene
+      firstFrame: 43
+      lastFrame: 600
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: Pelvis[Bone][CpyLoc:BodyRot]
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TighLeft[Bone]
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: TighRight[Bone]
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ShinLeft[Bone][IK:LegLeft:2]
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ShinRight[Bone][IK:LegRight:2]
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FootLeft[Bone][IK:FootLeft:1]
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FootRight[Bone][IK:FootRight:1]
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Spine0[Bone]
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head0[Bone][IK:Head:1]
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Head1[Bone]
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ClavicleLeft[Bone]
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ClavicleRight[Bone]
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ShoulderLeft[Bone]
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ShoulderRight[Bone]
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ForearmLeft[Bone][IK:ArmLeft:2]
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ForearmRight[Bone][IK:ArmRight:2]
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FingerLeft01[Bone]
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: FingerRight11[Bone]
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ToesLeft[Bone][IK:ToesLeft:1]
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: ToesRight[Bone][IK:ToesRight:1]
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: EarRight1[Bone][Kine]
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Rabbit_LowPoly_RigUnity_Final(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Armature
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -4.32978e-17, y: 0.7071067, z: 0.7071068, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: DummyHeadTransform
+      position: {x: 0.09367221, y: -0.9851402, z: 1.9959406}
+      rotation: {x: 0.9999488, y: -0.00487466, z: 0.00038362812, w: 0.0088643255}
+      scale: {x: 0.9999998, y: 0.9999997, z: 0.9999998}
+      transformModified: 1
+    - name: Pelvis[Bone][CpyLoc:BodyRot]
+      position: {x: -2.7002023e-16, y: -0.00000028373194, z: 1.7048823}
+      rotation: {x: -0.000000012515067, y: -0.7071067, z: -0.7071068, w: -0.000000012515065}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: Spine0[Bone]
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0.10534396, y: -0.000000072594325, z: -0.000000007690161, w: 0.99443585}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.99999994}
+      transformModified: 1
+    - name: ClavicleRight[Bone]
+      position: {x: 0.000000018975697, y: 0.96415, z: 0.000000006872142}
+      rotation: {x: -0.53368896, y: -0.58826506, z: -0.3075323, w: 0.5239697}
+      scale: {x: 1, y: 1, z: 0.99999976}
+      transformModified: 1
+    - name: ShoulderRight[Bone]
+      position: {x: -0.000000040978193, y: 0.42720908, z: -0.00000010058284}
+      rotation: {x: -0.17546217, y: -0.47569156, z: 0.03395876, w: 0.861265}
+      scale: {x: 0.99999994, y: 1, z: 0.9999995}
+      transformModified: 1
+    - name: ForearmRight[Bone][IK:ArmRight:2]
+      position: {x: -0.000000019557774, y: 1.0901748, z: -0.000000029802322}
+      rotation: {x: 0.050344445, y: -0.5559726, z: 0.062243134, w: -0.82733655}
+      scale: {x: 0.9999999, y: 1.0000001, z: 0.9999997}
+      transformModified: 1
+    - name: ThumbRight0[Bone]
+      position: {x: -0.00000010617077, y: 0.5961441, z: -0.000000074505806}
+      rotation: {x: 0.45303088, y: 0.83444935, z: 0.12958446, w: -0.28577125}
+      scale: {x: 0.99999976, y: 1.0000004, z: 0.99999994}
+      transformModified: 1
+    - name: ThumbRight1[Bone]
+      position: {x: -0.00000014901161, y: 0.15247634, z: 0.000000037252903}
+      rotation: {x: 0.18916084, y: 0.97770345, z: 0.08480803, w: 0.03349384}
+      scale: {x: 1, y: 1.0000006, z: 1}
+      transformModified: 1
+    - name: ThumbRight2[Bone]
+      position: {x: 0.0000002719462, y: 0.10876268, z: -0.000000074505806}
+      rotation: {x: 0.28691027, y: 0.24612367, z: -0.2182185, w: -0.8997145}
+      scale: {x: 0.99999994, y: 0.9999995, z: 0.9999999}
+      transformModified: 1
+    - name: FingerRight00[Bone]
+      position: {x: -0.00000010617077, y: 0.5961441, z: -0.000000074505806}
+      rotation: {x: -0.19286235, y: -0.1546919, z: 0.04718642, w: -0.9678058}
+      scale: {x: 0.9999999, y: 1, z: 1.0000001}
+      transformModified: 1
+    - name: FingerRight01[Bone]
+      position: {x: -0.000000007450581, y: 0.181625, z: 0.000000074505806}
+      rotation: {x: 0.2213518, y: 0.021952653, z: -0.0139837675, w: -0.9748466}
+      scale: {x: 1.0000001, y: 1.0000002, z: 0.9999999}
+      transformModified: 1
+    - name: FingerRight02[Bone]
+      position: {x: -0.00000017881393, y: 0.12536928, z: 0}
+      rotation: {x: -0.07360376, y: 0.059997186, z: -0.06255677, w: 0.9935137}
+      scale: {x: 0.99999994, y: 0.99999976, z: 1}
+      transformModified: 1
+    - name: FingerRight10[Bone]
+      position: {x: -0.00000010617077, y: 0.5961441, z: -0.000000074505806}
+      rotation: {x: -0.087125465, y: -0.0037054415, z: -0.21572965, w: -0.9725514}
+      scale: {x: 1.0000004, y: 1.0000002, z: 1}
+      transformModified: 1
+    - name: FingerRight11[Bone]
+      position: {x: 0.000000074505806, y: 0.1854863, z: 0.000000044703484}
+      rotation: {x: 0.116546825, y: -0.15008982, z: 0.20254812, w: -0.9606582}
+      scale: {x: 0.99999976, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: FingerRight12[Bone]
+      position: {x: 0.00000009685755, y: 0.13525638, z: 0.000000044703484}
+      rotation: {x: -0.101248585, y: 0.021999294, z: -0.010419098, w: 0.99456334}
+      scale: {x: 0.99999994, y: 0.9999999, z: 0.99999976}
+      transformModified: 1
+    - name: FingerRight20[Bone]
+      position: {x: -0.00000010617077, y: 0.5961441, z: -0.000000074505806}
+      rotation: {x: -0.02374567, y: 0.15583313, z: -0.43443495, w: -0.88680243}
+      scale: {x: 1.0000002, y: 0.9999999, z: 1}
+      transformModified: 1
+    - name: FingerRight21[Bone]
+      position: {x: -0.00000009685755, y: 0.19027466, z: -0.000000059604645}
+      rotation: {x: 0.12887746, y: -0.25238106, z: 0.26603726, w: -0.9213678}
+      scale: {x: 0.99999994, y: 0.99999964, z: 0.9999995}
+      transformModified: 1
+    - name: FingerRight22[Bone]
+      position: {x: 0.00000013411045, y: 0.15154657, z: 0.00000020861626}
+      rotation: {x: -0.062625125, y: 0.110414505, z: -0.084545285, w: 0.988301}
+      scale: {x: 1, y: 1.0000002, z: 1.0000004}
+      transformModified: 1
+    - name: ClavicleLeft[Bone]
+      position: {x: 0.000000018975697, y: 0.96415, z: 0.000000006872142}
+      rotation: {x: 0.53368896, y: -0.5882651, z: -0.30753246, w: -0.52396953}
+      scale: {x: 0.99999976, y: 0.99999994, z: 0.9999999}
+      transformModified: 1
+    - name: ShoulderLeft[Bone]
+      position: {x: 0.000000011175871, y: 0.4272091, z: 0.00000003306195}
+      rotation: {x: 0.17546201, y: -0.47569144, z: 0.03395885, w: -0.86126506}
+      scale: {x: 0.9999999, y: 0.99999994, z: 0.9999997}
+      transformModified: 1
+    - name: ForearmLeft[Bone][IK:ArmLeft:2]
+      position: {x: -0.00000017881393, y: 1.0901748, z: 0.000000014901161}
+      rotation: {x: -0.026088936, y: -0.5448982, z: -0.004988582, w: 0.8380815}
+      scale: {x: 1.0000002, y: 1, z: 1}
+      transformModified: 1
+    - name: ThumbLeft0[Bone]
+      position: {x: -0.00000008568168, y: 0.59614414, z: 0.000000074505806}
+      rotation: {x: -0.45303094, y: 0.8344492, z: 0.12958458, w: 0.28577152}
+      scale: {x: 0.99999994, y: 1.0000004, z: 0.9999998}
+      transformModified: 1
+    - name: ThumbLeft1[Bone]
+      position: {x: -0.000000063329935, y: 0.15247633, z: 0.000000020489097}
+      rotation: {x: -0.18916093, y: 0.97770345, z: 0.08480781, w: -0.03349392}
+      scale: {x: 0.99999976, y: 1.0000006, z: 1.0000004}
+      transformModified: 1
+    - name: ThumbLeft2[Bone]
+      position: {x: 0.00000016391277, y: 0.10876277, z: -0.000000029802322}
+      rotation: {x: 0.28691047, y: -0.24612373, z: 0.21821856, w: -0.8997145}
+      scale: {x: 0.9999998, y: 0.9999995, z: 1}
+      transformModified: 1
+    - name: FingerLeft00[Bone]
+      position: {x: -0.00000008568168, y: 0.59614414, z: 0.000000074505806}
+      rotation: {x: -0.19286254, y: 0.15469208, z: -0.047186524, w: -0.96780574}
+      scale: {x: 0.99999976, y: 0.9999999, z: 0.9999998}
+      transformModified: 1
+    - name: FingerLeft01[Bone]
+      position: {x: -0.00000020861626, y: 0.18162479, z: -0.000000044703484}
+      rotation: {x: 0.22135189, y: -0.021952597, z: 0.013983889, w: -0.9748466}
+      scale: {x: 0.9999998, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: FingerLeft02[Bone]
+      position: {x: -0.00000008940697, y: 0.12536913, z: -0.000000029802322}
+      rotation: {x: -0.07360364, y: -0.059997104, z: 0.0625569, w: 0.9935137}
+      scale: {x: 1.0000001, y: 1.0000005, z: 1.0000002}
+      transformModified: 1
+    - name: FingerLeft10[Bone]
+      position: {x: -0.00000008568168, y: 0.59614414, z: 0.000000074505806}
+      rotation: {x: 0.087125145, y: -0.0037054415, z: -0.21572967, w: 0.97255147}
+      scale: {x: 1.0000001, y: 0.9999999, z: 0.9999998}
+      transformModified: 1
+    - name: FingerLeft11[Bone]
+      position: {x: -0.000000044703484, y: 0.18548626, z: -0.000000029802322}
+      rotation: {x: -0.1643873, y: -0.156122, z: 0.21291243, w: 0.9504057}
+      scale: {x: 0.9999999, y: 1.0000004, z: 1.0000002}
+      transformModified: 1
+    - name: FingerLeft12[Bone]
+      position: {x: 0.000000044703484, y: 0.13525656, z: 0.000000044703484}
+      rotation: {x: -0.10124876, y: -0.02199933, z: 0.010419175, w: 0.99456334}
+      scale: {x: 0.9999999, y: 0.99999994, z: 1}
+      transformModified: 1
+    - name: FingerLeft30[Bone]
+      position: {x: -0.00000008568168, y: 0.59614414, z: 0.000000074505806}
+      rotation: {x: 0.023745984, y: 0.15583295, z: -0.43443477, w: 0.8868025}
+      scale: {x: 0.9999999, y: 0.9999994, z: 0.99999976}
+      transformModified: 1
+    - name: FingerLeft31[Bone]
+      position: {x: -0.000000037252903, y: 0.1902751, z: 0.00000011920929}
+      rotation: {x: -0.1288773, y: -0.25238073, z: 0.26603723, w: 0.9213679}
+      scale: {x: 1.0000004, y: 1.0000004, z: 1.0000002}
+      transformModified: 1
+    - name: FingerLeft32[Bone]
+      position: {x: 0.00000014901161, y: 0.15154664, z: 0.000000029802322}
+      rotation: {x: -0.06262538, y: -0.110414654, z: 0.08454547, w: 0.988301}
+      scale: {x: 0.9999998, y: 0.99999976, z: 1.0000002}
+      transformModified: 1
+    - name: Spine1[Bone][IK:Spine:2]
+      position: {x: 0.000000019324943, y: 0.96415, z: -0.0000000154796}
+      rotation: {x: -0.10534393, y: 0.00000007259433, z: 0.000000007690163, w: 0.99443585}
+      scale: {x: 1, y: 0.99999976, z: 1}
+      transformModified: 1
+    - name: Neck[Bone][IK:Neck:1]
+      position: {x: -0.000000009778887, y: 0.5598863, z: -0.000000020801963}
+      rotation: {x: 0.021111555, y: -0.000000084274916, z: -0.0000000017795729, w: 0.99977714}
+      scale: {x: 1, y: 0.9999999, z: 0.99999994}
+      transformModified: 1
+    - name: Head0[Bone][IK:Head:1]
+      position: {x: -0.000000010593794, y: 0.4516111, z: -0.000000034197}
+      rotation: {x: 0.201326, y: -0.0000036513266, z: -0.0000007834623, w: 0.9795243}
+      scale: {x: 0.9999997, y: 0.9999998, z: 1}
+      transformModified: 1
+    - name: Head1[Bone]
+      position: {x: 0.0000000027939677, y: 0.8590432, z: 0.00000012270175}
+      rotation: {x: -0.98922515, y: 0.00000055839837, z: 0.0000037720015, w: 0.1464023}
+      scale: {x: 1.0000008, y: 1.0000002, z: 0.99999887}
+      transformModified: 1
+    - name: EarLeft0[Bone]
+      position: {x: -0.000000011175871, y: 0.8661966, z: -0.000000009080395}
+      rotation: {x: -0.27232838, y: -0.43694818, z: -0.5451076, w: -0.66164285}
+      scale: {x: 0.99999994, y: 0.9999998, z: 0.9999994}
+      transformModified: 1
+    - name: EarLeft1[Bone][Kine]
+      position: {x: -0, y: 0.6282052, z: 0}
+      rotation: {x: 0.100425996, y: -0.015647715, z: 0.20145942, w: 0.9742094}
+      scale: {x: 1, y: 1.0000004, z: 0.9999996}
+      transformModified: 1
+    - name: EarLeft2[Bone][Kine]
+      position: {x: -0, y: 0.668997, z: 0}
+      rotation: {x: 0.08263601, y: -0.008305843, z: -0.25458065, w: 0.96347857}
+      scale: {x: 0.99999994, y: 1.0000006, z: 1.0000002}
+      transformModified: 1
+    - name: EarRight0[Bone]
+      position: {x: -0.000000011175871, y: 0.8661966, z: -0.000000009080395}
+      rotation: {x: 0.27232838, y: -0.43694818, z: -0.5451076, w: 0.66164285}
+      scale: {x: 0.99999994, y: 1, z: 0.9999993}
+      transformModified: 1
+    - name: EarRight1[Bone][Kine]
+      position: {x: -0, y: 0.62820554, z: 0}
+      rotation: {x: 0.10042596, y: 0.015647678, z: -0.20145944, w: 0.9742094}
+      scale: {x: 1.0000005, y: 1.0000007, z: 1.0000001}
+      transformModified: 1
+    - name: EarRight2[Bone][Kine]
+      position: {x: -0, y: 0.6689966, z: 0}
+      rotation: {x: 0.08263603, y: 0.008305906, z: 0.25458062, w: 0.9634786}
+      scale: {x: 1, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: PelvisLeft[Bone]
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: -0.6192131, y: 0.34143123, z: 0.67402005, w: 0.21376842}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: TighLeft[Bone]
+      position: {x: 0.000000008381903, y: 0.64410317, z: -0.000000015069102}
+      rotation: {x: -0.33348984, y: 0.06366399, z: 0.019391447, w: 0.9404018}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: ShinLeft[Bone][IK:LegLeft:2]
+      position: {x: 0.00000009313226, y: 0.62119555, z: -0.000000117346644}
+      rotation: {x: 0.3173041, y: 0.9386284, z: -0.10197469, w: 0.088859506}
+      scale: {x: 0.9999998, y: 0.99999994, z: 0.9999998}
+      transformModified: 1
+    - name: FootLeft[Bone][IK:FootLeft:1]
+      position: {x: -0.000000074505806, y: 0.73068875, z: 0.00000010058284}
+      rotation: {x: -0.53204995, y: -0.7696066, z: 0.3497067, w: -0.048310332}
+      scale: {x: 0.99999976, y: 0.9999995, z: 1.0000001}
+      transformModified: 1
+    - name: ToesLeft[Bone][IK:ToesLeft:1]
+      position: {x: -0.00000022351742, y: 0.7975942, z: 0.000000117346644}
+      rotation: {x: -0.2988672, y: 0.4588503, z: -0.14630961, w: -0.82384974}
+      scale: {x: 0.99999976, y: 1.0000002, z: 1.0000005}
+      transformModified: 1
+    - name: PelvisRight[Bone]
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: 0.6192131, y: 0.34143123, z: 0.67402005, w: -0.21376842}
+      scale: {x: 0.99999994, y: 1.0000001, z: 1}
+      transformModified: 1
+    - name: TighRight[Bone]
+      position: {x: 0.0000000018626451, y: 0.64410317, z: 0.000000029634382}
+      rotation: {x: -0.33348984, y: -0.06366399, z: -0.019391388, w: 0.9404018}
+      scale: {x: 1, y: 1.0000001, z: 1.0000001}
+      transformModified: 1
+    - name: ShinRight[Bone][IK:LegRight:2]
+      position: {x: 0.000000044703484, y: 0.62119544, z: -0.00000007636845}
+      rotation: {x: -0.31730434, y: 0.93862826, z: -0.10197485, w: -0.088859506}
+      scale: {x: 1.0000001, y: 1.0000002, z: 1.0000004}
+      transformModified: 1
+    - name: FootRight[Bone][IK:FootRight:1]
+      position: {x: -0.00000018626451, y: 0.7306887, z: -0.000000044703484}
+      rotation: {x: 0.53205025, y: -0.76960623, z: 0.34970677, w: 0.04831051}
+      scale: {x: 0.99999976, y: 0.9999996, z: 0.9999994}
+      transformModified: 1
+    - name: ToesRight[Bone][IK:ToesRight:1]
+      position: {x: -0.00000013411045, y: 0.7975943, z: -0.000000037252903}
+      rotation: {x: -0.2988672, y: -0.4588503, z: 0.14630961, w: -0.82384974}
+      scale: {x: 0.9999997, y: 1, z: 0.99999994}
+      transformModified: 1
+    - name: Tail0[Bone]
+      position: {x: -0, y: 0.5, z: 0}
+      rotation: {x: -0.7670758, y: 0.0000000047799693, z: -0.000000005715161, w: 0.6415566}
+      scale: {x: 1.0000002, y: 1, z: 0.9999999}
+      transformModified: 1
+    - name: Tail1[Bone][Kine]
+      position: {x: -0.000000007604915, y: 0.4856365, z: -6.367237e-10}
+      rotation: {x: 0.3879491, y: 0.000000020601174, z: 0.000000014452231, w: 0.9216808}
+      scale: {x: 0.99999976, y: 1.0000001, z: 0.9999999}
+      transformModified: 1
+    - name: Camera
+      position: {x: -4.5314016, y: 1.972503, z: -12.972449}
+      rotation: {x: 0.009057711, y: -0.5762051, z: -0.023246912, w: 0.8169243}
+      scale: {x: 1, y: 0.9999998, z: 1}
+      transformModified: 1
+    - name: Dummies
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: -4.32978e-17, y: 0.7071067, z: 0.7071068, w: -4.3297806e-17}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: ArmLeft[LerpAnim]
+      position: {x: -1.7481492, y: -0.11985658, z: 0.34125042}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.100000024, y: 0.100000024, z: 0.100000024}
+      transformModified: 1
+    - name: ArmRight[LerpAnim]
+      position: {x: 1.7014489, y: -0.11985657, z: 0.36370718}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.100000024, y: 0.100000024, z: 0.100000024}
+      transformModified: 1
+    - name: Body[LerpAnim]
+      position: {x: -0, y: 0.000000008912844, z: -0.5}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: BodyRot
+      position: {x: -0.009144902, y: -0.24325995, z: 0.48845637}
+      rotation: {x: 0.7071068, y: 0, z: -0, w: 0.7071067}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: EarLeft[LerpAnim]
+      position: {x: -0.64848375, y: -0.21973774, z: 4.611085}
+      rotation: {x: 0.0000000027939677, y: 1.1641532e-10, z: 1.5143087e-10, w: 1}
+      scale: {x: 0.100000024, y: 0.100000024, z: 0.100000046}
+      transformModified: 1
+    - name: EarRight[LerpAnim]
+      position: {x: 0.65543914, y: -0.22948699, z: 4.639716}
+      rotation: {x: 0.0000000027939677, y: 1.1641532e-10, z: 1.5143087e-10, w: 1}
+      scale: {x: 0.100000024, y: 0.100000024, z: 0.100000046}
+      transformModified: 1
+    - name: FootLeft[LerpAnim]
+      position: {x: -0.7645166, y: -0.30962923, z: -1.8341632}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.100000024, y: 0.100000024, z: 0.100000024}
+      transformModified: 1
+    - name: FootRight[LerpAnim]
+      position: {x: 0.763674, y: -0.30962923, z: -1.8041986}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.100000024, y: 0.100000024, z: 0.100000024}
+      transformModified: 1
+    - name: Head[LerpAnim]
+      position: {x: -0.014280796, y: -1.7479098, z: 1.9978487}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.100000024, y: 0.100000024, z: 0.100000024}
+      transformModified: 1
+    - name: LegLeft[LerpAnim]
+      position: {x: -0.44408894, y: 0, z: -1.3672796}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.100000024, y: 0.100000024, z: 0.100000024}
+      transformModified: 1
+    - name: LegRight[LerpAnim]
+      position: {x: 0.41393232, y: 0.24970175, z: -1.3890951}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.100000024, y: 0.100000024, z: 0.100000024}
+      transformModified: 1
+    - name: Neck[LerpAnim]
+      position: {x: 0.0007476818, y: -0.17978537, z: 3.332599}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.100000024, y: 0.100000024, z: 0.100000024}
+      transformModified: 1
+    - name: Spine[LerpAnim]
+      position: {x: 0.0045728683, y: 0, z: 3.0001125}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.100000024, y: 0.100000024, z: 0.100000024}
+      transformModified: 1
+    - name: ToesLeft[LerpAnim]
+      position: {x: -0.93431544, y: -0.9588528, z: -1.7942104}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.100000024, y: 0.100000024, z: 0.100000024}
+      transformModified: 1
+    - name: ToesRight[LerpAnim]
+      position: {x: 0.933473, y: -0.9588528, z: -1.7942104}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 0.100000024, y: 0.100000024, z: 0.100000024}
+      transformModified: 1
+    - name: Lamp
+      position: {x: 5.0320683, y: 5.8345995, z: 1.005454}
+      rotation: {x: 0.1206492, y: 0.32019657, z: 0.9395637, w: -0.0117468685}
+      scale: {x: 1.0000001, y: 1, z: 1}
+      transformModified: 1
+    - name: Rabbit_LowPoly
+      position: {x: 0, y: 0.49862224, z: 0.28643435}
+      rotation: {x: -6.123234e-17, y: 1, z: -0.00000008146034, w: 4.9880073e-24}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
