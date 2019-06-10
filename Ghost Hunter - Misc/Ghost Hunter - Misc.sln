@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ghost Hunter - Misc.CSharp.Plugins", "Ghost Hunter - Misc.CSharp.Plugins.csproj", "{115A4AB2-7BA8-94C3-A5A9-75C92A2BE435}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ghost Hunter - Misc.CSharp", "Ghost Hunter - Misc.CSharp.csproj", "{5B715C12-D79A-DE2C-41F1-0B98AB57BC38}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ghost Hunter - Misc.CSharp.Editor.Plugins", "Ghost Hunter - Misc.CSharp.Editor.Plugins.csproj", "{08D3028D-AFC6-30FA-08B5-303D43024459}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ghost Hunter - Misc.CSharp.Editor", "Ghost Hunter - Misc.CSharp.Editor.csproj", "{A0E45543-F9A3-9A2F-284E-D1569C33D5ED}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{115A4AB2-7BA8-94C3-A5A9-75C92A2BE435}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{115A4AB2-7BA8-94C3-A5A9-75C92A2BE435}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{115A4AB2-7BA8-94C3-A5A9-75C92A2BE435}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{115A4AB2-7BA8-94C3-A5A9-75C92A2BE435}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B715C12-D79A-DE2C-41F1-0B98AB57BC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B715C12-D79A-DE2C-41F1-0B98AB57BC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B715C12-D79A-DE2C-41F1-0B98AB57BC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B715C12-D79A-DE2C-41F1-0B98AB57BC38}.Release|Any CPU.Build.0 = Release|Any CPU
+		{08D3028D-AFC6-30FA-08B5-303D43024459}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08D3028D-AFC6-30FA-08B5-303D43024459}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08D3028D-AFC6-30FA-08B5-303D43024459}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08D3028D-AFC6-30FA-08B5-303D43024459}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0E45543-F9A3-9A2F-284E-D1569C33D5ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0E45543-F9A3-9A2F-284E-D1569C33D5ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0E45543-F9A3-9A2F-284E-D1569C33D5ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0E45543-F9A3-9A2F-284E-D1569C33D5ED}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
