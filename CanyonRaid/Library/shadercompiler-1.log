@@ -1,0 +1,42 @@
+Base path: C:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-1-13408
+Cmd: getPlatforms
+Cmd: preprocess
+  insize=3679 outsize=1777 ok=1
+Cmd: compileSnippet
+  error: 2 plat 4 at (100): 'vert': output parameter 'o' not completely initialized
+  error: 1 plat 4 at (123): 'texCUBE': implicit truncation of vector type
+  error: 1 plat 4 at (136): implicit truncation of vector type
+  error: 1 plat 4 at (137): implicit truncation of vector type
+  error: 1 plat 4 at (138): implicit truncation of vector type
+  error: 1 plat 4 at (139): implicit truncation of vector type
+  error: 1 plat 4 at (140): implicit truncation of vector type
+  api=4 type=0 insize=7577 outsize=0 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=0
+Cmd: preprocess
+  insize=1072 outsize=1571 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5223 outsize=4069 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5223 outsize=2802 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2833 outsize=3720 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2833 outsize=3127 kw=POINT ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2746 outsize=3005 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2746 outsize=1859 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=4672 outsize=2972 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=4672 outsize=1672 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=2833 outsize=2940 kw=DIRECTIONAL ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=2833 outsize=2655 kw=DIRECTIONAL ok=1
+Cmd: preprocess
+  insize=2970 outsize=1659 ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=1617 outsize=1940 kw= ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=1617 outsize=2070 kw= ok=1
