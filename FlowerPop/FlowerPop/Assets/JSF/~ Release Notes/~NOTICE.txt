@@ -1,0 +1,22 @@
+             _   _          
+            | | (_)         
+ _ __   ___ | |_ _  ___ ___ 
+| '_ \ / _ \| __| |/ __/ _ \
+| | | | (_) | |_| | (_|  __/
+|_| |_|\___/ \__|_|\___\___|
+===============================
+
+Due to the Asset Store Regulation JSF comes default for Unity2D only.
+If you desire the 2D Toolkit version, please contact me at "kurastudios@gmail.com" TQ
+
+
+JSF comes included with *
+
+* "Dummy" PoolManager 5 ( empty scripts placeholders only ) 
+    --> (Optional) replace with the real PoolManager 5 if you wish to use the integrated pooling feature
+
+------
+
+You still need Your own copy of 2d Toolkit to use JSF 2DToolkit version !
+OR 
+ensure you have Unity 4.5.x and above for JMFP Unity2D version.

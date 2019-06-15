@@ -1,0 +1,75 @@
+Created by Kurayami88
+Bug reports are welcome~!
+Feedback & Suggestions will be great!
+
+Latest version of package used :-
+Unity 4.6.7f1
+2D toolkit v2.5.3
+LeanTween 2.27
+
+
+##############
+Changelog
+##############
+
+v3.0.3r1
+-------------------------
+
+* Bugfix - Fix multiple panel BoxCollider spawn when PoolManager is enabled.
+
+* Bugfix - Intermittent buggy ResetBoard when no more moves.
+
+* Bugfix - subPanel/MultiPanel onPanelDestroy event call not executing.
+
+* Bugfix - Piece onSplashDamage event call overcalled by 1.
+
+* Bugfix - Board 'refreshPosition' function did not include subBoardPanels.
+
+
+
+v3.0.2
+-------------------------
+
+* Minor optimization of game init performance.
+
+* Bugfix - PoolManager throwing errors when enabled.
+
+* Bugfix - 2D Toolkit suggest piece scale working incorrectly.
+
+
+
+v3.0.1
+-------------------------
+
+* (New) Option for suggest piece to show the entire suggested pair
+
+* Bugfix - suggestedPiece ignoring subpanel's isSwitchable
+
+* Bugfix - Pop-special ends game prematurely before board reacts.
+
+* Bugfix - Board reset working incorrectly.
+
+
+v3.0.0
+-------------------------
+
+* (New) Multi-Panel feature
+   - with multi-panel auto-sort feature (API only)
+
+* (New) Sub-Panel feature
+
+* (New) Dynamic board re-position / re-size ability
+
+* (New) Pieces can ignore 'pop-specials' at the end
+
+* BoardLayout upgraded to accommodate Multi/sub panel feature
+
+* Major optimization & minor bugfixes of asset
+   - pieces / panels / sub-panels now have shorter (and easier) API parameters
+   - Improved Landslide code
+   - Improved 'Eliminate pre-start match' code
+   - No longer need to call "NotifyBoardHasChanged()"
+   - WinningCondition 'get-Types' mode bugfix
+   
+* Compatible with JMFP v2.x vanilla asset settings (except PanelsManager script-order)
+   - BoardLayout may need to be re-adjusted per prefab requirement.

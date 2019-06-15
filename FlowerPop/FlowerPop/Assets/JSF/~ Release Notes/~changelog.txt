@@ -1,0 +1,135 @@
+Created by Kurayami88
+Bug reports are welcome~!
+Feedback & Suggestions will be great!
+
+Latest version of package used :-
+Unity 4.6.3 f1
+
+
+##############
+Changelog
+##############
+
+
+v1.1.6
+-------------------------
+
+* Updated LeanTween APIs to be compatible to the new versions
+
+* Fixed PanelTracker bug when gm.size > 5
+
+* Fixed Appear-Mode z-scale.
+
+* Updated Master Prefab "JSF Template" to include two AudioSource ( Unity 5 compatibility issue )
+    1 AudioSource for BGM
+    1 AudioSource for SFX
+    Isolated AudioListener to its own GameObject
+    *** GameObjects located under "Anchor (LowerLeft)"
+
+
+
+
+
+v1.1.5
+-------------------------
+
+* new *and better* Manual Update method ~yey!~
+
+* added two new piece functions to be used...
+  1) onSwipeRemoved
+  2) onSwipeFailed
+  ** updated JSFGameManager, JSFSwipeManager, JSFRelay to accomodate the new functions
+
+* improved GameManager's suggest move logic
+
+
+
+
+v1.1.4
+-------------------------
+
+* Checked Unity 5 compatibility (compatible > accept and run the Unity Updater).
+
+* Fix Define errorLogs for JXF add-ons when upgrading to Unity5.
+
+* (new) Checkered board design support for square-boards.
+  look for "Default Alt Square Back Board" in JSFVisualManager.
+
+* Changed "JSFLoadThisLevel" script to run based on scene name instead.
+
+* Added some free scripts in an online shared folder.
+  (visit the Online code reference hyperlink for access to the shared folder).
+
+
+
+v1.1.3
+-------------------------
+
+* Modify SwipeManager to accomodate Piece-Click/Panel-Click without sounding bad-move
+
+* Added a new script to Identify this asset.
+   > Preparation for JXF Add-Ons
+
+* strengthen 'SuggestPiece' codes for null exceptions
+
+
+
+v1.1.2
+-------------------------
+
+* Revised Game Engine's loading order to accomodate PoolManager5 loading order
+    > was broken since v1.1.0 due to the Manual Start feature.
+
+* Bugfix swipe line indicator abnormal length when pooling enabled.
+
+
+v1.1.1
+-------------------------
+
+* Added eventDelegates to JSFRelay.cs as a default
+    > Required to support future JXF Add-ons
+
+
+v1.1.0
+-------------------------
+
+* Improved the JSFWinningCondition.cs script to behave more like commercial games:-
+   >  Retain dynamic mode selector (can mix-and-match modes!)
+   >  Added Win/Lose criteria selector on top of the dynamic mode
+   >  Supplementary built-in 3 star system based on score required
+   >  Added the manual-start boolean for this script to control...
+   >  End-game Specialize gem now prioritize normal pieces first
+
+* added a Manual-Start feature so the game does start instantly if you want to...
+   >  WinningConditions.cs script currently controls the manual-start option
+   >  Minor changes to GameManager.cs functions to accomodate the changes
+   >  Minor changes to Board.cs functions to accomodate the changes
+   >  Minor changes to JMFRelay.cs function to accomodate the changes
+   >  Please call "gm.startThisGame()" to start the game. 
+       *** currently assigned to WinningConditions.cs ***
+
+* Changed BombPiece.cs to behave like the old JMFP v1 behavior for square boards
+
+* Added Spawn Weights to NormalPiece.cs script. You can now control the color frequency!
+   P.S.> only for spawning during gameplay! for game-start weights, checkout BoardLayout!
+   *** Please check the NormalPiece inspector in the PieceManager GameObject ***
+
+* Added BoardLayout game-start Weights controller Colored gems!
+   >  control the color gems weights when selecting 'random' color!
+
+
+
+v 1.0.1
+-------------------------
+
+* fix minor bugs (please refer to Manual Update folder for changes)
+
+
+v 1.0.0
+-------------------------
+Initial Release
+
+* All the good stuff of JMFP but using swipe feature!
+* (NEW) Hex board type layout !
+* (NEW) Improved back-end codings and more overloaded methods!
+* Fully compatible with JMFP ( works together in the same project ! )

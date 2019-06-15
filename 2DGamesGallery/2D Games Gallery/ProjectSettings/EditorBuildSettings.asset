@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/CircleBomb.unity
+    guid: 29e39910c1cee124d9f5ecfbf11938c8
+  - enabled: 1
+    path: Assets/Scenes/ColorGame_Arcade.unity
+    guid: 2858b3e898d804929b33086734c540ea
+  - enabled: 1
+    path: Assets/Scenes/ColorGame_menu.unity
+    guid: 2e9574183c84c4b1fb12bc7d50299adf
+  - enabled: 1
+    path: Assets/Scenes/ColorGame_TimeTrial.unity
+    guid: b5d5a664df9c740978dd63da2bf55b5e
+  - enabled: 1
+    path: Assets/Scenes/ColorPong.unity
+    guid: a7da470c0468245f1a2b77d0002e7538
+  - enabled: 1
+    path: Assets/Scenes/Colorscape.unity
+    guid: 1164c375c45edc34f87d26578fdf083f
+  - enabled: 1
+    path: Assets/Scenes/ConnectFour.unity
+    guid: 597ec1fce0a578f45bdff75cc5cf89e3
+  - enabled: 1
+    path: Assets/Scenes/SlidingTilePuzzle with menu.unity
+    guid: 7d12a4a7094b7814bb6ecf8c6cf41a2a
+  - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: 50287520b781f49459e5e92e09297e68
+  - enabled: 1
+    path: Assets/Scenes/Spinny.unity
+    guid: 3d44cd762cb6616409290f7c62c7321c
+  - enabled: 1
+    path: Assets/Scenes/Spinny2.unity
+    guid: 3a2ef642beb730a42bc7f9ebeb00384a
+  - enabled: 1
+    path: Assets/Scenes/Spinny3.unity
+    guid: 3883813703e4e724fa246248679c66b5
+  - enabled: 1
+    path: Assets/Scenes/TopOTheWall.unity
+    guid: ba8e9b0456f7de64b82899e7c75b0464
+  - enabled: 1
+    path: Assets/Scenes/ZigZag.unity
+    guid: 528340017e4dc449a8683fcd7ceb6531
+  m_configObjects: {}

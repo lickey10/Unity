@@ -1,0 +1,22 @@
+For Newbies :-
+
+Under "File" -> "Build Settings.." 
+OR
+CTRL-SHIFT-B
+
+---------------
+
+Add the scenes in this order
+
+Scene 0 - Main Menu
+Scene 1 - 4 gems 9x9 appear
+Scene 2 - 5 gems 9x9 cross-type
+Scene 3 - 3 gems 9x9 minSwipe
+Scene 4 - 5 gems 9x9 random
+Scene 5 - 9 gems 9x9 Custom
+Scene 6 - 4 Gems Portal Treasures
+
+============
+
+OR just highlight everything and drop into the build settings.
+The order should be correct due to the file name.
