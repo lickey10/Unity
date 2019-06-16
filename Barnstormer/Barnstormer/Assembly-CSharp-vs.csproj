@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{59E2D2D6-D219-9EA5-016C-B9D4994623FF}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Scripts\Boundary.cs" />
+     <Compile Include="Assets\Scripts\CSharpScripts\BirdsBehaviour.cs" />
+     <Compile Include="Assets\Scripts\CSharpScripts\BlobShadowController.cs" />
+     <Compile Include="Assets\Scripts\CSharpScripts\CarCamera.cs" />
+     <Compile Include="Assets\Scripts\CSharpScripts\CombineChildren.cs" />
+     <Compile Include="Assets\Scripts\CSharpScripts\DisableObjects.cs" />
+     <Compile Include="Assets\Scripts\CSharpScripts\EffectController.cs" />
+     <Compile Include="Assets\Scripts\CSharpScripts\Generate2DReflection.cs" />
+     <Compile Include="Assets\Scripts\CSharpScripts\MeshCombineUtility.cs" />
+     <Compile Include="Assets\Scripts\CSharpScripts\MirrorReflection.cs" />
+     <Compile Include="Assets\Scripts\CSharpScripts\ToggleObjectTrigger.cs" />
+     <Compile Include="Assets\Scripts\Compass2d.cs" />
+     <Compile Include="Assets\Scripts\Compass3d.cs" />
+     <Compile Include="Assets\Scripts\PlaneControl.cs" />
+     <Compile Include="Assets\Scripts\PlaneControlF16.cs" />
+     <Compile Include="Assets\Scripts\PlaneControlP47.cs" />
+     <Compile Include="Assets\Scripts\Player.cs" />
+     <Compile Include="Assets\Scripts\coin.cs" />
+     <Compile Include="Assets\Scripts\dragScript.cs" />
+     <Compile Include="Assets\Scripts\spinProp.cs" />
+     <Compile Include="Assets\WorldBuilder\Scripts\Heightmapbuilder.cs" />
+     <Compile Include="Assets\WorldBuilder\Scripts\Helpers\Threading.cs" />
+     <Compile Include="Assets\WorldBuilder\Scripts\TerrainFoliage.cs" />
+     <Compile Include="Assets\WorldBuilder\Scripts\TerrainGeneration.cs" />
+     <Compile Include="Assets\WorldBuilder\Scripts\TerrainTexturing.cs" />
+     <Compile Include="Assets\imports\EasyRoads3D Free\scripts\EasyRoads3DTerrainID.cs" />
+     <Compile Include="Assets\imports\EasyRoads3D Free\scripts\MarkerScript.cs" />
+     <Compile Include="Assets\imports\EasyRoads3D Free\scripts\RoadObjectScript.cs" />
+     <Compile Include="Assets\imports\EasyRoads3D Free\scripts\SurfaceScript.cs" />
+     <Compile Include="Assets\imports\Examples-soomla\MuffinRush\Example.cs" />
+     <Compile Include="Assets\imports\Examples-soomla\MuffinRush\ExampleEventHandler.cs" />
+     <Compile Include="Assets\imports\Examples-soomla\MuffinRush\ExampleWindow.cs" />
+     <Compile Include="Assets\imports\Examples-soomla\MuffinRush\MuffinRushAssets.cs" />
+     <Compile Include="Assets\imports\Free_Rocks\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+     <Compile Include="Assets\imports\RoadTool\Scripts\Road.cs" />
+     <Compile Include="Assets\imports\TerrainToolkit\TerrainToolkit.cs" />
+     <Compile Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
+     <Compile Include="Assets\imports\boats\Standard Assets\Scripts\General Scripts\ActivateTrigger.cs" />
+     <Compile Include="Assets\imports\boats\Standard Assets\Scripts\Utility Scripts\CombineChildren.cs" />
+     <Compile Include="Assets\imports\boats\Standard Assets\Scripts\Utility Scripts\MeshCombineUtility.cs" />
+     <Compile Include="Assets\imports\~AlternatePhysicsModel\Scripts\AerodynamicResistance.cs" />
+     <Compile Include="Assets\imports\~AlternatePhysicsModel\Scripts\AntiRollBar.cs" />
+     <Compile Include="Assets\imports\~AlternatePhysicsModel\Scripts\CarController.cs" />
+     <Compile Include="Assets\imports\~AlternatePhysicsModel\Scripts\Drivetrain.cs" />
+     <Compile Include="Assets\imports\~AlternatePhysicsModel\Scripts\Skidmarks.cs" />
+     <Compile Include="Assets\imports\~AlternatePhysicsModel\Scripts\SoundController.cs" />
+     <Compile Include="Assets\imports\~AlternatePhysicsModel\Scripts\TractionHelper.cs" />
+     <Compile Include="Assets\imports\~AlternatePhysicsModel\Scripts\Wheel.cs" />
+     <Compile Include="Assets\imports\~AlternatePhysicsModel\Scripts\Wing.cs" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\imports\Vehicle Physics Toolkit v1.4\Environment\Shaders\PolyTerrain\FirstPassLightmap.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\MotionBlur.shader" />
+     <None Include="Assets\imports\Vehicle Physics Toolkit v1.4\Environment\Shaders\GlassReflect.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\imports\Fortress\Shader\Diffuse.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\ColorCorrectionEffect_26.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Pro Standard Assets\Image Based\GlowEffectDownsample_26.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\SSAOShader.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\license.txt" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\imports\Vehicle Physics Toolkit v1.4\Environment\Shaders\Skidmarks.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\imports\WWII P47 Thunderbolt\aeroplanes.shader" />
+     <None Include="Assets\Pro Standard Assets\Water\Sources\FX-Water.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\imports\Vehicle Physics Toolkit v1.4\Environment\Shaders\GlassBuilding.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\GrayscaleEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\SepiaToneEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\TwirlEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\VortexEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\imports\Vehicle Physics Toolkit v1.4\Environment\Shaders\Alpha-VertexLitGlow02.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\EdgeDetectX.shader" />
+     <None Include="Assets\imports\Fortress\Shader\TwoSided.shader" />
+     <None Include="Assets\imports\TerrainToolkit\Read me.txt" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="EasyRoads3D">
+ <HintPath>D:/utilities/Programming/Unity/MyProjects/Barnstormer/Barnstormer/Assets/imports/EasyRoads3D Free/lib/EasyRoads3D.dll</HintPath>
+ </Reference>
+ <Reference Include="CoherentNoise">
+ <HintPath>D:/utilities/Programming/Unity/MyProjects/Barnstormer/Barnstormer/Assets/WorldBuilder/Scripts/Helpers/CoherentNoise.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass-vs.csproj">
+      <Project>{D925EDEF-79C9-199F-A1F3-6EB9AF44CE3C}</Project>      <Name>Assembly-CSharp-firstpass-vs</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

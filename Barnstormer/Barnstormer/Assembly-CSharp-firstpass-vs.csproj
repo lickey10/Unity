@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{D925EDEF-79C9-199F-A1F3-6EB9AF44CE3C}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_1;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_MONO;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\Plugins\Soomla\Core\AndroidImpl\KeyValueStorageAndroid.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\AndroidImpl\RewardStorageAndroid.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\Config\CoreSettings.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\Config\ISoomlaPostBuildTool.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\Config\ISoomlaSettings.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\Config\ObjectDictionary.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\Config\SoomlaEditorScript.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\Config\SoomlaPostBuildTools.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\Config\UnityDictionary.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\Config\android\ISoomlaManifestTools.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\Config\android\SoomlaAndroidUtil.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\Config\android\SoomlaManifestTools.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\CoreEvents.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\IOSImpl\KeyValueStorageIOS.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\IOSImpl\RewardStorageIOS.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\JSONObject.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\NullCheckable.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\Schedule.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\SoomlaEntity.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\SoomlaExtensions.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\SoomlaUtils.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\data\JSONConsts.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\data\KeyValueStorage.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\data\RewardStorage.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\rewards\BadgeReward.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\rewards\RandomReward.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\rewards\Reward.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Core\rewards\SequenceReward.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\AndroidImpl\AndroidJNIHandler.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\AndroidImpl\SoomlaStoreAndroid.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\AndroidImpl\StoreEventPusherAndroid.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\AndroidImpl\StoreInfoAndroid.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\AndroidImpl\VirtualCurrencyStorageAndroid.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\AndroidImpl\VirtualGoodsStorageAndroid.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\Config\StoreManifestTools.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\Config\StoreSettings.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\IOSImpl\IOS_ErrorCodes.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\IOSImpl\SoomlaStoreIOS.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\IOSImpl\StoreEventPusherIOS.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\IOSImpl\StoreInfoIOS.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\IOSImpl\VirtualCurrencyStorageIOS.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\IOSImpl\VirtualGoodsStorageIOS.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\IStoreAssets.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\SoomlaStore.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\StoreEvents.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\StoreInventory.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\data\StoreInfo.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\data\StoreJSONConsts.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\data\VirtualCurrencyStorage.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\data\VirtualGoodsStorage.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\data\VirtualItemStorage.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\domain\MarketItem.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\domain\PurchasableVirtualItem.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\domain\VirtualCategory.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\domain\VirtualItem.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\domain\virtualCurrencies\VirtualCurrency.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\domain\virtualCurrencies\VirtualCurrencyPack.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\domain\virtualGoods\EquippableVG.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\domain\virtualGoods\LifetimeVG.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\domain\virtualGoods\SingleUsePackVG.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\domain\virtualGoods\SingleUseVG.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\domain\virtualGoods\UpgradeVG.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\domain\virtualGoods\VirtualGood.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\exceptions\InsufficientFundsException.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\exceptions\NotEnoughGoodsException.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\exceptions\VirtualItemNotFoundException.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\purchaseTypes\PurchaseType.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\purchaseTypes\PurchaseWithMarket.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\purchaseTypes\PurchaseWithVirtualItem.cs" />
+     <Compile Include="Assets\Plugins\Soomla\Store\rewards\VirtualItemReward.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\BlurEffect.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\ColorCorrectionEffect.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\ColorCorrectionEffectPCMac_26.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\ContrastStretchEffect.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\EdgeDetectEffect.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\GlowEffect.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\GlowEffectThreshold_26.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\GrayscaleEffect.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\ImageEffectBase.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\ImageEffects.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\MotionBlur.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\MotionBlurEdge.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\NoiseEffect.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\SSAOEffect.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\SepiaToneEffect.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\TwirlEffect.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Image Based\VortexEffect.cs" />
+     <Compile Include="Assets\Pro Standard Assets\Water\Sources\Water.cs" />
+     <Compile Include="Assets\Standard Assets\Water (Basic)\Sources\Scripts\WaterSimple.cs" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\NoiseEffectShaderRGB.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Toon Shading\Sources\Shaders\Toony-Basic.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+     <None Include="Assets\imports\Vehicle Physics Toolkit v1.4\Environment\Shaders\PolyTerrain\FirstPassLightmap.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ShowAlphaChannel.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowConeTap.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SunShaftsComposite.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurves.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\NFAA.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\VignetteShader.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\MotionBlur.shader" />
+     <None Include="Assets\imports\Vehicle Physics Toolkit v1.4\Environment\Shaders\GlassReflect.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowCompose.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\MinMaxReduction.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\SSAA.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\RadialBlur.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ContrastComposite.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset3.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\FisheyeShader.shader" />
+     <None Include="Assets\imports\Fortress\Shader\Diffuse.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Apply.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\ColorCorrectionEffect_26.shader" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\frag_ao.cginc" />
+     <None Include="Assets\Pro Standard Assets\Image Based\GlowEffectDownsample_26.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\DepthOfField34.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\TiltShift.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\SSAOShader.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ConvertDepth.shader" />
+     <None Include="Assets\license.txt" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionCurvesSimple.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\NoiseEffectShaderYUV.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlowEffectDownsample.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\CreaseApply.shader" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ChromaticAberrationShader.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\GlobalFog.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Luminance.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionSelective.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\Bokeh34.shader" />
+     <None Include="Assets\imports\Vehicle Physics Toolkit v1.4\Environment\Shaders\Skidmarks.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlurEffectConeTaps.shader" />
+     <None Include="Assets\imports\WWII P47 Thunderbolt\aeroplanes.shader" />
+     <None Include="Assets\Pro Standard Assets\Water\Sources\FX-Water.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\DLAA.shader" />
+     <None Include="Assets\imports\Vehicle Physics Toolkit v1.4\Environment\Shaders\GlassBuilding.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_DepthOfField\SeparableBlur.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\ColorCorrectionEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\GrayscaleEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\SepiaToneEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\TwirlEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\VortexEffect.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\Contrast Stretch\Adaptation.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\NoiseAndGrain.shader" />
+     <None Include="Assets\imports\Vehicle Physics Toolkit v1.4\Environment\Shaders\Alpha-VertexLitGlow02.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\VignettingShader.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\Tonemapper.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA2.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\EdgeDetectNormals.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\PrepareSunShaftsBlur.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_BloomAndFlares\Blend.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\BlendModesOverlay.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\SimpleClear.shader" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAA3Console.shader" />
+     <None Include="Assets\Pro Standard Assets\Image Based\EdgeDetectX.shader" />
+     <None Include="Assets\imports\Fortress\Shader\TwoSided.shader" />
+     <None Include="Assets\imports\TerrainToolkit\Read me.txt" />
+     <None Include="Assets\imports\boats\Standard Assets\Image Effects (Pro Only)\_Sources\Shaders\_Antialiasing\FXAAPreset2.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.1/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="EasyRoads3D">
+ <HintPath>D:/utilities/Programming/Unity/MyProjects/Barnstormer/Barnstormer/Assets/imports/EasyRoads3D Free/lib/EasyRoads3D.dll</HintPath>
+ </Reference>
+ <Reference Include="CoherentNoise">
+ <HintPath>D:/utilities/Programming/Unity/MyProjects/Barnstormer/Barnstormer/Assets/WorldBuilder/Scripts/Helpers/CoherentNoise.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

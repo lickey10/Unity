@@ -1,0 +1,39 @@
+Base path: C:/Program Files (x86)/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-6-4448
+Cmd: getPlatforms
+Cmd: compileSnippet
+  api=5 type=1 insize=2057 outsize=6 kw=LIGHTMAP_ON ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=3732 outsize=9788 kw=WATER_SIMPLE ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=6277 outsize=8701 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=6277 outsize=6 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=3904 outsize=6462 kw=POINT_COOKIE ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=3904 outsize=7 kw=SPOT ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=5647 outsize=6879 kw=DIRECTIONAL LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=5647 outsize=7 kw=DIRECTIONAL LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=3396 outsize=5686 kw=POINT_COOKIE ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=3396 outsize=5414 kw=DIRECTIONAL_COOKIE ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=3396 outsize=7 kw=SPOT ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=7577 outsize=4552 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_ON DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=7577 outsize=8529 kw=DIRECTIONAL SHADOWS_SCREEN LIGHTMAP_OFF DIRLIGHTMAP_OFF VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=7577 outsize=7 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF ok=1
+Cmd: compileSnippet
+  api=5 type=0 insize=5339 outsize=4747 kw=POINT ok=1
+Cmd: compileSnippet
+  api=5 type=1 insize=5339 outsize=6 kw=POINT ok=1
+Cmd: compileSnippet
+  api=9 type=0 insize=7128 outsize=6073 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1
+Cmd: compileSnippet
+  api=9 type=1 insize=7128 outsize=7 kw=LIGHTMAP_OFF DIRLIGHTMAP_OFF HDR_LIGHT_PREPASS_OFF ok=1

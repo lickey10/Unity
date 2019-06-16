@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\imports\Examples-soomla\MuffinRush\MuffinRushAssets.cs">
+    <Files>
+      <File FileName="Assets\Scripts\Compass3d.cs" Line="29" Column="5" />
+      <File FileName="Assets\Scripts\coin.cs" Line="5" Column="24" />
+      <File FileName="Assets\Scripts\spinProp.cs" Line="5" Column="24" />
+      <File FileName="Assets\Scripts\PlaneControlP47.cs" Line="42" Column="33" />
+      <File FileName="Assets\imports\Flight Control\Flight Controler 2\Scripts\GUI Display.js" Line="36" Column="40" />
+      <File FileName="Assets\imports\Flight Control\Flight Controler 2\Scripts\Plane.js" Line="51" Column="22" />
+      <File FileName="Assets\imports\Examples-soomla\MuffinRush\MuffinRushAssets.cs" Line="143" Column="78" />
+      <File FileName="Assets\imports\Examples-soomla\MuffinRush\ExampleWindow.cs" Line="129" Column="45" />
+      <File FileName="Assets\Plugins\Soomla\Store\data\StoreInfo.cs" Line="560" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
