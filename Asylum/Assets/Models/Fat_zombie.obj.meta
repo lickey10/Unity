@@ -1,0 +1,241 @@
+fileFormatVersion: 2
+guid: 5b874d9bdaff9cf4c8b4aebc81edd7ca
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Zombie__1_Body
+    100004: Zombie__1_Body_Eyebrown_EyelashL
+    100006: Zombie__1_Body_Eyebrown_EyelashR
+    100008: Zombie__1_Body_EyeL_CorneaL
+    100010: Zombie__1_Body_EyeL_EyeballL
+    100012: Zombie__1_Body_EyeL_ScleraL
+    100014: Zombie__1_Body_EyeR_CorneaR
+    100016: Zombie__1_Body_EyeR_EyeballR
+    100018: Zombie__1_Body_EyeR_ScleraR
+    100020: Zombie__1_Body_Mounth_LowerTeeth
+    100022: Zombie__1_Body_Mounth_Tongue
+    100024: Zombie__1_Body_Mounth_UpperTeeth
+    100026: Zombie__1_Guts_guts1
+    100028: Zombie__1_Guts_guts2
+    100030: Zombie__1_Guts_limit
+    400000: //RootNode
+    400002: Zombie__1_Body
+    400004: Zombie__1_Body_Eyebrown_EyelashL
+    400006: Zombie__1_Body_Eyebrown_EyelashR
+    400008: Zombie__1_Body_EyeL_CorneaL
+    400010: Zombie__1_Body_EyeL_EyeballL
+    400012: Zombie__1_Body_EyeL_ScleraL
+    400014: Zombie__1_Body_EyeR_CorneaR
+    400016: Zombie__1_Body_EyeR_EyeballR
+    400018: Zombie__1_Body_EyeR_ScleraR
+    400020: Zombie__1_Body_Mounth_LowerTeeth
+    400022: Zombie__1_Body_Mounth_Tongue
+    400024: Zombie__1_Body_Mounth_UpperTeeth
+    400026: Zombie__1_Guts_guts1
+    400028: Zombie__1_Guts_guts2
+    400030: Zombie__1_Guts_limit
+    2300000: Zombie__1_Body
+    2300002: Zombie__1_Body_Eyebrown_EyelashL
+    2300004: Zombie__1_Body_Eyebrown_EyelashR
+    2300006: Zombie__1_Body_EyeL_CorneaL
+    2300008: Zombie__1_Body_EyeL_EyeballL
+    2300010: Zombie__1_Body_EyeL_ScleraL
+    2300012: Zombie__1_Body_EyeR_CorneaR
+    2300014: Zombie__1_Body_EyeR_EyeballR
+    2300016: Zombie__1_Body_EyeR_ScleraR
+    2300018: Zombie__1_Body_Mounth_LowerTeeth
+    2300020: Zombie__1_Body_Mounth_Tongue
+    2300022: Zombie__1_Body_Mounth_UpperTeeth
+    2300024: Zombie__1_Guts_guts1
+    2300026: Zombie__1_Guts_guts2
+    2300028: Zombie__1_Guts_limit
+    3300000: Zombie__1_Body
+    3300002: Zombie__1_Body_Eyebrown_EyelashL
+    3300004: Zombie__1_Body_Eyebrown_EyelashR
+    3300006: Zombie__1_Body_EyeL_CorneaL
+    3300008: Zombie__1_Body_EyeL_EyeballL
+    3300010: Zombie__1_Body_EyeL_ScleraL
+    3300012: Zombie__1_Body_EyeR_CorneaR
+    3300014: Zombie__1_Body_EyeR_EyeballR
+    3300016: Zombie__1_Body_EyeR_ScleraR
+    3300018: Zombie__1_Body_Mounth_LowerTeeth
+    3300020: Zombie__1_Body_Mounth_Tongue
+    3300022: Zombie__1_Body_Mounth_UpperTeeth
+    3300024: Zombie__1_Guts_guts1
+    3300026: Zombie__1_Guts_guts2
+    3300028: Zombie__1_Guts_limit
+    4300000: Zombie__1_Body
+    4300002: Zombie__1_Body_Eyebrown_EyelashL
+    4300004: Zombie__1_Body_Eyebrown_EyelashR
+    4300006: Zombie__1_Body_EyeL_CorneaL
+    4300008: Zombie__1_Body_EyeL_EyeballL
+    4300010: Zombie__1_Body_EyeL_ScleraL
+    4300012: Zombie__1_Body_EyeR_CorneaR
+    4300014: Zombie__1_Body_EyeR_EyeballR
+    4300016: Zombie__1_Body_EyeR_ScleraR
+    4300018: Zombie__1_Body_Mounth_LowerTeeth
+    4300020: Zombie__1_Body_Mounth_Tongue
+    4300022: Zombie__1_Body_Mounth_UpperTeeth
+    4300024: Zombie__1_Guts_guts1
+    4300026: Zombie__1_Guts_guts2
+    4300028: Zombie__1_Guts_limit
+    2186277476908879412: ImportLogs
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_BodyMat
+    second: {fileID: 2100000, guid: 12d665e34976ebc4d9364d3a8ff94f34, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_Body_EyeL_CorneaLMat
+    second: {fileID: 2100000, guid: 9eeb87be94ef10648a939546049c2642, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_Body_EyeL_EyeballLMat
+    second: {fileID: 2100000, guid: 866b45f675aa424458882a0c8df25fa8, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_Body_EyeL_ScleraLMat
+    second: {fileID: 2100000, guid: f4b9c0994344ab14a8b6504b6a9536d6, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_Body_EyeR_CorneaRMat
+    second: {fileID: 2100000, guid: 8fb79eb44c5619440a92cabbfd67e58a, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_Body_EyeR_EyeballRMat
+    second: {fileID: 2100000, guid: 4add75b5869d86245a828abc8a69ce8c, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_Body_EyeR_ScleraRMat
+    second: {fileID: 2100000, guid: 38ee7a24fe138144c9c2ec8b2db8f349, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_Body_Eyebrown_EyelashLMat
+    second: {fileID: 2100000, guid: 73827d792d492bf48a4cd3c8b9ecb87f, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_Body_Eyebrown_EyelashRMat
+    second: {fileID: 2100000, guid: df14f5c8e941cfc4aaea13246ff82441, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_Body_Mounth_LowerTeethMat
+    second: {fileID: 2100000, guid: 076ef279853c3d841bbb96f838dbd997, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_Body_Mounth_TongueMat
+    second: {fileID: 2100000, guid: 8bc355b99bd154144b181df6d3bef6d0, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_Body_Mounth_UpperTeethMat
+    second: {fileID: 2100000, guid: b7b5b00ea8f2de74c9b1044e7a3a2f4e, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_Guts_guts1Mat
+    second: {fileID: 2100000, guid: 8c9cac34bab30cc4fa548359b075b306, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_Guts_guts2Mat
+    second: {fileID: 2100000, guid: 4d8b714773f405a40a5ca2a58adf69a9, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Zombie__1_Guts_limitMat
+    second: {fileID: 2100000, guid: f780ef36fd9499d4facd754ccea03f50, type: 2}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 0
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 0
+    importBlendShapes: 1
+    importCameras: 0
+    importLights: 0
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 4
+    normalCalculationMode: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

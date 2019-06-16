@@ -1,0 +1,18 @@
+# Wavefront MTL file
+# Creator: Ultimate Unwrap3D Pro v3.49
+# URL: http://www.unwrap3d.com
+# Time: Thu Oct 30 17:30:30 2014
+# num_materials: 1
+
+newmtl _Body_Mid
+Ka 0.000000 0.000000 0.000000
+Kd 1.000000 1.000000 1.000000
+Ks 0.000000 0.000000 0.000000
+d 1.000000
+illum 2
+Ns 1.000000
+map_Kd Gyra_color.jpg
+map_Bump Gyra_mid_nm.jpg
+map_Ks Gyra_spec.jpg
+
+# num_materials: 1
