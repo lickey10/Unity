@@ -1,0 +1,222 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &140790
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 471610}
+  - 33: {fileID: 3304272}
+  - 23: {fileID: 2357212}
+  - 65: {fileID: 6531054}
+  - 54: {fileID: 5426854}
+  - 114: {fileID: 11486354}
+  m_Layer: 0
+  m_Name: Cube
+  m_TagString: Breakable
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!1 &157550
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 4
+  m_Component:
+  - 4: {fileID: 475778}
+  - 114: {fileID: 11472908}
+  m_Layer: 0
+  m_Name: Cube_Controller
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &471610
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 140790}
+  m_LocalRotation: {x: -0.00000003774895, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.00000000372529, y: -0.000000044703484, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children: []
+  m_Father: {fileID: 475778}
+  m_RootOrder: 0
+--- !u!4 &475778
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157550}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_Children:
+  - {fileID: 471610}
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+--- !u!23 &2357212
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 140790}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 3bc8c3aab5c25c14291191a236923f7a, type: 2}
+  m_SubsetIndices: 
+  m_StaticBatchRoot: {fileID: 0}
+  m_UseLightProbes: 1
+  m_ReflectionProbeUsage: 1
+  m_ProbeAnchor: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingOrder: 0
+--- !u!33 &3304272
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 140790}
+  m_Mesh: {fileID: 4300078, guid: 216bc50873c9e42469ed9286db7ee751, type: 3}
+--- !u!54 &5426854
+Rigidbody:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 140790}
+  serializedVersion: 2
+  m_Mass: 1
+  m_Drag: 0
+  m_AngularDrag: 0.05
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 0
+--- !u!65 &6531054
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 140790}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 2, y: 2, z: 2}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &11472908
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 157550}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b54c005676b6264ca42e020a7eadb60, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DL1Enabled: 0
+  DL2Enabled: 0
+  DL3Enabled: 0
+  DL1BreakStrength: 150
+  DL2BreakStrength: 250
+  DL3BreakStrength: 500
+  shrinkDL1Collider: 0
+  shrinkDL2Collider: 0
+  shrinkDL3Collider: 0
+  shrinkColliderSize: 0.8
+  scaleTime: 0.125
+  chunkLifetime: 20
+  outsideMaterial: {fileID: 0}
+  insideMaterial: {fileID: 0}
+  passDownBreakage: 0
+  breakThoughLevel: 1
+  _physicsController: {fileID: 0}
+  objectMass: 250
+  overrideMass: 0
+  overrideMaterials: 0
+  playDL0ParticleSystem: 0
+  playDL1ParticleSystem: 0
+  playDL2ParticleSystem: 0
+  playDL0BreakSound: 0
+  playDL1BreakSound: 0
+  playDL2BreakSound: 0
+  physicsMat: {fileID: 0}
+  breakParticleSystem: {fileID: 0}
+  particleSystemLifetime: 1
+  breakableChunks_DL1:
+  - {fileID: 11475006, guid: e1ed63b152e31be46b122fd6262d7743, type: 2}
+  - {fileID: 11464412, guid: dba2cde6d658f1a498515d325f53f0fe, type: 2}
+  - {fileID: 11435066, guid: 7a7db2a1b0ea4b64db57f4190370d0dd, type: 2}
+  breakableChunks_DL2:
+  - {fileID: 11457772, guid: 45b3ef246dedc59419040e18bc1c1aa5, type: 2}
+  - {fileID: 11498510, guid: abeaf040c98eb604db17a172c36dca41, type: 2}
+  - {fileID: 11420106, guid: 2c76534074956a640a9cde57f17c8329, type: 2}
+  breakSounds: []
+  audioVolume: 1
+  cargoObjects: []
+  explosionStrength: 0.05
+  explosionSound: {fileID: 0}
+  tagArray: []
+--- !u!114 &11486354
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 140790}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3224b52f4035bad4da5dd6c06a795b43, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  DL1Enabled: 0
+  DL2Enabled: 0
+  DL3Enabled: 0
+  DL1BreakStrength: 150
+  DL2BreakStrength: 250
+  DL3BreakStrength: 500
+  shrinkDL1Collider: 0
+  shrinkDL2Collider: 0
+  shrinkDL3Collider: 0
+  shrinkColliderSize: 0.8
+  scaleTime: 0.125
+  chunkLifetime: 20
+  outsideMaterial: {fileID: 0}
+  insideMaterial: {fileID: 0}
+  passDownBreakage: 0
+  breakThoughLevel: 1
+  _physicsController: {fileID: 0}
+  positionFrozen: 0
+  preventBreaking: 0
+  _FlipMaterials: 0
+  playerCanBreak: 0
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 157550}
+  m_IsPrefabParent: 1
