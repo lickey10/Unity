@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseOfCards.Plugins", "HouseOfCards.Plugins.csproj", "{B8C51B5B-4054-BA35-232F-933C666BECE5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HouseOfCards", "HouseOfCards.csproj", "{2E818EDE-919A-12FB-CF1A-C037839B06FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B8C51B5B-4054-BA35-232F-933C666BECE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8C51B5B-4054-BA35-232F-933C666BECE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8C51B5B-4054-BA35-232F-933C666BECE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8C51B5B-4054-BA35-232F-933C666BECE5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2E818EDE-919A-12FB-CF1A-C037839B06FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E818EDE-919A-12FB-CF1A-C037839B06FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E818EDE-919A-12FB-CF1A-C037839B06FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E818EDE-919A-12FB-CF1A-C037839B06FE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
