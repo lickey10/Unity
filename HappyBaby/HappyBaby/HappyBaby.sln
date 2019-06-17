@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyBaby.CSharp.Plugins", "HappyBaby.CSharp.Plugins.csproj", "{84606E23-D6F1-02D3-2F11-092C439AF293}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyBaby.CSharp", "HappyBaby.CSharp.csproj", "{C9F9DB0B-FDA4-E5A8-562E-49872D8F112C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HappyBaby.CSharp.Editor", "HappyBaby.CSharp.Editor.csproj", "{8D526A6E-7B25-7307-E697-D333C804B213}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{84606E23-D6F1-02D3-2F11-092C439AF293}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84606E23-D6F1-02D3-2F11-092C439AF293}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84606E23-D6F1-02D3-2F11-092C439AF293}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84606E23-D6F1-02D3-2F11-092C439AF293}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F9DB0B-FDA4-E5A8-562E-49872D8F112C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F9DB0B-FDA4-E5A8-562E-49872D8F112C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F9DB0B-FDA4-E5A8-562E-49872D8F112C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F9DB0B-FDA4-E5A8-562E-49872D8F112C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D526A6E-7B25-7307-E697-D333C804B213}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D526A6E-7B25-7307-E697-D333C804B213}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D526A6E-7B25-7307-E697-D333C804B213}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D526A6E-7B25-7307-E697-D333C804B213}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
