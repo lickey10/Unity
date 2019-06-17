@@ -1,0 +1,11 @@
+fileFormatVersion: 2
+guid: 1d0151ee01b626f41825bee788b5241d
+MonoImporter:
+  serializedVersion: 2
+  defaultReferences:
+  - rocks: {fileID: 100000, guid: b57e46eb394807749a87b49204cc5b16, type: 2}
+  - Clouds1: {fileID: 100000, guid: e3b1b141766265a41a92b7adb480f89b, type: 2}
+  - Clouds2: {fileID: 100000, guid: 44dd31d9f0c4a4149b4f994c24d6b6d2, type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 

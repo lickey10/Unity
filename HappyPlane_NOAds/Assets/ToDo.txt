@@ -1,0 +1,60 @@
+test ad targeting
+
+test game on phone
+
+share on facebook
+in-app purchasing
+
+
+
+-------------Done --------------
+make background of level complete page dynamic
+test circular movement
+test random jumping script
+hi score is resetting when it shouldn't
+target ads
+make backgrounds all the same size
+create the circular movement
+decide if we want any more levels
+create level 7
+create level 8
+create level 9
+create level 10
+create level 11
+create level 12
+create level 13
+create level 14
+create level 15
+test sine script
+create level 5
+create level 6
+set up ads
+create pause menu and functionality
+create level 4
+add main menu button to game over scene
+save values between app loads
+set up high score
+set up the locked buttons for levels
+save progress through levels
+make sure workflow is working all the way through from start to finish
+make background scroll
+make explosions show up right
+set up lives
+set up health
+create logo
+create levels menu
+make logo scene
+make game over menu
+display lives
+set up scoring
+make an end to level 1
+create "you won" scene
+create complete level scene
+add sounds
+create level 3
+create level 2
+get better obstacles
+explode when going off screen
+add touch events
+
+

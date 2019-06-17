@@ -1,0 +1,43 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LevelComplete.cs">
+    <Files>
+      <File FileName="Assets\Scripts\LevelMenu.cs" Line="148" Column="4" />
+      <File FileName="Assets\Scripts\gamestate.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\PauseMenuScript.cs" Line="92" Column="48" />
+      <File FileName="Assets\Scripts\movement\generate.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameOverScript.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameStateObject.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ScoreAndLives.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\Logo.cs" Line="33" Column="35" />
+      <File FileName="Assets\Scripts\LevelComplete.cs" Line="27" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Scripts" expanded="True">
+              <Node name="movement" expanded="True" />
+              <Node name="LevelComplete.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="ClassPad">
+        <State expanded="True" selected="True" />
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State>
+          <Value>buttonContent.text</Value>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\utilities\Programming\Unity\MyProjects\HappyPlane_withAds\Assets\Scripts\LevelComplete.cs" line="27" />
+      <Breakpoint file="D:\utilities\Programming\Unity\MyProjects\HappyPlane_withAds\Assets\Scripts\PauseMenuScript.cs" line="100" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
