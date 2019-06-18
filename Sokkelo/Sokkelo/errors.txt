@@ -1,0 +1,7 @@
+WARNING: Shader Unsupported: 'Hidden/Dof/DX11Dof' - Pass '' has no vertex shader
+WARNING: Shader Unsupported: 'Hidden/Dof/DX11Dof' - Setting to default shader.
+
+
+
+12-25 23:08:55.013 30161-30210/? E/Unity: -------- GLSL link error: --From Fragment Shader:
+                                          --From Vertex Shader:
