@@ -1,0 +1,5 @@
+make a little tank or something that shoots
+make a quit button
+make a reset button
+make a gallery button
+make a take new pic button

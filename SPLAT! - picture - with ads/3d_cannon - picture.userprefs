@@ -1,0 +1,18 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\fireButton.cs">
+    <Files>
+      <File FileName="Assets\scripts\fireButton.cs" Line="21" Column="3" />
+      <File FileName="Assets\scripts\pictureHitScript.cs" Line="20" Column="71" />
+      <File FileName="Assets\scripts\pictureCube.cs" Line="8" Column="7" />
+      <File FileName="Assets\scripts\CreateCube.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\cannon.cs" Line="14" Column="2" />
+      <File FileName="Assets\scripts\loadLevelButton.cs" Line="1" Column="1" />
+      <File FileName="Assets\scripts\WebCamScript.cs" Line="17" Column="3" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

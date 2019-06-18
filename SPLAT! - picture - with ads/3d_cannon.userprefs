@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\scripts\CreateCube.cs">
+    <Files>
+      <File FileName="Assets\scripts\cannon.cs" Line="18" Column="4" />
+      <File FileName="Assets\scripts\WebCamScript.cs" Line="30" Column="58" />
+      <File FileName="Assets\scripts\CreateCube.cs" Line="23" Column="23" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="D:\utilities\Programming\Unity\MyProjects\3d_cannon\Assets\scripts\CreateCube.cs" line="19" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
