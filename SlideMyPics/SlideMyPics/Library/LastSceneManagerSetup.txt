@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/Scenes/SlidingTilePuzzle with menu.unity
+  isLoaded: 1
+  isActive: 1
