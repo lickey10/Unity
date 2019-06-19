@@ -1,0 +1,9 @@
+You will have your images showing up in the Native Android Photo Gallery within minutes! 
+
+- The Android Photo Gallery Plugin allows you to easily insert images into the native photo gallery. 
+
+- The Android Photo Gallery Plugin also makes it extremely easy to open the native photo gallery so you can view the images you have recently added. 
+
+- This plugin comes with a fully functional project displaying how to use the plugin and integrate it into your project. 
+
+- Minimal coding required!

@@ -1,0 +1,16 @@
+The Android Toast Plugin is extremely easy to use.  It gives you complete control of your toast message. You can send in a simple message that displayes in the center of the screen or you can place your text anywhere on the screen you want! This plugin comes with a helper class that handles all communication with the plugin.  The helper class helps simplifies your code and optimizes communication with the plugin.
+
+Features 
+- You can create a simple message centered in the display or use the offset values to place the toast anywhere you want it!
+- Supports Unity and Unity Pro. 
+- Supports all Android Versions. 
+- Complete control over your toast message
+- Commented, clean, short and simple C# code 
+- The code has been optimized for speed and efficiency 
+- Full documentation included. 
+- Fully working demo scene. 
+- Comes with helper class that handles all communication with java plugin
+
+Contact me if you have any questions or comments.
+
+sctechandroid@gmail.com

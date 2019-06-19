@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\AndroidToastControllerPlugin\scripts\AndroidHelperClasses\AndroidToastControllerHelperClass.cs">
+    <Files>
+      <File FileName="Assets\AndroidToastControllerPlugin\scripts\AndroidToastController.cs" Line="16" Column="31" />
+      <File FileName="Assets\AndroidToastControllerPlugin\scripts\AndroidHelperClasses\AndroidToastControllerHelperClass.cs" Line="36" Column="5" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
