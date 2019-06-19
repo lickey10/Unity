@@ -1,0 +1,20 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\FollowMeAssets\Scripts\Offline\ViralLeader.js">
+    <Files>
+      <File FileName="..\..\WaterBalloonDrop\Assets\Scripts\LevelComplete.cs" Line="1" Column="1" />
+      <File FileName="..\..\WaterBalloonDrop\Assets\Scripts\gamestate.cs" Line="1" Column="1" />
+      <File FileName="..\..\WaterBalloonDrop\Assets\Scripts\ScoreAndLives.cs" Line="1" Column="1" />
+      <File FileName="..\..\WaterBalloonDrop\Assets\Scripts\InfoPanelScript.cs" Line="1" Column="1" />
+      <File FileName="..\..\WaterBalloonDrop\Assets\Scripts\Car.cs" Line="1" Column="1" />
+      <File FileName="..\..\WaterBalloonDrop\Assets\Scripts\Balloon.cs" Line="1" Column="1" />
+      <File FileName="Assets\FollowMeAssets\Scripts\Offline\ViralLeader.js" Line="62" Column="10" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore>
+      <Breakpoint file="E:\utilities\Programming\Unity\MyProjects\WaterBalloonDrop\Assets\Scripts\ScoreAndLives.cs" line="29" />
+    </BreakpointStore>
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
