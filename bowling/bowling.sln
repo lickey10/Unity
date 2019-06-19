@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bowling.Plugins", "bowling.Plugins.csproj", "{177B9E60-CC13-1129-7856-49199C0081CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bowling", "bowling.csproj", "{F6F8C8D1-2BFC-D1A6-2244-A0F9F6A4ABA7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "bowling.Editor", "bowling.Editor.csproj", "{EFBEFB0B-EB22-6228-2148-1F5C82D234E8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{177B9E60-CC13-1129-7856-49199C0081CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{177B9E60-CC13-1129-7856-49199C0081CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{177B9E60-CC13-1129-7856-49199C0081CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{177B9E60-CC13-1129-7856-49199C0081CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F6F8C8D1-2BFC-D1A6-2244-A0F9F6A4ABA7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6F8C8D1-2BFC-D1A6-2244-A0F9F6A4ABA7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6F8C8D1-2BFC-D1A6-2244-A0F9F6A4ABA7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6F8C8D1-2BFC-D1A6-2244-A0F9F6A4ABA7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFBEFB0B-EB22-6228-2148-1F5C82D234E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFBEFB0B-EB22-6228-2148-1F5C82D234E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFBEFB0B-EB22-6228-2148-1F5C82D234E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFBEFB0B-EB22-6228-2148-1F5C82D234E8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
