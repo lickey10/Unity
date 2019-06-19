@@ -1,0 +1,17 @@
+Base path: C:/Program Files/Unity/Editor/Data
+Pipe name: \\.\pipe\UnityShaderCompiler-64bit-1-10752
+Cmd: getPlatforms
+Cmd: compileSnippet
+  api=4 type=0 insize=39955 outsize=3565 kw=SPOT FOG_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=39955 outsize=3752 kw=SPOT FOG_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=6872 outsize=10642 kw=DIRECTIONAL SHADOWS_OFF LIGHTMAP_OFF DIRLIGHTMAP_OFF DYNAMICLIGHTMAP_OFF FOG_LINEAR VERTEXLIGHT_ON ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=5077 outsize=6872 kw=SPOT FOG_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=5077 outsize=4662 kw=SPOT FOG_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=0 insize=3647 outsize=2988 kw=SPOT FOG_LINEAR ok=1
+Cmd: compileSnippet
+  api=4 type=1 insize=3647 outsize=2614 kw=SPOT FOG_LINEAR ok=1
