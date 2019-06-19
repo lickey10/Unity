@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{39F2029C-B733-0BFD-6CD2-2754AD3D3639}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+	<BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_4_6_9;UNITY_4_6;UNITY_ANDROID;ENABLE_MICROPHONE;ENABLE_TEXTUREID_MAP;ENABLE_UNITYEVENTS;ENABLE_NEW_HIERARCHY ;ENABLE_AUDIO_FMOD;ENABLE_TERRAIN;ENABLE_SUBSTANCE;ENABLE_GENERICS;INCLUDE_IL2CPP;INCLUDE_WP8SUPPORT;ENABLE_WWW;ENABLE_IMAGEEFFECTS;ENABLE_4_6_FEATURES;INCLUDE_WP_BLUE_SUPPORT;ENABLE_WEBCAM;INCLUDE_METROSUPPORT;RENDER_SOFTWARE_CURSOR;ENABLE_NETWORK;ENABLE_PHYSICS;UNITY5_SCRIPTING_IN_UNITY4;ENABLE_CACHING;ENABLE_CLOTH;UNITY_ANDROID_API;ENABLE_2D_PHYSICS;ENABLE_SHADOWS;ENABLE_AUDIO;ENABLE_NAVMESH_CARVING;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_MONO;ENABLE_PROFILER;UNITY_EDITOR;UNITY_EDITOR_WIN</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="System.Xml.Linq" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\AI\Actions\ChooseFleePosition.cs" />
+     <Compile Include="Assets\AI\Actions\ChooseWanderPosition.cs" />
+     <Compile Include="Assets\AI\Actions\GetStandOnPoint.cs" />
+     <Compile Include="Assets\AI\Actions\IsMenuDisplayed.cs" />
+     <Compile Include="Assets\AI\Actions\RemoveCar.cs" />
+     <Compile Include="Assets\AdMobPlugin\Scripts\AdMobPlugin.cs" />
+     <Compile Include="Assets\AdMobPlugin\Scripts\AdMobPluginDebug.cs" />
+     <Compile Include="Assets\AdMobPlugin\Scripts\AdMobPluginMockup.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Main Scripts\GUIEffects.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Main Scripts\GUIMainCamera.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Main Scripts\GUITween.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Other Scripts\CloudScript.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Other Scripts\EnvironmentScript.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Other Scripts\HeightResize.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Other Scripts\SpriteResizer.cs" />
+     <Compile Include="Assets\GUI Effects\Scripts\Other Scripts\WidthResize.cs" />
+     <Compile Include="Assets\Models\Cars\Scripts\AICarMove.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\PenningTrapTutorialAssets\ExternalFieldElectricQuadrupoleScript.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\ScriptsToEnhanceExistingObjects\MagnetizableMaterial.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\ScriptsToEnhanceExistingObjects\PlasmaIonizedGas.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\VanDeGraaffExampleAssets\TurnOnTurnOff.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\WrenchesTutorialAssets\TurnOnMagnet.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\WrenchesTutorialAssets\TurnOnMagnetCaller.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\_ScriptsThatMakeThemWork\ElectromagneticFieldControllerScript.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\_ScriptsThatMakeThemWork\ExternalFieldConstantScript.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\_ScriptsThatMakeThemWork\ExternalFieldSolenoidScript.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\_ScriptsThatMakeThemWork\ExternalFieldTemplateScript.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\_ScriptsThatMakeThemWork\FieldLineScript.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\_ScriptsThatMakeThemWork\MagneticDipoleScript.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\_ScriptsThatMakeThemWork\StaticChargeScript.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\_ScriptsThatMakeThemWork\SuperconductorInfinitePlaneScript.cs" />
+     <Compile Include="Assets\Prefabs\Balloons\_ScriptsThatMakeThemWork\SuperconductorSmallSphereScript.cs" />
+     <Compile Include="Assets\Scripts\Balloon.cs" />
+     <Compile Include="Assets\Scripts\Car.cs" />
+     <Compile Include="Assets\Scripts\Destroy.cs" />
+     <Compile Include="Assets\Scripts\GameOverScript.cs" />
+     <Compile Include="Assets\Scripts\GameStateObject.cs" />
+     <Compile Include="Assets\Scripts\InfoPanelScript.cs" />
+     <Compile Include="Assets\Scripts\LevelComplete.cs" />
+     <Compile Include="Assets\Scripts\LevelMenu.cs" />
+     <Compile Include="Assets\Scripts\Logo.cs" />
+     <Compile Include="Assets\Scripts\PauseMenuScript.cs" />
+     <Compile Include="Assets\Scripts\PhysicsTweaker.cs" />
+     <Compile Include="Assets\Scripts\PointDisplay.cs" />
+     <Compile Include="Assets\Scripts\RendererExtensions.cs" />
+     <Compile Include="Assets\Scripts\RestartGame.cs" />
+     <Compile Include="Assets\Scripts\ScoreAndLives.cs" />
+     <Compile Include="Assets\Scripts\ScrollingScript.cs" />
+     <Compile Include="Assets\Scripts\SoundEffectsHelper.cs" />
+     <Compile Include="Assets\Scripts\SpecialEffectsHelper.cs" />
+     <Compile Include="Assets\Scripts\SwipeManager.cs" />
+     <Compile Include="Assets\Scripts\WebAssetManager.cs" />
+     <Compile Include="Assets\Scripts\YouWon.cs" />
+     <Compile Include="Assets\Scripts\button.cs" />
+     <Compile Include="Assets\Scripts\clouds.cs" />
+     <Compile Include="Assets\Scripts\gamestart.cs" />
+     <Compile Include="Assets\Scripts\gamestate.cs" />
+     <Compile Include="Assets\Scripts\levelgui.cs" />
+     <Compile Include="Assets\Scripts\movement\circularMovement.cs" />
+     <Compile Include="Assets\Scripts\movement\generate.cs" />
+     <Compile Include="Assets\Scripts\movement\randomJumping.cs" />
+     <Compile Include="Assets\Scripts\movement\sineMovement.cs" />
+     <Compile Include="Assets\Scripts\movement\wonderingMovement.cs" />
+     <Compile Include="Assets\Scripts\obstacles.cs" />
+     <Compile Include="Assets\Scripts\player.cs" />
+     <Compile Include="Assets\Scripts\shootBall.cs" />
+     <Compile Include="Assets\Scripts\startupScript.cs" />
+     <Compile Include="Assets\Spawner\Example\Script\RandomMover.cs" />
+     <Compile Include="Assets\Spawner\Example\Script\SpawnViewer.cs" />
+     <Compile Include="Assets\Spawner\Scripts\InstanceManager.cs" />
+     <Compile Include="Assets\Spawner\Scripts\SpawnAI.cs" />
+     <Compile Include="Assets\Spawner\Scripts\SpawnEnums.cs" />
+     <Compile Include="Assets\Spawner\Scripts\Spawner.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\Boss.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\ButtonSound.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\CameraSystem.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\DebugLabel.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\DistanceLabel.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\EffectSystem.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\GUIEvent.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\GameMain.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\GoalObject.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\ItemObject.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\PausePlane.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\Player.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\PointManager.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\QueryAnimationController.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\ResultScreen.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\ShakeCamera.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\SingletonMonoBehaviour.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\SoundManager.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\SpawnManager.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\SpeedManager.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\StartPanel.cs" />
+     <Compile Include="Assets\ZRNAssets\PQAssets\Scripts\TutorialScene.cs" />
+     <None Include="Assets\RAIN\Editor\Shaders\AspectSphereShader.shader" />
+     <None Include="Assets\ScoreEffectScript\Help.txt" />
+     <None Include="Assets\ZRNAssets\license_en.txt" />
+     <None Include="Assets\ZRNAssets\license_jp.txt" />
+     <None Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\license_jp.txt" />
+     <None Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\license_en.txt" />
+     <None Include="Assets\ZRNAssets\005135_16321_1_1\Shaders\su_Zmap_DoubleSide.shader" />
+     <None Include="Assets\Spawner\README.txt" />
+     <None Include="Assets\AdMobPlugin\LICENSE.txt" />
+     <None Include="Assets\RAIN\Editor\Shaders\VisualSensorLineShader.shader" />
+     <None Include="Assets\Models\ballon_allformats\read_me.txt" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\ZRNAssets\005135_16321_1_1\Documents\ReadMe.txt" />
+     <None Include="Assets\RAIN\Editor\Shaders\NavMeshContourShader.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\WaypointShader.shader" />
+     <None Include="Assets\ZRNAssets\005135_16321_1_1\Shaders\su_Zmap_way.shader" />
+     <None Include="Assets\Plugins\Android\AndroidManifest.xml" />
+     <None Include="Assets\RAIN\Editor\ScriptTemplates\BehaviorTreeTemplate.xml" />
+     <None Include="Assets\Standard Assets\Water (Basic)\Sources\Shaders\FX-Water Simple.shader" />
+     <None Include="Assets\ZRNAssets\PQAssets\Query-Chan-SD\Documents\ReadMe.txt" />
+     <None Include="Assets\ZRNAssets\005135_16321_1_1\Shaders\su_Zmap_river.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\VisualSensorRingShader.shader" />
+     <None Include="Assets\RAIN\ReleaseNotes.txt" />
+     <None Include="Assets\RAIN\Editor\Shaders\AspectRingShader.shader" />
+     <None Include="Assets\RAIN\Editor\Shaders\NavMeshColliderShader.shader" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files (x86)/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/4.6.9/Standalone/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="JsonFx.Json">
+ <HintPath>E:/utilities/Programming/Unity/MyProjects/WaterBalloonDrop/Assets/Animator/Files/Scripts/JsonFx.Json.dll</HintPath>
+ </Reference>
+ <Reference Include="RAIN">
+ <HintPath>E:/utilities/Programming/Unity/MyProjects/WaterBalloonDrop/Assets/RAIN/RAIN.dll</HintPath>
+ </Reference>
+ <Reference Include="RAINMetaform">
+ <HintPath>E:/utilities/Programming/Unity/MyProjects/WaterBalloonDrop/Assets/RAIN/RAINMetaform.dll</HintPath>
+ </Reference>
+ <Reference Include="Vectrosity_Unity3">
+ <HintPath>E:/utilities/Programming/Unity/MyProjects/WaterBalloonDrop/Assets/Vectrosity/Vectrosity_Unity3.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-CSharp-firstpass.csproj">
+      <Project>{E9814DE4-9E16-111C-5A0D-01566307ACCF}</Project>      <Name>Assembly-CSharp-firstpass</Name>    </ProjectReference>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{580DE313-064E-8631-9BDD-59A1C3EDF909}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>
