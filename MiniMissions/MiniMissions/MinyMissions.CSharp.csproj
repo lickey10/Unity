@@ -1,0 +1,704 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{85E73A36-C98F-716D-266F-FA0FAD9E6C91}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <ProjectTypeGuids>{E097FAD1-6243-4DAD-9C02-E9B9EFC3FFC1};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
+    <CompilerResponseFile></CompilerResponseFile>
+    <UnityProjectType>Game:1</UnityProjectType>
+    <UnityBuildTarget>StandaloneWindows:5</UnityBuildTarget>
+    <UnityVersion>5.3.5f1</UnityVersion>
+    <RootNamespace></RootNamespace>
+    <LangVersion Condition=" '$(VisualStudioVersion)' != '10.0' ">4</LangVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Debug\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Debug\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\UnityVS_bin\Release\</OutputPath>
+    <IntermediateOutputPath>Temp\UnityVS_obj\Release\</IntermediateOutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <DefineConstants>TRACE;UNITY_5_3_OR_NEWER;UNITY_5_3_5;UNITY_5_3;UNITY_5;ENABLE_NEW_BUGREPORTER;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_FRAME_DEBUGGER;ENABLE_GENERICS;ENABLE_HOME_SCREEN;ENABLE_IMAGEEFFECTS;ENABLE_LIGHT_PROBES_LEGACY;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_PLUGIN_INSPECTOR;ENABLE_SHADOWS;ENABLE_SINGLE_INSTANCE_BUILD_SETTING;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_SPRITE_POLYGON;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_UNITYEVENTS;ENABLE_VR;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;INCLUDE_IL2CPP;INCLUDE_DIRECTX12;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;ENABLE_LOCALIZATION;ENABLE_ANDROID_ATLAS_ETC1_COMPRESSION;ENABLE_EDITOR_TESTS_RUNNER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_TEXTUREID_MAP;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_LOG_MIXED_STACKTRACE;ENABLE_UNITYWEBREQUEST;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;ENABLE_PROFILER;DEBUG;TRACE;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;CROSS_PLATFORM_INPUT</DefineConstants>
+    <AllowUnsafeBlocks>false</AllowUnsafeBlocks>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="Boo.Lang" />
+    <Reference Include="UnityScript.Lang" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>Library\UnityAssemblies\UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\UnityAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.Networking">
+      <HintPath>Library\UnityAssemblies\UnityEngine.Networking.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>Library\UnityAssemblies\UnityEditor.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Cecil">
+      <HintPath>Library\UnityAssemblies\Mono.Cecil.dll</HintPath>
+    </Reference>
+    <Reference Include="EasyRoads3D">
+      <HintPath>Assets\Locations\EasyRoads3D Free\lib\EasyRoads3D.dll</HintPath>
+    </Reference>
+    <Reference Include="U_r_g_utils">
+      <HintPath>Assets\Imported\UltimateRagdollFree\Scripts\U_r_g_utils\U_r_g_utils.dll</HintPath>
+    </Reference>
+    <Reference Include="UIAddons">
+      <HintPath>Assets\UIAddons\Plugins\UIAddons\UIAddons.dll</HintPath>
+    </Reference>
+    <Reference Include="RAINMetaform">
+      <HintPath>Assets\RAIN\RAINMetaform.dll</HintPath>
+    </Reference>
+    <Reference Include="RAIN">
+      <HintPath>Assets\RAIN\RAIN.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-UnityScript-firstpass">
+      <HintPath>Library\ScriptAssemblies\Assembly-UnityScript-firstpass.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="MinyMissions.CSharp.Plugins.csproj">
+      <Project>{9CD1DA43-E855-4C40-7867-3A096C1D1AC5}</Project>
+      <Name>MinyMissions.CSharp.Plugins</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneAlarmLight.cs" />
+    <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneCCTVPlayerDetection.cs" />
+    <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneLaserBlinking.cs" />
+    <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneLaserPlayerDetection.cs" />
+    <Compile Include="Assets\Done\DoneScripts\AlarmSystems\DoneLaserSwitchDeactivation.cs" />
+    <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneEnemyAI.cs" />
+    <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneEnemyAnimation.cs" />
+    <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneEnemyShooting.cs" />
+    <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneEnemySight.cs" />
+    <Compile Include="Assets\Done\DoneScripts\EnemyScripts\DoneWayPointGizmo.cs" />
+    <Compile Include="Assets\Done\DoneScripts\GameControllerScripts\DoneHashIDs.cs" />
+    <Compile Include="Assets\Done\DoneScripts\GameControllerScripts\DoneLastPlayerSighting.cs" />
+    <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneCameraMovement.cs" />
+    <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneDoorAnimation.cs" />
+    <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneKeyPickup.cs" />
+    <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneLiftDoorsTracking.cs" />
+    <Compile Include="Assets\Done\DoneScripts\LevelDynamics\DoneLiftTrigger.cs" />
+    <Compile Include="Assets\Done\DoneScripts\PlayerScripts\DonePlayerHealth.cs" />
+    <Compile Include="Assets\Done\DoneScripts\PlayerScripts\DonePlayerInventory.cs" />
+    <Compile Include="Assets\Done\DoneScripts\PlayerScripts\DonePlayerMovement.cs" />
+    <Compile Include="Assets\Done\DoneScripts\ScreenFaderScripts\DoneSceneFadeInOut.cs" />
+    <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\DoneAnimatorSetup.cs" />
+    <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\DoneTags.cs" />
+    <Compile Include="Assets\Done\DoneScripts\UnappliedScripts\guiTextSet.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\AI\AI.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\AI\CharacterDistanceCulling.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\AI\Dissapearonstart.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\AI\PointLocate.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\AI\Rangedaddon.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\AI\health.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\AI\orderai.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\AI\projectile.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\AI\team.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Navigation\Gridscript.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Navigation\Meshsensor.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Navigation\Navigation.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Navigation\Navigationalmesh.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Navigation\Navmeshtarget.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Navigation\Waypoint.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Navigation\patrolpath.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Other\Key.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Other\Locatorsensor.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Other\Music.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Other\PortalLOD.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Other\Spawner.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Other\disableai.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Other\displayhealth.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Other\doorscript.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Other\freefly.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Other\physicsondeath.cs" />
+    <Compile Include="Assets\Imported\Fantasy AI 2.0\Scripts\Other\shop.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Demo\Scripts\CustomSettings.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Demo\Scripts\Demo.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Advertising\AdMob\AdMob.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Advertising\AdMob\Components\AdMobManager.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Advertising\UnityAds\Components\OnButtonClickWatchAdvertForCoins.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Advertising\UnityAds\UnityAds.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Animation\Components\SetAnimatorStartValues.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Animation\Components\SetBoolOnce.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Animation\Components\SetTriggerOnce.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Audio\Components\CopyGlobalEffectVolume.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Audio\Components\StartStopBackgroundMusic.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Billing\Components\EnableIfBillingEnabled.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Billing\Components\PaymentManager.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Billing\Messages\CharacterPurchasedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Billing\Messages\ItemPurchasedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Billing\Messages\LevelPurchasedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Billing\Messages\UnlockGamePurchasedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Billing\Messages\WorldPurchasedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Billing\Payment.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Debugging\Components\CheatFunctions.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Debugging\Components\DummyGameLoop.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Debugging\Components\LogToDisk.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Debugging\Components\LogToScreen.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Debugging\MyDebug.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Other\CoRoutines.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Other\ColorHSV.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Other\ColorHelper.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Other\Components\GradientBackground.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Other\Components\GradientBackgroundSplitMiddle.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Other\Components\LOD.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Other\Components\ScrollMaterialComponent.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Other\Components\SetCubeUvs.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Other\Components\SetQuadUvs.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Other\Components\SetSortingLayer.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Other\RendererExtensions.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Particles\Components\AutoDestructWhenParticleSystemFinished.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Particles\Components\ParticlePlayer.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Placement\Components\AlignScreenBounds.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Placement\Components\CenterInCamera.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Placement\Components\FixedMovement.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Placement\Components\FixedRotation.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Placement\Components\LookAtTransform.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Placement\Components\MoveWithTransform.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Placement\Components\ObjectDestroyer.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Placement\DisplayMetrics.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Display\Placement\PositionHelper.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\EditorExtras\ConditionalHideAttribute.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\EditorExtras\HelpBoxAttribute.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\EditorExtras\Plist.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Facebook\Components\ConnectButton.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Facebook\Components\EnableIfFacebookSDK.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Facebook\Components\EnableIfPermissionsGranted.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Facebook\Components\EnableIfUserDataLoaded.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Facebook\Components\FacebookManager.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Facebook\FacebookFriend.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Facebook\HighScore.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\FreePrize\Components\EnableIfPrizeAvailable.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\FreePrize\Components\FreePrizeManager.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\FreePrize\Components\OnButtonClickShowFreePrizeDialog.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\FreePrize\Components\TimeToFreePrizeDisplay.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameObjects\Components\AbstractClasses\EnableDisableGameObject.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameObjects\Components\AbstractClasses\EnableDisableGameObjectMessaging.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameObjects\Components\AutoDestructWhenNoChildren.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameObjects\Components\EnableComponentOnce.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameObjects\Components\EnableOnceGameObject.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameObjects\Components\OnButtonClick.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameObjects\Components\RunOnState.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameObjects\Components\Singleton.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameObjects\Components\SingletonPersistant.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameObjects\Components\SingletonPersistantSavedState.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameObjects\Components\SingletonSavedState.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameObjects\GameObjectExtensions.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameObjects\GameObjectHelper.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameObjects\MinMax.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\CharacterButton.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\CreateCharacterButtons.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\ShowCharacterInfo.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\Components\UnlockCharacterButton.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Characters\ObjectModel\Character.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Collectables\Coin.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Collectables\Points.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Game\Components\EnableBasedUponGameUnlocked.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Game\GameHelper.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Game\Messages\GameUnlockedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\CreateGameItemButtons.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\GameItemButton.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Components\UnlockGameItemButton.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\GameItemsManager.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Messages\CoinsChangedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Messages\HighScoreChangedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\Messages\ScoreChangedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\GameItems\ObjectModel\GameItem.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\GameManager.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\CreateLevelButtons.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\CreateStarIcons.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\EnableBasedUponNumberOfStarsWon.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\LevelButton.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\ShowLevelCoins.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\ShowLevelHighScore.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\ShowLevelInfo.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\ShowLevelScore.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\StarsWonHandlerCoins.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\StarsWonHandlerScore.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Components\UnlockLevelButton.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\LevelManager.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Messages\LevelCoinsChangedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Messages\LevelHighScoreChangedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Messages\LevelScoreChangedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\Messages\StarsWonMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Levels\ObjectModel\Level.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\CreateLivesIcons.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\DecreaseLivesWhenHealthIsZero.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\EnableBasedUponNumberOfLives.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\OnLifeLostEnableGameobject.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\SetHealth.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\SetLives.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\ShowCoins.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\ShowHealthImage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\ShowHighScore.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\ShowLives.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\ShowPlayerInfo.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Components\ShowScore.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Messages\GameWonMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Messages\HealthChangedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Messages\LivesChangedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Messages\PlayerCoinsChangedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Messages\PlayerHighScoreChangedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\Messages\PlayerScoreChangedMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Players\ObjectModel\Player.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\CreateWorldButtons.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\ShowWorldInfo.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\UnlockWorldButton.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\Components\WorldButton.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\GameStructure\Worlds\ObjectModel\World.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Helper\Components\GenericCallbackFunctions.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Helper\JSONObject.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Input\Components\OnEscapeLoadLevel.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Input\Components\OnEscapeQuit.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Input\Components\OnMouseClickOrTap.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Input\Components\OnMouseClickOrTapLoadLevel.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Input\InputHelper.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Localisation\Components\EnableIfMultipleLanguages.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Localisation\Components\LocaliseText.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Localisation\Components\OnButtonClickSetLanguage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Localisation\LocaliseText.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Messaging\Components\AbstractClasses\RunOnMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Messaging\DummyMessage.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Messaging\MessageBase.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Messaging\MessageLog.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Messaging\Messenger.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Networking\NetworkGameSetupInterfaceManager.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Networking\NetworkGameSetupJoinButton.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Networking\NetworkManagerCallbacks.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Networking\NetworkPlayManager.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Networking\PlayerNetworkPlayManager.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Networking\SetupLocalNetworking.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Social\Components\EnableBasedUponModulusOfLevelsPlayed.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Social\Components\EnableBasedUponNumberOfLevelsPlayed.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Social\Components\ShowGameFeedback.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Social\GameFeedback.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Buttons\Components\OnButtonClickExit.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Buttons\Components\OnButtonClickLoadScene.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Buttons\Components\OnButtonClickLoadUrl.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Buttons\Components\SyncState.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Buttons\Components\SyncStateImageColors.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Buttons\Components\SyncStateTextColors.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\DialogCallbackShowButtons.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\DialogInstance.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\DialogManager.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\GameOver.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\OnButtonClickShowSettings.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\OnButtonClickSwapDialogInstance.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\OnMouseClickOrTapSwapDialogInstance.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\Settings.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Dialogs\Components\ShowDialogOnce.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Other\Components\AbstractClasses\ShowValueAnimated.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Other\Components\AbstractClasses\ShowValueAnimatedMessaging.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Other\Components\FadeLevelManager.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Other\Components\GradientText.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Other\Components\GridlayoutSizeWidthToFill.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Other\Components\MatchTextSizes.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Other\Components\ScaleTextBasedOnScreenSize.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Other\Components\ScoreDisplay.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Other\Components\ScrollRectEnsureVisible.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Other\Components\TimeRemaining.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\UI\Other\UIHelper.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Weighting\Components\DistanceWeight.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Weighting\DistanceWeightValue.cs" />
+    <Compile Include="Assets\Imported\FlipWebApps\GameFramework\Scripts\Weighting\DistanceWeightedItems.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\IdleRunJump.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clsactorcontroller.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clsasmhelper.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clsasmtester.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clsbike.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clscameratarget.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clscannon.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clscannonball.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clsdismemberatortester.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clsdismemberatorwrapperinterface.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clskinetify.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clslayersetter.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clsragdollhelper.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clsragdollify.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clsragdollimbifierinterface.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clsragdolljolt.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clsragdolljolturgent.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clsshowcasehelper.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clstimemanager.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clstrigger.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clstriggerurgent.cs" />
+    <Compile Include="Assets\Imported\UltimateRagdollFree\Scripts\clsurgentactuatorinterface.cs" />
+    <Compile Include="Assets\Locations\EasyRoads3D Free\scripts\EasyRoads3DTerrainID.cs" />
+    <Compile Include="Assets\Locations\EasyRoads3D Free\scripts\MarkerScript.cs" />
+    <Compile Include="Assets\Locations\EasyRoads3D Free\scripts\RoadObjectScript.cs" />
+    <Compile Include="Assets\Locations\EasyRoads3D Free\scripts\SurfaceScript.cs" />
+    <Compile Include="Assets\Locations\SampleScenes\Menu\Scripts\MenuSceneLoader.cs" />
+    <Compile Include="Assets\Locations\SampleScenes\Menu\Scripts\PauseMenu.cs" />
+    <Compile Include="Assets\Locations\SampleScenes\Menu\Scripts\ReturnToMainMenu.cs" />
+    <Compile Include="Assets\Locations\SampleScenes\Menu\Scripts\SceneAndURLLoader.cs" />
+    <Compile Include="Assets\Locations\SampleScenes\Scripts\CameraSwitch.cs" />
+    <Compile Include="Assets\Locations\SampleScenes\Scripts\LevelReset.cs" />
+    <Compile Include="Assets\Locations\SampleScenes\Scripts\ParticleSceneControls.cs" />
+    <Compile Include="Assets\Locations\SampleScenes\Scripts\PlaceTargetWithMouse.cs" />
+    <Compile Include="Assets\Locations\SampleScenes\Scripts\SlowMoButton.cs" />
+    <Compile Include="Assets\Locations\city\005339_08932_25_14\Scripts\AmbientController.cs" />
+    <Compile Include="Assets\Locations\city\005339_08932_25_14\Scripts\CameraController.cs" />
+    <Compile Include="Assets\Locations\city\005339_08932_25_14\Scripts\FlyThroughController.cs" />
+    <Compile Include="Assets\Locations\city\005339_08932_25_14\Scripts\MoveCamera.cs" />
+    <Compile Include="Assets\Locations\city\005339_08932_25_14\Scripts\Util\SetFPS.cs" />
+    <Compile Include="Assets\Locations\city\005339_08932_25_14\Scripts\Util\ViewFPS.cs" />
+    <Compile Include="Assets\Locations\city\005339_08932_25_14\Scripts\ZRNGUIController.cs" />
+    <Compile Include="Assets\Locations\city\Cars\Scripts\AICarMove.cs" />
+    <Compile Include="Assets\Locations\city\PQAssets\Query-Chan\Scripts\CameraAction.cs" />
+    <Compile Include="Assets\Locations\city\PQAssets\Query-Chan\Scripts\GUIController.cs" />
+    <Compile Include="Assets\Locations\city\PQAssets\Query-Chan\Scripts\GUIControllerFlying.cs" />
+    <Compile Include="Assets\Locations\city\PQAssets\Query-Chan\Scripts\QueryAnimationController.cs" />
+    <Compile Include="Assets\Locations\city\PQAssets\Query-Chan\Scripts\QueryEmotionalController.cs" />
+    <Compile Include="Assets\Locations\city\PQAssets\Query-Chan\Scripts\QuerySoundController.cs" />
+    <Compile Include="Assets\MiniMap\Scripts\InnerMap.cs" />
+    <Compile Include="Assets\MiniMap\Scripts\MapArrow.cs" />
+    <Compile Include="Assets\MiniMap\Scripts\MapCanvasController.cs" />
+    <Compile Include="Assets\MiniMap\Scripts\MapMarker.cs" />
+    <Compile Include="Assets\MiniMap\Scripts\MarkerGroup.cs" />
+    <Compile Include="Assets\Models\Props\BreakableItems\Scripts\CollisionTrigger.cs" />
+    <Compile Include="Assets\Models\Props\BreakableItems\Scripts\Extension\cameraDistanceCulling.cs" />
+    <Compile Include="Assets\Models\Props\BreakableItems\Scripts\Extension\cameraLayerDistance.cs" />
+    <Compile Include="Assets\Models\Props\BreakableItems\Scripts\Extension\cameraObjectActive.cs" />
+    <Compile Include="Assets\Models\Props\BreakableItems\Scripts\Extension\isVisibleFrom.cs" />
+    <Compile Include="Assets\Models\Props\BreakableItems\Scripts\Extension\objectOcclusionCulling.cs" />
+    <Compile Include="Assets\Models\Props\BreakableItems\Scripts\Shoot.cs" />
+    <Compile Include="Assets\Models\Props\BreakableItems\Scripts\TimedObjectDestructor.cs" />
+    <Compile Include="Assets\Models\Props\BreakableItems\Scripts\activatedRigidBody.cs" />
+    <Compile Include="Assets\Models\Props\BreakableItems\Scripts\lodChange.cs" />
+    <Compile Include="Assets\Models\Props\BreakableItems\Scripts\rigidBodyProperty.cs" />
+    <Compile Include="Assets\Models\Props\BreakableItems\Scripts\rigidBodySleep_Activated.cs" />
+    <Compile Include="Assets\Models\Props\BreakableItems\Scripts\setRigidBodyProperty.cs" />
+    <Compile Include="Assets\Models\Props\BreakableItems\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Barrel\Scripts\Barrel_Controller.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Barrel\Scripts\Barrel_DL0.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Barrel\Scripts\Barrel_DL1.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Barrel\Scripts\Barrel_DL1_Master.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Barrel\Scripts\Barrel_DL2.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Barrel\Scripts\Barrel_DL2_Master.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Barrel\Scripts\Barrel_DL3.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Cube01\Scripts\Cube01_Controller.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Cube01\Scripts\Cube01_DL0.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Cube01\Scripts\Cube01_DL1.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Cube01\Scripts\Cube01_DL1_Master.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Egg\Scripts\Egg_Controller.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Egg\Scripts\Egg_DL0.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Egg\Scripts\Egg_DL1.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Egg\Scripts\Egg_DL1_Master.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Egg\Scripts\Egg_DL2.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Egg\Scripts\Egg_DL2_Master.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Breakable Egg\Scripts\Egg_DL3.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Other\BreakTrigger.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Other\Cargo.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Other\Launcher.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Other\Projectile.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Other\projectile_Explosive.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\ExplosionSphereController.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\FPSController_Singleton.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\GDG_Main.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\GDG_Physics.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\PhysicsController.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\PhysicsController_Cargo.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\PhysicsController_Child.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\PhysicsController_DL0.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\PhysicsController_DL0_Cargo.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\PhysicsController_DL1.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\PhysicsController_DL1_Master.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\PhysicsController_DL2.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\PhysicsController_DL2_Master.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\PhysicsController_DL3.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\DLL\PhysicsController_Master.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\ExplosionSphereController_Extended.cs" />
+    <Compile Include="Assets\Models\Props\GDG_Assets\Scripts\Physics\PhysicsController\FPSController_Singleton_Extended.cs" />
+    <Compile Include="Assets\Models\Props\SinuousShrooms\Scripts\CameraOrbit.cs" />
+    <Compile Include="Assets\Models\Props\SinuousShrooms\Scripts\ConstantTransform.cs" />
+    <Compile Include="Assets\Models\Props\SinuousShrooms\Scripts\InputTransform.cs" />
+    <Compile Include="Assets\Models\Props\SinuousShrooms\Scripts\PrefabSwapper.cs" />
+    <Compile Include="Assets\Models\Props\SinuousShrooms\Scripts\SmoothMouseLook.cs" />
+    <Compile Include="Assets\Models\vehicles\CRC12_Free_Demo\Scripts\Logo.cs" />
+    <Compile Include="Assets\Models\vehicles\CRC12_Free_Demo\Scripts\OrbitCamera.cs" />
+    <Compile Include="Assets\Models\vehicles\Classic_car_1955\Light_control\car_light_control.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipItems.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\EquipRandomItem.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UICursor.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UIEquipmentSlot.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UIItemSlot.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UIItemStorage.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\Game\UIStorageSlot.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvAttachmentPoint.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvBaseItem.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvDatabase.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvEquipment.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvGameItem.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\InventorySystem\System\InvStat.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\ChatInput.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\DownloadTexture.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\DragDropContainer.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\DragDropItem.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\DragDropRoot.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\DragDropSurface.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\LagPosition.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\LagRotation.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\LoadLevelOnClick.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\LookAtTarget.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\PanWithMouse.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\PlayIdleAnimations.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\SetColorOnSelection.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\ShaderQuality.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\Spin.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\SpinWithMouse.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\TypewriterEffect.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\UpdateManager.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\WindowAutoYaw.cs" />
+    <Compile Include="Assets\NGUI\Examples\Scripts\Other\WindowDragTilt.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\LanguageSelection.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButton.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonActivate.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonColor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonKeyBinding.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonKeys.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonMessage.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonOffset.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonPlayAnimation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonRotation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonScale.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonSound.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIButtonTween.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UICenterOnChild.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UICheckbox.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UICheckboxControlledComponent.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UICheckboxControlledObject.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragCamera.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragObject.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDragPanelContents.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDraggableCamera.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIDraggablePanel.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIForwardEvents.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIGrid.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIImageButton.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIInputValidator.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIPopupList.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UISavedOption.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UIScrollBar.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UISlider.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UISliderColors.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UISoundVolume.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Interaction\UITable.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\ActiveAnimation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\AnimationOrTween.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\BMFont.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\BMGlyph.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\BMSymbol.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\BetterList.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\ByteReader.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\IgnoreTimeScale.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\Localization.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\NGUIDebug.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\NGUIMath.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\NGUITools.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\SpringPanel.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIDrawCall.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIEventListener.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIGeometry.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UINode.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Internal\UIWidget.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedAlpha.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\AnimatedColor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\SpringPosition.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenAlpha.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenColor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenFOV.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenOrthoSize.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenPosition.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenRotation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenScale.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenTransform.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\TweenVolume.cs" />
+    <Compile Include="Assets\NGUI\Scripts\Tweening\UITweener.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIAnchor.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIAtlas.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UICamera.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIFilledSprite.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIFont.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIInput.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIInputSaved.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UILabel.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UILocalize.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIOrthoCamera.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIPanel.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIRoot.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UISlicedSprite.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UISprite.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UISpriteAnimation.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIStretch.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UITextList.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UITexture.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UITiledSprite.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UITooltip.cs" />
+    <Compile Include="Assets\NGUI\Scripts\UI\UIViewport.cs" />
+    <Compile Include="Assets\RAIN\AI\Actions\ChooseFleePosition.cs" />
+    <Compile Include="Assets\RAIN\AI\Actions\ChooseWanderPosition.cs" />
+    <Compile Include="Assets\RAIN\AI\Actions\GetStandOnPoint.cs" />
+    <Compile Include="Assets\RAIN\AI\Actions\Zombie_ApplyDamage.cs" />
+    <Compile Include="Assets\RAIN\AI\Actions\Zombie_ChooseFollowPosition.cs" />
+    <Compile Include="Assets\RoadTool\Scripts\Road.cs" />
+    <Compile Include="Assets\Scripts\CSharpScripts\BirdsBehaviour.cs" />
+    <Compile Include="Assets\Scripts\CSharpScripts\BlobShadowController.cs" />
+    <Compile Include="Assets\Scripts\CSharpScripts\CarCamera.cs" />
+    <Compile Include="Assets\Scripts\CSharpScripts\CombineChildren.cs" />
+    <Compile Include="Assets\Scripts\CSharpScripts\DisableObjects.cs" />
+    <Compile Include="Assets\Scripts\CSharpScripts\Generate2DReflection.cs" />
+    <Compile Include="Assets\Scripts\CSharpScripts\MeshCombineUtility.cs" />
+    <Compile Include="Assets\Scripts\CSharpScripts\MirrorReflection.cs" />
+    <Compile Include="Assets\Scripts\CSharpScripts\ToggleObjectTrigger.cs" />
+    <Compile Include="Assets\Scripts\ChangeVehicle.cs" />
+    <Compile Include="Assets\Scripts\GameOverScript.cs" />
+    <Compile Include="Assets\Scripts\GameStateObject.cs" />
+    <Compile Include="Assets\Scripts\LevelComplete.cs" />
+    <Compile Include="Assets\Scripts\LevelMenu.cs" />
+    <Compile Include="Assets\Scripts\Logo.cs" />
+    <Compile Include="Assets\Scripts\PauseMenuScript.cs" />
+    <Compile Include="Assets\Scripts\PickupScript.cs" />
+    <Compile Include="Assets\Scripts\ScoreAndLives.cs" />
+    <Compile Include="Assets\Scripts\SoundEffectsHelper.cs" />
+    <Compile Include="Assets\Scripts\SpecialEffectsHelper.cs" />
+    <Compile Include="Assets\Scripts\SplatterFade.cs" />
+    <Compile Include="Assets\Scripts\SwipeManager.cs" />
+    <Compile Include="Assets\Scripts\YouWon.cs" />
+    <Compile Include="Assets\Scripts\button.cs" />
+    <Compile Include="Assets\Scripts\gamestart.cs" />
+    <Compile Include="Assets\Scripts\gamestate.cs" />
+    <Compile Include="Assets\Scripts\levelgui.cs" />
+    <Compile Include="Assets\Scripts\startupScript.cs" />
+    <Compile Include="Assets\Simple Scene Fader\Scripts\Main\SSF_Add.cs" />
+    <Compile Include="Assets\Simple Scene Fader\Scripts\Main\SimpleSceneFader.cs" />
+    <Compile Include="Assets\Simple Scene Fader\Scripts\Others\MainCamScene1.cs" />
+    <Compile Include="Assets\Simple Scene Fader\Scripts\Others\MainCamScene2.cs" />
+    <Compile Include="Assets\Spawner\Example\Script\RandomMover.cs" />
+    <Compile Include="Assets\Spawner\Example\Script\SpawnViewer.cs" />
+    <Compile Include="Assets\Spawner\Scripts\InstanceManager.cs" />
+    <Compile Include="Assets\Spawner\Scripts\SpawnAI.cs" />
+    <Compile Include="Assets\Spawner\Scripts\SpawnEnums.cs" />
+    <Compile Include="Assets\Spawner\Scripts\Spawner1.cs" />
+    <Compile Include="Assets\Teleportation Pad\CustomTeleporter.cs" />
+    <Compile Include="Assets\UIAddons\Scripts\SceneExample.cs" />
+    <Compile Include="Assets\Vehicles\Aircraft\Scripts\AeroplaneAiControl.cs" />
+    <Compile Include="Assets\Vehicles\Aircraft\Scripts\AeroplaneAudio.cs" />
+    <Compile Include="Assets\Vehicles\Aircraft\Scripts\AeroplaneControlSurfaceAnimator.cs" />
+    <Compile Include="Assets\Vehicles\Aircraft\Scripts\AeroplaneController.cs" />
+    <Compile Include="Assets\Vehicles\Aircraft\Scripts\AeroplanePropellerAnimator.cs" />
+    <Compile Include="Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl2Axis.cs" />
+    <Compile Include="Assets\Vehicles\Aircraft\Scripts\AeroplaneUserControl4Axis.cs" />
+    <Compile Include="Assets\Vehicles\Aircraft\Scripts\JetParticleEffect.cs" />
+    <Compile Include="Assets\Vehicles\Aircraft\Scripts\LandingGear.cs" />
+    <Compile Include="Assets\Vehicles\Car\Scripts\BrakeLight.cs" />
+    <Compile Include="Assets\Vehicles\Car\Scripts\CarAIControl.cs" />
+    <Compile Include="Assets\Vehicles\Car\Scripts\CarAudio.cs" />
+    <Compile Include="Assets\Vehicles\Car\Scripts\CarController.cs" />
+    <Compile Include="Assets\Vehicles\Car\Scripts\CarSelfRighting.cs" />
+    <Compile Include="Assets\Vehicles\Car\Scripts\CarUserControl.cs" />
+    <Compile Include="Assets\Vehicles\Car\Scripts\Mudguard.cs" />
+    <Compile Include="Assets\Vehicles\Car\Scripts\SkidTrail.cs" />
+    <Compile Include="Assets\Vehicles\Car\Scripts\Suspension.cs" />
+    <Compile Include="Assets\Vehicles\Car\Scripts\WheelEffects.cs" />
+    <Compile Include="Assets\enemy.cs" />
+    <Compile Include="Assets\~AlternatePhysicsModel\Scripts\AerodynamicResistance.cs" />
+    <Compile Include="Assets\~AlternatePhysicsModel\Scripts\AntiRollBar.cs" />
+    <Compile Include="Assets\~AlternatePhysicsModel\Scripts\CarController.cs" />
+    <Compile Include="Assets\~AlternatePhysicsModel\Scripts\Drivetrain.cs" />
+    <Compile Include="Assets\~AlternatePhysicsModel\Scripts\Skidmarks.cs" />
+    <Compile Include="Assets\~AlternatePhysicsModel\Scripts\SoundController.cs" />
+    <Compile Include="Assets\~AlternatePhysicsModel\Scripts\TractionHelper.cs" />
+    <Compile Include="Assets\~AlternatePhysicsModel\Scripts\Wheel.cs" />
+    <Compile Include="Assets\~AlternatePhysicsModel\Scripts\Wing.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Shaders\Normal-BumpSpec_EnvLightmapped.shader" />
+    <None Include="Assets\Shaders\ReflectiveDiffuseSpecTransp.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlendModesOverlay.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\BlurEffectConeTaps.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CameraMotionBlurDX11.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ChromaticAberrationShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrection3DLut.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurves.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionCurvesSimple.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionEffect.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ColorCorrectionSelective.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ContrastComposite.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ConvertDepth.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\CreaseApply.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\EdgeDetectNormals.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\FisheyeShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlobalFog.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlowCompose.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlowConeTap.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\GlowEffectDownsample.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\MotionBlurClear.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrain.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\NoiseAndGrainDX11.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\PrepareSunShaftsBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\RadialBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\ScreenSpaceAmbientObscurance.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SimpleClear.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\SunShaftsComposite.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\VignettingShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\DLAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA2.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAA3Console.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset2.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\FXAAPreset3.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\NFAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_Antialiasing\SSAA.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\Blend.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendForBloom.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlendOneOne.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BlurAndFlares.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\BrightPassFilter2.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\LensFlareCreate.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBloom.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MobileBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\MultiPassHollywoodFlares.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\SeparableBlurPlus.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_BloomAndFlares\VignetteShader.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\Bokeh34.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfField34.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldDX11.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\DepthOfFieldScatter.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableBlur.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\SeparableWeightedBlurDof34.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShift.shader" />
+    <None Include="Assets\Standard Assets\Effects\ImageEffects\Shaders\_DepthOfField\TiltShiftHdrLensBlur.shader" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
+</Project>
