@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerGenie.CSharp.Plugins", "BeerGenie.CSharp.Plugins.csproj", "{267D07DD-8156-94E0-0D50-2ABD261F4FAA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerGenie.CSharp", "BeerGenie.CSharp.csproj", "{7861781B-9F2D-3E1A-19B9-E4DD370E7824}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeerGenie.CSharp.Editor", "BeerGenie.CSharp.Editor.csproj", "{C1C48064-C4B2-7E72-753E-8D6A0AE89064}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{267D07DD-8156-94E0-0D50-2ABD261F4FAA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{267D07DD-8156-94E0-0D50-2ABD261F4FAA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{267D07DD-8156-94E0-0D50-2ABD261F4FAA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{267D07DD-8156-94E0-0D50-2ABD261F4FAA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7861781B-9F2D-3E1A-19B9-E4DD370E7824}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7861781B-9F2D-3E1A-19B9-E4DD370E7824}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7861781B-9F2D-3E1A-19B9-E4DD370E7824}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7861781B-9F2D-3E1A-19B9-E4DD370E7824}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1C48064-C4B2-7E72-753E-8D6A0AE89064}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1C48064-C4B2-7E72-753E-8D6A0AE89064}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1C48064-C4B2-7E72-753E-8D6A0AE89064}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1C48064-C4B2-7E72-753E-8D6A0AE89064}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
