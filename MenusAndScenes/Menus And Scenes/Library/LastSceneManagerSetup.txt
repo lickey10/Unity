@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/RuleOfFun/EasyFrontEnd/Example Scenes/Template04_Vanilla.unity
+  isLoaded: 1
+  isActive: 1
