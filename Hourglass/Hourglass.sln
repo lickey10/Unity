@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hourglass.CSharp.Plugins", "Hourglass.CSharp.Plugins.csproj", "{70969E51-9ABF-97AE-8A13-8BA7E26C8780}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hourglass.CSharp", "Hourglass.CSharp.csproj", "{E1A48C98-A3D3-22AC-A7CD-C55EE60D1116}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Hourglass.CSharp.Editor", "Hourglass.CSharp.Editor.csproj", "{186EDED1-6548-91E5-F208-8803E91B74D9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{70969E51-9ABF-97AE-8A13-8BA7E26C8780}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{70969E51-9ABF-97AE-8A13-8BA7E26C8780}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{70969E51-9ABF-97AE-8A13-8BA7E26C8780}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{70969E51-9ABF-97AE-8A13-8BA7E26C8780}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1A48C98-A3D3-22AC-A7CD-C55EE60D1116}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1A48C98-A3D3-22AC-A7CD-C55EE60D1116}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1A48C98-A3D3-22AC-A7CD-C55EE60D1116}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1A48C98-A3D3-22AC-A7CD-C55EE60D1116}.Release|Any CPU.Build.0 = Release|Any CPU
+		{186EDED1-6548-91E5-F208-8803E91B74D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{186EDED1-6548-91E5-F208-8803E91B74D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{186EDED1-6548-91E5-F208-8803E91B74D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{186EDED1-6548-91E5-F208-8803E91B74D9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
