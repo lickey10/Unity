@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/CloudFaceDetection/DemoScenes/FaceDetectionDemo.unity
+  isLoaded: 1
+  isActive: 1
