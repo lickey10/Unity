@@ -1,0 +1,1953 @@
+{
+
+version
+	{
+	number 6
+	}
+
+camera MAIN_CAMERA
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  38
+				}
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateZ dollyZ
+			{
+			keys
+				{
+				k  0  64.9516
+				}
+			}
+		translateY dollyY
+			{
+			keys
+				{
+				k  0  1.09744
+				}
+			}
+		translateX dollyX
+			{
+			keys
+				{
+				k  0  -0.352636
+				}
+			}
+		scaleZ zScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleY yScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleX xScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scale scale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		rotateZ roll
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateX pitch
+			{
+			keys
+				{
+				k  0  -21
+				}
+			}
+		rotateY yaw
+			{
+			keys
+				{
+				k  0  -63
+				}
+			}
+		}
+	cameraModel poser
+	}
+
+camera AUX_CAMERA
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  25.4
+				}
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateZ dollyZ
+			{
+			keys
+				{
+				k  0  1.285
+				}
+			}
+		translateY dollyY
+			{
+			keys
+				{
+				k  0  0.217
+				}
+			}
+		translateX dollyX
+			{
+			keys
+				{
+				k  0  -0.048
+				}
+			}
+		scaleZ zScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleY yScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleX xScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scale scale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		rotateZ roll
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateX pitch
+			{
+			keys
+				{
+				k  0  -25
+				}
+			}
+		rotateY yaw
+			{
+			keys
+				{
+				k  0  -23
+				}
+			}
+		}
+	cameraModel poser
+	}
+
+camera POSE_CAMERA
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  25.4
+				}
+			staticValue 25.4
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateZ dollyZ
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		translateY dollyY
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		translateX dollyX
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		scaleZ zScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			staticValue 1
+			}
+		scaleY yScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			staticValue 1
+			}
+		scaleX xScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			staticValue 1
+			}
+		scale scale
+			{
+			keys
+				{
+				k  0  1
+				}
+			staticValue 1
+			}
+		rotateZ roll
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		rotateX pitch
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		rotateY yaw
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		translateZ zOffset
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		translateY yOffset
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		translateX xOffset
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		}
+	cameraModel poser
+	}
+
+camera STD_CAMERA
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  35
+				}
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		scaleZ zScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleY yScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleX xScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scale scale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		rotateZ roll
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateX pitch
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateY yaw
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		translateZ dollyZ
+			{
+			keys
+				{
+				k  0  1.5
+				}
+			}
+		translateY dollyY
+			{
+			keys
+				{
+				k  0  0.375
+				}
+			}
+		translateX dollyX
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		}
+	cameraModel real
+	}
+
+camera SIDE_CAMERA
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateZ dollyZ
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateY dollyY
+			{
+			keys
+				{
+				k  0  0.375
+				}
+			}
+		translateX dollyX
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		scaleZ zScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleY yScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleX xScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scale scale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		rotateZ zrot
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateY yrot
+			{
+			keys
+				{
+				k  0  -90
+				}
+			}
+		rotateX xrot
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		}
+	cameraModel poser
+	}
+
+camera RIGHT_CAMERA
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateZ dollyZ
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateY dollyY
+			{
+			keys
+				{
+				k  0  0.375
+				}
+			}
+		translateX dollyX
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		scaleZ zScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleY yScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleX xScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scale scale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		rotateZ zrot
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateY yrot
+			{
+			keys
+				{
+				k  0  90
+				}
+			}
+		rotateX xrot
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		}
+	cameraModel poser
+	}
+
+camera TOP_CAMERA
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateZ dollyZ
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateY dollyY
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		translateX dollyX
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		scaleZ zScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleY yScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleX xScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scale scale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		rotateZ zrot
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateY yrot
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateX xrot
+			{
+			keys
+				{
+				k  0  -90
+				}
+			}
+		}
+	cameraModel poser
+	}
+
+camera BOTTOM_CAMERA
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateZ dollyZ
+			{
+			keys
+				{
+				k  0  20
+				}
+			}
+		translateY dollyY
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		translateX dollyX
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		scaleZ zScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleY yScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleX xScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scale scale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		rotateZ zrot
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateY yrot
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateX xrot
+			{
+			keys
+				{
+				k  0  90
+				}
+			}
+		}
+	cameraModel poser
+	}
+
+camera FRONT_CAMERA
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateZ dollyZ
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateY dollyY
+			{
+			keys
+				{
+				k  0  0.375
+				}
+			}
+		translateX dollyX
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		scaleZ zScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleY yScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleX xScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scale scale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		rotateZ zrot
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateY yrot
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateX xrot
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		}
+	cameraModel poser
+	}
+
+camera BACK_CAMERA
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateZ dollyZ
+			{
+			keys
+				{
+				k  0  20
+				}
+			}
+		translateY dollyY
+			{
+			keys
+				{
+				k  0  0.375
+				}
+			}
+		translateX dollyX
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		scaleZ zScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleY yScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scaleX xScale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		scale scale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		rotateZ zrot
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateY yrot
+			{
+			keys
+				{
+				k  0  -180
+				}
+			}
+		rotateX xrot
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		}
+	cameraModel poser
+	}
+
+camera FACE_CAMERA
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  50
+				}
+			staticValue 50
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateZ dollyZ
+			{
+			keys
+				{
+				k  0  -0.76
+				}
+			}
+		translateY dollyY
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		translateX dollyX
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateZ roll
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		rotateX pitch
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		rotateY yaw
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		translateZ zOffset
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		translateY yOffset
+			{
+			keys
+				{
+				k  0  0.64
+				}
+			staticValue 0.64
+			}
+		translateX xOffset
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		}
+	cameraModel poser
+	}
+
+camera LHAND_CAMERA
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  25.4
+				}
+			staticValue 25.4
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateZ dollyZ
+			{
+			keys
+				{
+				k  0  -0.92
+				}
+			}
+		translateY dollyY
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		translateX dollyX
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateZ roll
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		rotateX pitch
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		rotateY yaw
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		translateZ zOffset
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		translateY yOffset
+			{
+			keys
+				{
+				k  0  0.64
+				}
+			staticValue 0.64
+			}
+		translateX xOffset
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		}
+	cameraModel poser
+	}
+
+camera RHAND_CAMERA
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  25.4
+				}
+			staticValue 25.4
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		translateZ dollyZ
+			{
+			keys
+				{
+				k  0  -0.92
+				}
+			}
+		translateY dollyY
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		translateX dollyX
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		rotateZ roll
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		rotateX pitch
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		rotateY yaw
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		translateZ zOffset
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		translateY yOffset
+			{
+			keys
+				{
+				k  0  0.64
+				}
+			staticValue 0.64
+			}
+		translateX xOffset
+			{
+			keys
+				{
+				k  0  0
+				}
+			staticValue 0
+			}
+		}
+	cameraModel poser
+	}
+
+camera SHADOW_CAM_LITE1
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		scale scale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		translateY ytran
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		translateX xtran
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		translateZ ztran
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		}
+	cameraModel depth
+	}
+
+camera SHADOW_CAM_LITE2
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		scale scale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		translateY ytran
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		translateX xtran
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		translateZ ztran
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		}
+	cameraModel depth
+	}
+
+camera SHADOW_CAM_LITE3
+	{
+	channels
+		{
+		focal focal
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		focusDistance focusDistance
+			{
+			keys
+				{
+				k  0  2
+				}
+			}
+		fStop fStop
+			{
+			keys
+				{
+				k  0  2.8
+				}
+			}
+		shutterOpen shutterOpen
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		shutterClose shutterClose
+			{
+			keys
+				{
+				k  0  0.5
+				}
+			}
+		hither hither
+			{
+			keys
+				{
+				k  0  0.048
+				}
+			}
+		yon yon
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		scale scale
+			{
+			keys
+				{
+				k  0  1
+				}
+			}
+		translateY ytran
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		translateX xtran
+			{
+			keys
+				{
+				k  0  0
+				}
+			}
+		translateZ ztran
+			{
+			keys
+				{
+				k  0  100
+				}
+			}
+		}
+	cameraModel depth
+	}
+
+doc
+	{
+	useCamera MAIN_CAMERA
+	}
+}

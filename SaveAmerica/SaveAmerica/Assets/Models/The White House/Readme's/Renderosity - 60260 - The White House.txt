@@ -1,0 +1,105 @@
+1. White House in Poser Format
+Copyright 2007 9mbi
+
+
+2. File included
+2116_white_house_r_Sept_12_2007.zip
+
+
+3. Product Description
+Obj
+WhiteHouse.obj
+WhiteHouse.cr2
+
+Texture
+flag.jpg (558x559)
+metal_opacity.jpg (1000x1000)
+rooffence.jpg (1000x1000)
+
+Materials
+concrete_ground.mt5
+flag.mt5
+glass.mt5
+ground.mt5
+metal.mt5
+metal2.mt5
+metal_Opacity.mt5
+roof1.mt5
+roof2.mt5
+RoofFence.mt5
+white.mt5
+
+Ligts
+WhiteHouse.lt2
+
+Cameras
+WhiteHouse.cm2
+WhiteHouse1.cm2
+
+pz3
+WhiteHouse.pz3
+whitehouse_w_reflective_surface.pz3
+
+
+4. System Requirements 
+PC/Mac Poser 6.0 or later
+
+
+5. Ownership statements
+All of the content in this package was created by 9mbi.
+
+
+6. Needed Files
+No 3rd party files needed for this product to function.
+
+
+7. Installation instructions
+Windows: Unzip all files to your Poser 6 or 7 folder. 
+
+Mac: Unzip all files to a folder and copy them 
+into to your Poser6 or 7 folder. Please don't overwrite existing file or folders.
+
+
+
+8. Usage Tips/Limitations
+The installed items will be find in character\WhiteHouse\
+
+9. Files list (Folder and file listing)
+WhiteHouse.pz3
+whitehouse_w_reflective_surface.pz3
+
+Runtime\libraries\Camera\WhiteHouse\WhiteHouse.cm2
+Runtime\libraries\Camera\WhiteHouse\WhiteHouse.png
+Runtime\libraries\Camera\WhiteHouse\WhiteHouse1.cm2
+Runtime\libraries\Camera\WhiteHouse\WhiteHouse1.png
+Runtime\libraries\character\WhiteHouse\WhiteHouse.cr2
+Runtime\libraries\character\WhiteHouse\WhiteHouse.obj
+Runtime\libraries\character\WhiteHouse\WhiteHouse.png
+Runtime\libraries\Light\WhiteHouse\WhiteHouse.lt2
+Runtime\libraries\Light\WhiteHouse\WhiteHouse.png
+Runtime\libraries\materials\WhiteHouse\concrete_ground.mt5
+Runtime\libraries\materials\WhiteHouse\Concrete_Ground.png
+Runtime\libraries\materials\WhiteHouse\flag.mt5
+Runtime\libraries\materials\WhiteHouse\flag.png
+Runtime\libraries\materials\WhiteHouse\glass.mt5
+Runtime\libraries\materials\WhiteHouse\Glass.png
+Runtime\libraries\materials\WhiteHouse\ground.mt5
+Runtime\libraries\materials\WhiteHouse\ground.png
+Runtime\libraries\materials\WhiteHouse\metal.mt5
+Runtime\libraries\materials\WhiteHouse\metal.png
+Runtime\libraries\materials\WhiteHouse\metal2.mt5
+Runtime\libraries\materials\WhiteHouse\metal2.png
+Runtime\libraries\materials\WhiteHouse\metal_Opacity.mt5
+Runtime\libraries\materials\WhiteHouse\metal_opacity.png
+Runtime\libraries\materials\WhiteHouse\roof1.mt5
+Runtime\libraries\materials\WhiteHouse\roof1.png
+Runtime\libraries\materials\WhiteHouse\roof2.mt5
+Runtime\libraries\materials\WhiteHouse\roof2.png
+Runtime\libraries\materials\WhiteHouse\RoofFence.mt5
+Runtime\libraries\materials\WhiteHouse\RoofFence.png
+Runtime\libraries\materials\WhiteHouse\white.mt5
+Runtime\libraries\materials\WhiteHouse\white.png
+
+Runtime\textures\WhiteHouse\flag.jpg
+Runtime\textures\WhiteHouse\metal_Opacity.jpg
+Runtime\textures\WhiteHouse\RoofFence.jpg

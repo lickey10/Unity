@@ -1,0 +1,1547 @@
+fileFormatVersion: 2
+guid: 457bab91a95a3e24db18672cbec0b5ee
+timeCreated: 1467430559
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ankle.ik.L
+    100002: ankle.ik.R
+    100004: ankle.L
+    100006: ankle.L_end
+    100008: ankle.R
+    100010: ankle.R_end
+    100012: arm_base.L
+    100014: arm_base.L_end
+    100016: arm_base.R
+    100018: arm_base.R_end
+    100020: arm_hinge.L
+    100022: arm_hinge.R
+    100024: arm_socket.L
+    100026: arm_socket.R
+    100028: ball.marker.L
+    100030: ball.marker.L_end
+    100032: ball.marker.R
+    100034: ball.marker.R_end
+    100036: breast.L
+    100038: breast.L_end
+    100040: breast.R
+    100042: breast.R_end
+    100044: Camera
+    100046: chest
+    100048: chest-1
+    100050: clavicle.L
+    100052: clavicle.R
+    100054: CustomShapes
+    100056: DEF-chest
+    100058: DEF-chest-1
+    100060: DEF-chest_end
+    100062: DEF-clavicle.L
+    100064: DEF-clavicle.L_end
+    100066: DEF-clavicle.R
+    100068: DEF-clavicle.R_end
+    100070: DEF-deltoid.L
+    100072: DEF-deltoid.L_end
+    100074: DEF-deltoid.R
+    100076: DEF-deltoid.R_end
+    100078: DEF-eye.L
+    100080: DEF-eye.L_end
+    100082: DEF-eye.R
+    100084: DEF-eye.R_end
+    100086: DEF-f_index.01.L
+    100088: DEF-f_index.01.L_end
+    100090: DEF-f_index.01.R
+    100092: DEF-f_index.02.L
+    100094: DEF-f_index.02.L_end
+    100096: DEF-f_index.02.R
+    100098: DEF-f_index.03.L
+    100100: DEF-f_index.03.L_end
+    100102: DEF-f_index.03.R
+    100104: DEF-f_index.03.R_end
+    100106: DEF-f_middle.01.L
+    100108: DEF-f_middle.01.R
+    100110: DEF-f_middle.02.L
+    100112: DEF-f_middle.02.R
+    100114: DEF-f_middle.02.R_end
+    100116: DEF-f_middle.03.L
+    100118: DEF-f_middle.03.L_end
+    100120: DEF-f_middle.03.R
+    100122: DEF-f_middle.03.R_end
+    100124: DEF-f_pinky.01.L
+    100126: DEF-f_pinky.01.R
+    100128: DEF-f_pinky.02.L
+    100130: DEF-f_pinky.02.R
+    100132: DEF-f_pinky.02.R_end
+    100134: DEF-f_pinky.03.L
+    100136: DEF-f_pinky.03.L_end
+    100138: DEF-f_pinky.03.R
+    100140: DEF-f_pinky.03.R_end
+    100142: DEF-f_ring.01.L
+    100144: DEF-f_ring.01.L_end
+    100146: DEF-f_ring.01.R
+    100148: DEF-f_ring.01.R_end
+    100150: DEF-f_ring.02.L
+    100152: DEF-f_ring.02.R
+    100154: DEF-f_ring.02.R_end
+    100156: DEF-f_ring.03.L
+    100158: DEF-f_ring.03.L_end
+    100160: DEF-f_ring.03.R
+    100162: DEF-f_ring.03.R_end
+    100164: DEF-femoris.L
+    100166: DEF-femoris.L_end
+    100168: DEF-femoris.R
+    100170: DEF-femoris.R_end
+    100172: DEF-foot.L
+    100174: DEF-foot.R
+    100176: DEF-forearm.01.L
+    100178: DEF-forearm.01.R
+    100180: DEF-forearm.02.L
+    100182: DEF-forearm.02.R
+    100184: DEF-forearm.03.L
+    100186: DEF-forearm.03.R
+    100188: DEF-gluteus.L
+    100190: DEF-gluteus.L_end
+    100192: DEF-gluteus.R
+    100194: DEF-gluteus.R_end
+    100196: DEF-hand.L
+    100198: DEF-hand.L_end
+    100200: DEF-hand.R
+    100202: DEF-head
+    100204: DEF-hips
+    100206: DEF-hips_end
+    100208: DEF-jaw
+    100210: DEF-jaw_end
+    100212: DEF-lat_dorsi.L
+    100214: DEF-lat_dorsi.L_end
+    100216: DEF-lat_dorsi.R
+    100218: DEF-lat_dorsi.R_end
+    100220: DEF-lolid.L
+    100222: DEF-lolid.L_end
+    100224: DEF-lolid.R
+    100226: DEF-lolid.R_end
+    100228: DEF-neck
+    100230: DEF-palm_index.L
+    100232: DEF-palm_index.L_end
+    100234: DEF-palm_index.R
+    100236: DEF-palm_index.R_end
+    100238: DEF-palm_middle.L
+    100240: DEF-palm_middle.L_end
+    100242: DEF-palm_middle.R
+    100244: DEF-palm_middle.R_end
+    100246: DEF-palm_pinky.L
+    100248: DEF-palm_pinky.R
+    100250: DEF-palm_pinky.R_end
+    100252: DEF-palm_ring.L
+    100254: DEF-palm_ring.R
+    100256: DEF-pectoralis.L
+    100258: DEF-pectoralis.L_end
+    100260: DEF-pectoralis.R
+    100262: DEF-pectoralis.R_end
+    100264: DEF-platysma.L
+    100266: DEF-platysma.L_end
+    100268: DEF-platysma.R
+    100270: DEF-platysma.R_end
+    100272: DEF-quadriceps.L
+    100274: DEF-quadriceps.L_end
+    100276: DEF-quadriceps.R
+    100278: DEF-quadriceps.R_end
+    100280: DEF-scapula.L
+    100282: DEF-scapula.L_end
+    100284: DEF-scapula.R
+    100286: DEF-scapula.R_end
+    100288: DEF-shin.01.L
+    100290: DEF-shin.01.R
+    100292: DEF-shin.02.L
+    100294: DEF-shin.02.R
+    100296: DEF-shin.03.L
+    100298: DEF-shin.03.R
+    100300: DEF-soleus.L
+    100302: DEF-soleus.L_end
+    100304: DEF-soleus.R
+    100306: DEF-soleus.R_end
+    100308: DEF-spine
+    100310: DEF-spine-1
+    100312: DEF-stomach
+    100314: DEF-stomach_end
+    100316: DEF-thigh.L
+    100318: DEF-thigh.L_end
+    100320: DEF-thigh.R
+    100322: DEF-thigh.R_end
+    100324: DEF-thumb.01.L
+    100326: DEF-thumb.01.R
+    100328: DEF-thumb.02.L
+    100330: DEF-thumb.02.L_end
+    100332: DEF-thumb.02.R
+    100334: DEF-thumb.03.L
+    100336: DEF-thumb.03.L_end
+    100338: DEF-thumb.03.R
+    100340: DEF-thumb.03.R_end
+    100342: DEF-toe.L
+    100344: DEF-toe.L_end
+    100346: DEF-toe.R
+    100348: DEF-toe.R_end
+    100350: DEF-tongue_base
+    100352: DEF-tongue_mid
+    100354: DEF-tongue_tip
+    100356: DEF-tongue_tip_end
+    100358: DEF-trapezius1.L
+    100360: DEF-trapezius1.L_end
+    100362: DEF-trapezius1.R
+    100364: DEF-trapezius1.R_end
+    100366: DEF-trapezius2.L
+    100368: DEF-trapezius2.L_end
+    100370: DEF-trapezius2.R
+    100372: DEF-trapezius2.R_end
+    100374: DEF-uplid.L
+    100376: DEF-uplid.L_end
+    100378: DEF-uplid.R
+    100380: DEF-uplid.R_end
+    100382: DEF-upper_arm.L
+    100384: DEF-upper_arm.L_end
+    100386: DEF-upper_arm.R
+    100388: DEF-upper_arm.R_end
+    100390: deltoid.L
+    100392: deltoid.R
+    100394: elbow.link.L
+    100396: elbow.link.L_end
+    100398: elbow.link.R
+    100400: elbow.link.R_end
+    100402: elbow.pt.ik.L
+    100404: elbow.pt.ik.L_end
+    100406: elbow.pt.ik.R
+    100408: elbow.pt.ik.R_end
+    100410: eye.L
+    100412: eye.L_end
+    100414: eye.R
+    100416: eye.R_end
+    100418: eye_parent.L
+    100420: eye_parent.R
+    100422: eyes
+    100424: eyes_end
+    100426: f_index.01.L
+    100428: f_index.01.R
+    100430: f_index.02.L
+    100432: f_index.02.R
+    100434: f_index.03.L
+    100436: f_index.03.L_end
+    100438: f_index.03.R
+    100440: f_index.03.R_end
+    100442: f_middle.01.L
+    100444: f_middle.01.R
+    100446: f_middle.02.L
+    100448: f_middle.02.R
+    100450: f_middle.03.L
+    100452: f_middle.03.L_end
+    100454: f_middle.03.R
+    100456: f_middle.03.R_end
+    100458: f_pinky.01.L
+    100460: f_pinky.01.R
+    100462: f_pinky.02.L
+    100464: f_pinky.02.R
+    100466: f_pinky.03.L
+    100468: f_pinky.03.L_end
+    100470: f_pinky.03.R
+    100472: f_pinky.03.R_end
+    100474: f_ring.01.L
+    100476: f_ring.01.R
+    100478: f_ring.02.L
+    100480: f_ring.02.R
+    100482: f_ring.03.L
+    100484: f_ring.03.L_end
+    100486: f_ring.03.R
+    100488: f_ring.03.R_end
+    100490: foot.fk.L
+    100492: foot.fk.R
+    100494: foot.ik.L
+    100496: foot.ik.R
+    100498: foot.L
+    100500: foot.pt.ik.L
+    100502: foot.pt.ik.L_end
+    100504: foot.pt.ik.R
+    100506: foot.pt.ik.R_end
+    100508: foot.R
+    100510: foot.rev.L
+    100512: foot.rev.R
+    100514: forearm.fk.L
+    100516: forearm.fk.R
+    100518: forearm.ik.L
+    100520: forearm.ik.L_end
+    100522: forearm.ik.R
+    100524: forearm.ik.R_end
+    100526: forearm.L
+    100528: forearm.R
+    100530: gaze
+    100532: gaze_end
+    100534: gaze_parent
+    100536: gluteus0.L
+    100538: gluteus0.L_end
+    100540: gluteus0.R
+    100542: gluteus0.R_end
+    100544: GZM_Ball025
+    100546: GZM_Breast_L
+    100548: GZM_Breast_R
+    100550: GZM_Circle025
+    100552: GZM_CircleChest
+    100554: GZM_CircleHips
+    100556: GZM_CircleSpine
+    100558: GZM_CrownHips
+    100560: GZM_Cube025
+    100562: GZM_FaceHead
+    100564: GZM_FaceJaw
+    100566: GZM_Foot
+    100568: GZM_FootIK
+    100570: GZM_Gaze
+    100572: GZM_Hand
+    100574: GZM_HandIK
+    100576: GZM_Head
+    100578: GZM_Jaw
+    100580: GZM_Knuckle
+    100582: GZM_LoLid
+    100584: GZM_Master
+    100586: GZM_Neck
+    100588: GZM_RevFoot
+    100590: GZM_RevToe
+    100592: GZM_Root
+    100594: GZM_Shoulder
+    100596: GZM_Toe
+    100598: GZM_Tongue
+    100600: GZM_UpLid
+    100602: hand.fk.L
+    100604: hand.fk.L_end
+    100606: hand.fk.R
+    100608: hand.fk.R_end
+    100610: hand.ik.L
+    100612: hand.ik.L_end
+    100614: hand.ik.R
+    100616: hand.ik.R_end
+    100618: hand.L
+    100620: hand.R
+    100622: head
+    100624: heel.marker.L
+    100626: heel.marker.L_end
+    100628: heel.marker.R
+    100630: heel.marker.R_end
+    100632: //RootNode
+    100634: Hillary
+    100636: Hillary:Body
+    100638: Hillary:classicshoes_hres
+    100640: Hillary:Eyebrow010
+    100642: Hillary:Eyelashes01
+    100644: Hillary:fhair01
+    100646: Hillary:jeans01
+    100648: Hillary:Low-Poly
+    100650: Hillary:Shirt01
+    100652: Hillary:Teeth_Shape02
+    100654: Hillary:tongue01
+    100656: hips
+    100658: hipside.L
+    100660: hipside.L_end
+    100662: hipside.R
+    100664: hipside.R_end
+    100666: index.L
+    100668: index.L_end
+    100670: index.R
+    100672: index.R_end
+    100674: jaw
+    100676: knee.link.L
+    100678: knee.link.L_end
+    100680: knee.link.R
+    100682: knee.link.R_end
+    100684: knee.pt.ik.L
+    100686: knee.pt.ik.L_end
+    100688: knee.pt.ik.R
+    100690: knee.pt.ik.R_end
+    100692: Lamp
+    100694: leg_base.L
+    100696: leg_base.L_end
+    100698: leg_base.R
+    100700: leg_base.R_end
+    100702: leg_hinge.L
+    100704: leg_hinge.R
+    100706: leg_socket.L
+    100708: leg_socket.R
+    100710: lolid.L
+    100712: lolid.L_end
+    100714: lolid.R
+    100716: lolid.R_end
+    100718: master
+    100720: middle.L
+    100722: middle.L_end
+    100724: middle.R
+    100726: middle.R_end
+    100728: neck
+    100730: palm_index.L
+    100732: palm_index.R
+    100734: palm_middle.L
+    100736: palm_middle.R
+    100738: palm_pinky.L
+    100740: palm_pinky.R
+    100742: palm_ring.L
+    100744: palm_ring.R
+    100746: pinky.L
+    100748: pinky.L_end
+    100750: pinky.R
+    100752: pinky.R_end
+    100754: pubis
+    100756: pubis_end
+    100758: ring.L
+    100760: ring.L_end
+    100762: ring.R
+    100764: ring.R_end
+    100766: root
+    100768: shin.fk.L
+    100770: shin.fk.R
+    100772: shin.ik.L
+    100774: shin.ik.L_end
+    100776: shin.ik.R
+    100778: shin.ik.R_end
+    100780: shin.L
+    100782: shin.R
+    100784: sole.L
+    100786: sole.L_end
+    100788: sole.R
+    100790: sole.R_end
+    100792: spine
+    100794: spine-1
+    100796: thigh.fk.L
+    100798: thigh.fk.R
+    100800: thigh.ik.L
+    100802: thigh.ik.R
+    100804: thigh.L
+    100806: thigh.R
+    100808: thumb.01.L
+    100810: thumb.01.R
+    100812: thumb.02.L
+    100814: thumb.02.R
+    100816: thumb.03.L
+    100818: thumb.03.L_end
+    100820: thumb.03.R
+    100822: thumb.03.R_end
+    100824: thumb.L
+    100826: thumb.L_end
+    100828: thumb.R
+    100830: thumb.R_end
+    100832: toe.fk.L
+    100834: toe.fk.R
+    100836: toe.L
+    100838: toe.L_end
+    100840: toe.marker.L
+    100842: toe.marker.L_end
+    100844: toe.marker.R
+    100846: toe.marker.R_end
+    100848: toe.R
+    100850: toe.R_end
+    100852: toe.rev.L
+    100854: toe.rev.R
+    100856: tongue_base
+    100858: tongue_mid
+    100860: tongue_tip
+    100862: tongue_tip_end
+    100864: uplid.L
+    100866: uplid.L_end
+    100868: uplid.R
+    100870: uplid.R_end
+    100872: upper_arm.fk.L
+    100874: upper_arm.fk.R
+    100876: upper_arm.ik.L
+    100878: upper_arm.ik.R
+    100880: upper_arm.L
+    100882: upper_arm.R
+    100884: eyebrow010Mesh
+    100886: eyelashes01Mesh
+    100888: fhair01Mesh
+    100890: jeans01Mesh
+    100892: low-polyMesh
+    100894: python
+    100896: pythonMesh
+    100898: shirt01Mesh
+    100900: shoes01_hresMesh
+    100902: teeth_shape02Mesh
+    100904: tongue01Mesh
+    400000: ankle.ik.L
+    400002: ankle.ik.R
+    400004: ankle.L
+    400006: ankle.L_end
+    400008: ankle.R
+    400010: ankle.R_end
+    400012: arm_base.L
+    400014: arm_base.L_end
+    400016: arm_base.R
+    400018: arm_base.R_end
+    400020: arm_hinge.L
+    400022: arm_hinge.R
+    400024: arm_socket.L
+    400026: arm_socket.R
+    400028: ball.marker.L
+    400030: ball.marker.L_end
+    400032: ball.marker.R
+    400034: ball.marker.R_end
+    400036: breast.L
+    400038: breast.L_end
+    400040: breast.R
+    400042: breast.R_end
+    400044: Camera
+    400046: chest
+    400048: chest-1
+    400050: clavicle.L
+    400052: clavicle.R
+    400054: CustomShapes
+    400056: DEF-chest
+    400058: DEF-chest-1
+    400060: DEF-chest_end
+    400062: DEF-clavicle.L
+    400064: DEF-clavicle.L_end
+    400066: DEF-clavicle.R
+    400068: DEF-clavicle.R_end
+    400070: DEF-deltoid.L
+    400072: DEF-deltoid.L_end
+    400074: DEF-deltoid.R
+    400076: DEF-deltoid.R_end
+    400078: DEF-eye.L
+    400080: DEF-eye.L_end
+    400082: DEF-eye.R
+    400084: DEF-eye.R_end
+    400086: DEF-f_index.01.L
+    400088: DEF-f_index.01.L_end
+    400090: DEF-f_index.01.R
+    400092: DEF-f_index.02.L
+    400094: DEF-f_index.02.L_end
+    400096: DEF-f_index.02.R
+    400098: DEF-f_index.03.L
+    400100: DEF-f_index.03.L_end
+    400102: DEF-f_index.03.R
+    400104: DEF-f_index.03.R_end
+    400106: DEF-f_middle.01.L
+    400108: DEF-f_middle.01.R
+    400110: DEF-f_middle.02.L
+    400112: DEF-f_middle.02.R
+    400114: DEF-f_middle.02.R_end
+    400116: DEF-f_middle.03.L
+    400118: DEF-f_middle.03.L_end
+    400120: DEF-f_middle.03.R
+    400122: DEF-f_middle.03.R_end
+    400124: DEF-f_pinky.01.L
+    400126: DEF-f_pinky.01.R
+    400128: DEF-f_pinky.02.L
+    400130: DEF-f_pinky.02.R
+    400132: DEF-f_pinky.02.R_end
+    400134: DEF-f_pinky.03.L
+    400136: DEF-f_pinky.03.L_end
+    400138: DEF-f_pinky.03.R
+    400140: DEF-f_pinky.03.R_end
+    400142: DEF-f_ring.01.L
+    400144: DEF-f_ring.01.L_end
+    400146: DEF-f_ring.01.R
+    400148: DEF-f_ring.01.R_end
+    400150: DEF-f_ring.02.L
+    400152: DEF-f_ring.02.R
+    400154: DEF-f_ring.02.R_end
+    400156: DEF-f_ring.03.L
+    400158: DEF-f_ring.03.L_end
+    400160: DEF-f_ring.03.R
+    400162: DEF-f_ring.03.R_end
+    400164: DEF-femoris.L
+    400166: DEF-femoris.L_end
+    400168: DEF-femoris.R
+    400170: DEF-femoris.R_end
+    400172: DEF-foot.L
+    400174: DEF-foot.R
+    400176: DEF-forearm.01.L
+    400178: DEF-forearm.01.R
+    400180: DEF-forearm.02.L
+    400182: DEF-forearm.02.R
+    400184: DEF-forearm.03.L
+    400186: DEF-forearm.03.R
+    400188: DEF-gluteus.L
+    400190: DEF-gluteus.L_end
+    400192: DEF-gluteus.R
+    400194: DEF-gluteus.R_end
+    400196: DEF-hand.L
+    400198: DEF-hand.L_end
+    400200: DEF-hand.R
+    400202: DEF-head
+    400204: DEF-hips
+    400206: DEF-hips_end
+    400208: DEF-jaw
+    400210: DEF-jaw_end
+    400212: DEF-lat_dorsi.L
+    400214: DEF-lat_dorsi.L_end
+    400216: DEF-lat_dorsi.R
+    400218: DEF-lat_dorsi.R_end
+    400220: DEF-lolid.L
+    400222: DEF-lolid.L_end
+    400224: DEF-lolid.R
+    400226: DEF-lolid.R_end
+    400228: DEF-neck
+    400230: DEF-palm_index.L
+    400232: DEF-palm_index.L_end
+    400234: DEF-palm_index.R
+    400236: DEF-palm_index.R_end
+    400238: DEF-palm_middle.L
+    400240: DEF-palm_middle.L_end
+    400242: DEF-palm_middle.R
+    400244: DEF-palm_middle.R_end
+    400246: DEF-palm_pinky.L
+    400248: DEF-palm_pinky.R
+    400250: DEF-palm_pinky.R_end
+    400252: DEF-palm_ring.L
+    400254: DEF-palm_ring.R
+    400256: DEF-pectoralis.L
+    400258: DEF-pectoralis.L_end
+    400260: DEF-pectoralis.R
+    400262: DEF-pectoralis.R_end
+    400264: DEF-platysma.L
+    400266: DEF-platysma.L_end
+    400268: DEF-platysma.R
+    400270: DEF-platysma.R_end
+    400272: DEF-quadriceps.L
+    400274: DEF-quadriceps.L_end
+    400276: DEF-quadriceps.R
+    400278: DEF-quadriceps.R_end
+    400280: DEF-scapula.L
+    400282: DEF-scapula.L_end
+    400284: DEF-scapula.R
+    400286: DEF-scapula.R_end
+    400288: DEF-shin.01.L
+    400290: DEF-shin.01.R
+    400292: DEF-shin.02.L
+    400294: DEF-shin.02.R
+    400296: DEF-shin.03.L
+    400298: DEF-shin.03.R
+    400300: DEF-soleus.L
+    400302: DEF-soleus.L_end
+    400304: DEF-soleus.R
+    400306: DEF-soleus.R_end
+    400308: DEF-spine
+    400310: DEF-spine-1
+    400312: DEF-stomach
+    400314: DEF-stomach_end
+    400316: DEF-thigh.L
+    400318: DEF-thigh.L_end
+    400320: DEF-thigh.R
+    400322: DEF-thigh.R_end
+    400324: DEF-thumb.01.L
+    400326: DEF-thumb.01.R
+    400328: DEF-thumb.02.L
+    400330: DEF-thumb.02.L_end
+    400332: DEF-thumb.02.R
+    400334: DEF-thumb.03.L
+    400336: DEF-thumb.03.L_end
+    400338: DEF-thumb.03.R
+    400340: DEF-thumb.03.R_end
+    400342: DEF-toe.L
+    400344: DEF-toe.L_end
+    400346: DEF-toe.R
+    400348: DEF-toe.R_end
+    400350: DEF-tongue_base
+    400352: DEF-tongue_mid
+    400354: DEF-tongue_tip
+    400356: DEF-tongue_tip_end
+    400358: DEF-trapezius1.L
+    400360: DEF-trapezius1.L_end
+    400362: DEF-trapezius1.R
+    400364: DEF-trapezius1.R_end
+    400366: DEF-trapezius2.L
+    400368: DEF-trapezius2.L_end
+    400370: DEF-trapezius2.R
+    400372: DEF-trapezius2.R_end
+    400374: DEF-uplid.L
+    400376: DEF-uplid.L_end
+    400378: DEF-uplid.R
+    400380: DEF-uplid.R_end
+    400382: DEF-upper_arm.L
+    400384: DEF-upper_arm.L_end
+    400386: DEF-upper_arm.R
+    400388: DEF-upper_arm.R_end
+    400390: deltoid.L
+    400392: deltoid.R
+    400394: elbow.link.L
+    400396: elbow.link.L_end
+    400398: elbow.link.R
+    400400: elbow.link.R_end
+    400402: elbow.pt.ik.L
+    400404: elbow.pt.ik.L_end
+    400406: elbow.pt.ik.R
+    400408: elbow.pt.ik.R_end
+    400410: eye.L
+    400412: eye.L_end
+    400414: eye.R
+    400416: eye.R_end
+    400418: eye_parent.L
+    400420: eye_parent.R
+    400422: eyes
+    400424: eyes_end
+    400426: f_index.01.L
+    400428: f_index.01.R
+    400430: f_index.02.L
+    400432: f_index.02.R
+    400434: f_index.03.L
+    400436: f_index.03.L_end
+    400438: f_index.03.R
+    400440: f_index.03.R_end
+    400442: f_middle.01.L
+    400444: f_middle.01.R
+    400446: f_middle.02.L
+    400448: f_middle.02.R
+    400450: f_middle.03.L
+    400452: f_middle.03.L_end
+    400454: f_middle.03.R
+    400456: f_middle.03.R_end
+    400458: f_pinky.01.L
+    400460: f_pinky.01.R
+    400462: f_pinky.02.L
+    400464: f_pinky.02.R
+    400466: f_pinky.03.L
+    400468: f_pinky.03.L_end
+    400470: f_pinky.03.R
+    400472: f_pinky.03.R_end
+    400474: f_ring.01.L
+    400476: f_ring.01.R
+    400478: f_ring.02.L
+    400480: f_ring.02.R
+    400482: f_ring.03.L
+    400484: f_ring.03.L_end
+    400486: f_ring.03.R
+    400488: f_ring.03.R_end
+    400490: foot.fk.L
+    400492: foot.fk.R
+    400494: foot.ik.L
+    400496: foot.ik.R
+    400498: foot.L
+    400500: foot.pt.ik.L
+    400502: foot.pt.ik.L_end
+    400504: foot.pt.ik.R
+    400506: foot.pt.ik.R_end
+    400508: foot.R
+    400510: foot.rev.L
+    400512: foot.rev.R
+    400514: forearm.fk.L
+    400516: forearm.fk.R
+    400518: forearm.ik.L
+    400520: forearm.ik.L_end
+    400522: forearm.ik.R
+    400524: forearm.ik.R_end
+    400526: forearm.L
+    400528: forearm.R
+    400530: gaze
+    400532: gaze_end
+    400534: gaze_parent
+    400536: gluteus0.L
+    400538: gluteus0.L_end
+    400540: gluteus0.R
+    400542: gluteus0.R_end
+    400544: GZM_Ball025
+    400546: GZM_Breast_L
+    400548: GZM_Breast_R
+    400550: GZM_Circle025
+    400552: GZM_CircleChest
+    400554: GZM_CircleHips
+    400556: GZM_CircleSpine
+    400558: GZM_CrownHips
+    400560: GZM_Cube025
+    400562: GZM_FaceHead
+    400564: GZM_FaceJaw
+    400566: GZM_Foot
+    400568: GZM_FootIK
+    400570: GZM_Gaze
+    400572: GZM_Hand
+    400574: GZM_HandIK
+    400576: GZM_Head
+    400578: GZM_Jaw
+    400580: GZM_Knuckle
+    400582: GZM_LoLid
+    400584: GZM_Master
+    400586: GZM_Neck
+    400588: GZM_RevFoot
+    400590: GZM_RevToe
+    400592: GZM_Root
+    400594: GZM_Shoulder
+    400596: GZM_Toe
+    400598: GZM_Tongue
+    400600: GZM_UpLid
+    400602: hand.fk.L
+    400604: hand.fk.L_end
+    400606: hand.fk.R
+    400608: hand.fk.R_end
+    400610: hand.ik.L
+    400612: hand.ik.L_end
+    400614: hand.ik.R
+    400616: hand.ik.R_end
+    400618: hand.L
+    400620: hand.R
+    400622: head
+    400624: heel.marker.L
+    400626: heel.marker.L_end
+    400628: heel.marker.R
+    400630: heel.marker.R_end
+    400632: //RootNode
+    400634: Hillary
+    400636: Hillary:Body
+    400638: Hillary:classicshoes_hres
+    400640: Hillary:Eyebrow010
+    400642: Hillary:Eyelashes01
+    400644: Hillary:fhair01
+    400646: Hillary:jeans01
+    400648: Hillary:Low-Poly
+    400650: Hillary:Shirt01
+    400652: Hillary:Teeth_Shape02
+    400654: Hillary:tongue01
+    400656: hips
+    400658: hipside.L
+    400660: hipside.L_end
+    400662: hipside.R
+    400664: hipside.R_end
+    400666: index.L
+    400668: index.L_end
+    400670: index.R
+    400672: index.R_end
+    400674: jaw
+    400676: knee.link.L
+    400678: knee.link.L_end
+    400680: knee.link.R
+    400682: knee.link.R_end
+    400684: knee.pt.ik.L
+    400686: knee.pt.ik.L_end
+    400688: knee.pt.ik.R
+    400690: knee.pt.ik.R_end
+    400692: Lamp
+    400694: leg_base.L
+    400696: leg_base.L_end
+    400698: leg_base.R
+    400700: leg_base.R_end
+    400702: leg_hinge.L
+    400704: leg_hinge.R
+    400706: leg_socket.L
+    400708: leg_socket.R
+    400710: lolid.L
+    400712: lolid.L_end
+    400714: lolid.R
+    400716: lolid.R_end
+    400718: master
+    400720: middle.L
+    400722: middle.L_end
+    400724: middle.R
+    400726: middle.R_end
+    400728: neck
+    400730: palm_index.L
+    400732: palm_index.R
+    400734: palm_middle.L
+    400736: palm_middle.R
+    400738: palm_pinky.L
+    400740: palm_pinky.R
+    400742: palm_ring.L
+    400744: palm_ring.R
+    400746: pinky.L
+    400748: pinky.L_end
+    400750: pinky.R
+    400752: pinky.R_end
+    400754: pubis
+    400756: pubis_end
+    400758: ring.L
+    400760: ring.L_end
+    400762: ring.R
+    400764: ring.R_end
+    400766: root
+    400768: shin.fk.L
+    400770: shin.fk.R
+    400772: shin.ik.L
+    400774: shin.ik.L_end
+    400776: shin.ik.R
+    400778: shin.ik.R_end
+    400780: shin.L
+    400782: shin.R
+    400784: sole.L
+    400786: sole.L_end
+    400788: sole.R
+    400790: sole.R_end
+    400792: spine
+    400794: spine-1
+    400796: thigh.fk.L
+    400798: thigh.fk.R
+    400800: thigh.ik.L
+    400802: thigh.ik.R
+    400804: thigh.L
+    400806: thigh.R
+    400808: thumb.01.L
+    400810: thumb.01.R
+    400812: thumb.02.L
+    400814: thumb.02.R
+    400816: thumb.03.L
+    400818: thumb.03.L_end
+    400820: thumb.03.R
+    400822: thumb.03.R_end
+    400824: thumb.L
+    400826: thumb.L_end
+    400828: thumb.R
+    400830: thumb.R_end
+    400832: toe.fk.L
+    400834: toe.fk.R
+    400836: toe.L
+    400838: toe.L_end
+    400840: toe.marker.L
+    400842: toe.marker.L_end
+    400844: toe.marker.R
+    400846: toe.marker.R_end
+    400848: toe.R
+    400850: toe.R_end
+    400852: toe.rev.L
+    400854: toe.rev.R
+    400856: tongue_base
+    400858: tongue_mid
+    400860: tongue_tip
+    400862: tongue_tip_end
+    400864: uplid.L
+    400866: uplid.L_end
+    400868: uplid.R
+    400870: uplid.R_end
+    400872: upper_arm.fk.L
+    400874: upper_arm.fk.R
+    400876: upper_arm.ik.L
+    400878: upper_arm.ik.R
+    400880: upper_arm.L
+    400882: upper_arm.R
+    400884: eyebrow010Mesh
+    400886: eyelashes01Mesh
+    400888: fhair01Mesh
+    400890: jeans01Mesh
+    400892: low-polyMesh
+    400894: python
+    400896: pythonMesh
+    400898: shirt01Mesh
+    400900: shoes01_hresMesh
+    400902: teeth_shape02Mesh
+    400904: tongue01Mesh
+    2300000: GZM_Ball025
+    2300002: GZM_Breast_L
+    2300004: GZM_Breast_R
+    2300006: GZM_Circle025
+    2300008: GZM_CircleChest
+    2300010: GZM_CircleHips
+    2300012: GZM_CircleSpine
+    2300014: GZM_CrownHips
+    2300016: GZM_Cube025
+    2300018: GZM_FaceHead
+    2300020: GZM_FaceJaw
+    2300022: GZM_Foot
+    2300024: GZM_FootIK
+    2300026: GZM_Gaze
+    2300028: GZM_Hand
+    2300030: GZM_HandIK
+    2300032: GZM_Head
+    2300034: GZM_Jaw
+    2300036: GZM_Knuckle
+    2300038: GZM_LoLid
+    2300040: GZM_Master
+    2300042: GZM_Neck
+    2300044: GZM_RevFoot
+    2300046: GZM_RevToe
+    2300048: GZM_Root
+    2300050: GZM_Shoulder
+    2300052: GZM_Toe
+    2300054: GZM_Tongue
+    2300056: GZM_UpLid
+    2300058: Hillary:Body
+    2300060: Hillary:classicshoes_hres
+    2300062: Hillary:Eyebrow010
+    2300064: Hillary:Eyelashes01
+    2300066: Hillary:fhair01
+    2300068: Hillary:jeans01
+    2300070: Hillary:Low-Poly
+    2300072: Hillary:Shirt01
+    2300074: Hillary:Teeth_Shape02
+    2300076: Hillary:tongue01
+    3300000: GZM_Ball025
+    3300002: GZM_Breast_L
+    3300004: GZM_Breast_R
+    3300006: GZM_Circle025
+    3300008: GZM_CircleChest
+    3300010: GZM_CircleHips
+    3300012: GZM_CircleSpine
+    3300014: GZM_CrownHips
+    3300016: GZM_Cube025
+    3300018: GZM_FaceHead
+    3300020: GZM_FaceJaw
+    3300022: GZM_Foot
+    3300024: GZM_FootIK
+    3300026: GZM_Gaze
+    3300028: GZM_Hand
+    3300030: GZM_HandIK
+    3300032: GZM_Head
+    3300034: GZM_Jaw
+    3300036: GZM_Knuckle
+    3300038: GZM_LoLid
+    3300040: GZM_Master
+    3300042: GZM_Neck
+    3300044: GZM_RevFoot
+    3300046: GZM_RevToe
+    3300048: GZM_Root
+    3300050: GZM_Shoulder
+    3300052: GZM_Toe
+    3300054: GZM_Tongue
+    3300056: GZM_UpLid
+    3300058: Hillary:Body
+    3300060: Hillary:classicshoes_hres
+    3300062: Hillary:Eyebrow010
+    3300064: Hillary:Eyelashes01
+    3300066: Hillary:fhair01
+    3300068: Hillary:jeans01
+    3300070: Hillary:Low-Poly
+    3300072: Hillary:Shirt01
+    3300074: Hillary:Teeth_Shape02
+    3300076: Hillary:tongue01
+    4300000: GZM_CircleHips
+    4300002: GZM_FaceHead
+    4300004: GZM_Tongue
+    4300006: GZM_LoLid
+    4300008: GZM_Gaze
+    4300010: GZM_Root
+    4300012: GZM_Neck
+    4300014: GZM_Foot
+    4300016: GZM_RevToe
+    4300018: GZM_Cube025
+    4300020: GZM_Breast_R
+    4300022: GZM_Toe
+    4300024: GZM_Knuckle
+    4300026: GZM_UpLid
+    4300028: GZM_Hand
+    4300030: GZM_Circle025
+    4300032: GZM_HandIK
+    4300034: GZM_Breast_L
+    4300036: GZM_Jaw
+    4300038: GZM_RevFoot
+    4300040: GZM_Master
+    4300042: GZM_Ball025
+    4300044: GZM_CrownHips
+    4300046: GZM_FootIK
+    4300048: GZM_CircleChest
+    4300050: GZM_FaceJaw
+    4300052: GZM_Shoulder
+    4300054: GZM_CircleSpine
+    4300056: GZM_Head
+    4300058: Hillary:tongue01
+    4300060: Hillary:Teeth_Shape02
+    4300062: Hillary:Eyelashes01
+    4300064: Hillary:Eyebrow010
+    4300066: Hillary:Low-Poly
+    4300068: Hillary:fhair01
+    4300070: Hillary:jeans01
+    4300072: Hillary:Shirt01
+    4300074: Hillary:classicshoes_hres
+    4300076: Hillary:Body
+    4300078: pythonMesh
+    4300080: fhair01Mesh
+    4300082: low-polyMesh
+    4300084: eyebrow010Mesh
+    4300086: eyelashes01Mesh
+    4300088: teeth_shape02Mesh
+    4300090: tongue01Mesh
+    4300092: shirt01Mesh
+    4300094: shoes01_hresMesh
+    4300096: jeans01Mesh
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Hillary:Body
+    13700002: Hillary:classicshoes_hres
+    13700004: Hillary:Eyebrow010
+    13700006: Hillary:Eyelashes01
+    13700008: Hillary:fhair01
+    13700010: Hillary:jeans01
+    13700012: Hillary:Low-Poly
+    13700014: Hillary:Shirt01
+    13700016: Hillary:Teeth_Shape02
+    13700018: Hillary:tongue01
+    13700020: eyebrow010Mesh
+    13700022: eyelashes01Mesh
+    13700024: fhair01Mesh
+    13700026: jeans01Mesh
+    13700028: low-polyMesh
+    13700030: pythonMesh
+    13700032: shirt01Mesh
+    13700034: shoes01_hresMesh
+    13700036: teeth_shape02Mesh
+    13700038: tongue01Mesh
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: "\nSource avatar hierarchy doesn't match one found in
+      this file:\n\tBone 'hips' not found\n\tBone 'thigh.L' not found\n\tBone 'thigh.R'
+      not found\n\tBone 'shin.L' not found\n\tBone 'foot.L' not found\n\tBone 'foot.R'
+      not found\n\tBone 'spine' not found\n\tBone 'chest' not found\n\tBone 'neck'
+      not found\n\tBone 'head' not found\n\tBone 'clavicle.L' not found\n\tBone 'clavicle.R'
+      not found\n\tBone 'upper_arm.L' not found\n\tBone 'upper_arm.R' not found\n\tBone
+      'DEF-eye.L' not found\n\tBone 'DEF-eye.R' not found\n\tBone 'DEF-uplid.R' not
+      found\n\tBone 'forearm.L' not found\n\tBone 'hand.L' not found\n\tBone 'forearm.R'
+      not found\n\tBone 'hand.R' not found\n\tBone 'shin.R' not found\n\tBone 'toe.R'
+      not found\n\tBone 'toe.L' not found\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human:
+    - boneName: hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.L
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: thigh.R
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.L
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.L
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: foot.R
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: chest
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavicle.L
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: clavicle.R
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.L
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: upper_arm.R
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-eye.L
+      humanName: LeftEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-eye.R
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: DEF-uplid.R
+      humanName: Jaw
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.L
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.L
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: forearm.R
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: hand.R
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: shin.R
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe.R
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: toe.L
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: Hillary(Clone)
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eyebrow010Mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eyelashes01Mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: fhair01Mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: jeans01Mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: low-polyMesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: python
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hips
+      position: {x: -0, y: 0.83138996, z: 0.028959999}
+      rotation: {x: -0.09411874, y: 0, z: -0, w: 0.995561}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: spine
+      position: {x: -0, y: 0.13819999, z: 0}
+      rotation: {x: 0.15631725, y: 0, z: 0, w: 0.9877069}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: chest
+      position: {x: -0, y: 0.09363999, z: 0}
+      rotation: {x: 0.017505633, y: -0, z: -0, w: 0.9998468}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: clavicle.L
+      position: {x: -0.031229997, y: 0.22906998, z: 0.074939996}
+      rotation: {x: -0.6354945, y: 0.44696838, z: 0.37450978, w: 0.5060716}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: upper_arm.L
+      position: {x: -0, y: 0.15140998, z: 0}
+      rotation: {x: 0.111138225, y: -0.71477646, z: 0.12089794, w: 0.6797991}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: forearm.L
+      position: {x: -0, y: 0.22179998, z: 0}
+      rotation: {x: 0.022570658, y: 0.008054097, z: -0.021097008, w: 0.9994902}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hand.L
+      position: {x: -0, y: 0.21731998, z: 0}
+      rotation: {x: 0.13263117, y: -0.63748354, z: 0.056279793, w: 0.7568727}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: f_index.01.L
+      position: {x: 0.023469998, y: 0.095589995, z: -0.0048799994}
+      rotation: {x: 0.027766772, y: -0.23897113, z: -0.06382286, w: 0.968529}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: f_ring.01.L
+      position: {x: -0.01808, y: 0.08715, z: -0.014589999}
+      rotation: {x: -0.035758417, y: -0.017221486, z: 0.15338847, w: 0.9873686}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb.02.L
+      position: {x: 0.034459997, y: 0.051869996, z: 0.022339998}
+      rotation: {x: 0.02175912, y: -0.69373864, z: -0.29965177, w: 0.6545701}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb.03.L
+      position: {x: -0, y: 0.035439998, z: 0}
+      rotation: {x: 0.036430612, y: 0.007511282, z: -0.0030269276, w: 0.9993034}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: clavicle.R
+      position: {x: 0.031229997, y: 0.22906998, z: 0.074939996}
+      rotation: {x: -0.6354945, y: -0.44696838, z: -0.37450978, w: 0.5060716}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: upper_arm.R
+      position: {x: -0, y: 0.15140998, z: 0}
+      rotation: {x: 0.111138225, y: 0.71477646, z: -0.12089794, w: 0.6797991}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: forearm.R
+      position: {x: -0, y: 0.22179998, z: 0}
+      rotation: {x: 0.022570658, y: -0.008054097, z: 0.021097008, w: 0.9994902}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: hand.R
+      position: {x: -0, y: 0.21731998, z: 0}
+      rotation: {x: 0.13263117, y: 0.63748354, z: -0.056279793, w: 0.7568727}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: f_index.01.R
+      position: {x: -0.023469998, y: 0.095589995, z: -0.0048799994}
+      rotation: {x: 0.027766772, y: 0.23897113, z: 0.06382286, w: 0.968529}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: f_ring.01.R
+      position: {x: 0.01808, y: 0.08715, z: -0.014589999}
+      rotation: {x: -0.035758417, y: 0.017221486, z: -0.15338847, w: 0.9873686}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb.02.R
+      position: {x: -0.034459997, y: 0.051869996, z: 0.022339998}
+      rotation: {x: 0.02143973, y: 0.69443464, z: 0.2996756, w: 0.6538313}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thumb.03.R
+      position: {x: -0, y: 0.035439998, z: 0}
+      rotation: {x: 0.036424596, y: -0.0076990915, z: 0.0030974566, w: 0.99930197}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: neck
+      position: {x: -0, y: 0.29208, z: 0}
+      rotation: {x: -0.032901373, y: 0, z: -0, w: 0.9994586}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: head
+      position: {x: -0, y: 0.112519994, z: 0}
+      rotation: {x: -0.08457089, y: 0, z: 0, w: 0.99641746}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eye.L
+      position: {x: -0.028849998, y: 0.021089999, z: 0.10368}
+      rotation: {x: -0.06649201, y: 0.66429573, z: 0.74203575, w: -0.06060535}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: eye.R
+      position: {x: 0.028849998, y: 0.021089999, z: 0.10368}
+      rotation: {x: 0.06649201, y: 0.66429573, z: 0.74203575, w: 0.06060535}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: jaw
+      position: {x: -0, y: -0.0053599994, z: 0.04683}
+      rotation: {x: 0.93652576, y: 0, z: -0, w: 0.3505989}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thigh.L
+      position: {x: -0.099249996, y: -0.012329999, z: -0.011599999}
+      rotation: {x: 0.9788491, y: -0.03148378, z: -0.19204007, w: -0.063117616}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shin.L
+      position: {x: -0, y: 0.36710995, z: 0}
+      rotation: {x: 0.07183169, y: 0, z: -0, w: 0.9974168}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: foot.L
+      position: {x: -0, y: 0.38342997, z: 0}
+      rotation: {x: -0.5217438, y: 0.25312343, z: -0.015075185, w: 0.8145457}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: toe.L
+      position: {x: -0, y: 0.12568, z: 0}
+      rotation: {x: -0.26953673, y: 0, z: -0, w: 0.96299016}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: thigh.R
+      position: {x: 0.099249996, y: -0.012329999, z: -0.011599999}
+      rotation: {x: 0.9788491, y: 0.03148378, z: 0.19204007, w: -0.063117616}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shin.R
+      position: {x: -0, y: 0.36710995, z: 0}
+      rotation: {x: 0.07183169, y: 0, z: 0, w: 0.9974168}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: foot.R
+      position: {x: -0, y: 0.38342997, z: 0}
+      rotation: {x: -0.5217438, y: -0.25312343, z: 0.015075185, w: 0.8145457}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: toe.R
+      position: {x: -0, y: 0.12568, z: 0}
+      rotation: {x: -0.26953673, y: -0, z: 0, w: 0.96299016}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: pythonMesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shirt01Mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: shoes01_hresMesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: teeth_shape02Mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    - name: tongue01Mesh
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+      transformModified: 1
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: Hillary:Body
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

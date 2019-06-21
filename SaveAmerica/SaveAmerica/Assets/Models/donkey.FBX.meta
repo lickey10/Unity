@@ -1,0 +1,237 @@
+fileFormatVersion: 2
+guid: 9c942978998d1204daec949965017b84
+timeCreated: 1467265452
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: ana kontrol karakacan
+    100002: arka ayak
+    100004: arka ayak01
+    100006: Bone01
+    100008: Bone02
+    100010: Bone03
+    100012: Bone04
+    100014: Bone05
+    100016: Bone06
+    100018: Bone07
+    100020: Bone08
+    100022: Bone09
+    100024: Bone09(mirrored)
+    100026: Bone10
+    100028: Bone10(mirrored)
+    100030: Bone11
+    100032: Bone11(mirrored)
+    100034: Bone12
+    100036: Bone12(mirrored)
+    100038: Bone13
+    100040: Bone13(mirrored)
+    100042: Bone14
+    100044: Bone14(mirrored)
+    100046: Bone15
+    100048: Bone15(mirrored)
+    100050: Bone16
+    100052: Bone16(mirrored)
+    100054: Bone17
+    100056: Bone17(mirrored)
+    100058: Bone18
+    100060: Bone18(mirrored)
+    100062: Bone23
+    100064: Bone24
+    100066: Bone25
+    100068: Bone26
+    100070: Bone27
+    100072: Bone28
+    100074: Bone29
+    100076: BoneSaw_Bone01
+    100078: BoneSaw_Bone02
+    100080: BoneSaw_Bone09(mirrored)01
+    100082: BoneSaw_Bone09(mirrored)02
+    100084: Circle01
+    100086: Circle02
+    100088: Circle03
+    100090: control
+    100092: control01
+    100094: control02
+    100096: Direct01
+    100098: Direct01.Target
+    100100: //RootNode
+    100102: IK Chain01
+    100104: IK Chain02
+    100106: IK Chain03
+    100108: IK Chain04
+    100110: IK Chain05
+    100112: IK Chain06
+    100114: IK Chain07
+    100116: IK Chain08
+    100118: IK Chain09
+    100120: IK Chain10
+    100122: IK Chain11
+    100124: kuruk cont
+    100126: objessek
+    100128: Omni01
+    100130: Omni02
+    100132: on_ayak
+    100134: on_ayak01
+    100136: Particle View 01
+    100138: Sphere01
+    100140: Sphere02
+    100142: Spot01
+    100144: Spot01.Target
+    100146: Torus02
+    100148: Torus03
+    400000: ana kontrol karakacan
+    400002: arka ayak
+    400004: arka ayak01
+    400006: Bone01
+    400008: Bone02
+    400010: Bone03
+    400012: Bone04
+    400014: Bone05
+    400016: Bone06
+    400018: Bone07
+    400020: Bone08
+    400022: Bone09
+    400024: Bone09(mirrored)
+    400026: Bone10
+    400028: Bone10(mirrored)
+    400030: Bone11
+    400032: Bone11(mirrored)
+    400034: Bone12
+    400036: Bone12(mirrored)
+    400038: Bone13
+    400040: Bone13(mirrored)
+    400042: Bone14
+    400044: Bone14(mirrored)
+    400046: Bone15
+    400048: Bone15(mirrored)
+    400050: Bone16
+    400052: Bone16(mirrored)
+    400054: Bone17
+    400056: Bone17(mirrored)
+    400058: Bone18
+    400060: Bone18(mirrored)
+    400062: Bone23
+    400064: Bone24
+    400066: Bone25
+    400068: Bone26
+    400070: Bone27
+    400072: Bone28
+    400074: Bone29
+    400076: BoneSaw_Bone01
+    400078: BoneSaw_Bone02
+    400080: BoneSaw_Bone09(mirrored)01
+    400082: BoneSaw_Bone09(mirrored)02
+    400084: Circle01
+    400086: Circle02
+    400088: Circle03
+    400090: control
+    400092: control01
+    400094: control02
+    400096: Direct01
+    400098: Direct01.Target
+    400100: //RootNode
+    400102: IK Chain01
+    400104: IK Chain02
+    400106: IK Chain03
+    400108: IK Chain04
+    400110: IK Chain05
+    400112: IK Chain06
+    400114: IK Chain07
+    400116: IK Chain08
+    400118: IK Chain09
+    400120: IK Chain10
+    400122: IK Chain11
+    400124: kuruk cont
+    400126: objessek
+    400128: Omni01
+    400130: Omni02
+    400132: on_ayak
+    400134: on_ayak01
+    400136: Particle View 01
+    400138: Sphere01
+    400140: Sphere02
+    400142: Spot01
+    400144: Spot01.Target
+    400146: Torus02
+    400148: Torus03
+    2300000: Sphere01
+    2300002: Sphere02
+    2300004: Torus02
+    2300006: Torus03
+    3300000: Sphere01
+    3300002: Sphere02
+    3300004: Torus02
+    3300006: Torus03
+    4300000: objessek
+    4300002: Torus02
+    4300004: Sphere01
+    4300006: Sphere02
+    4300008: Torus03
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: objessek
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleRotations: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: objessek
+    hasTranslationDoF: 0
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
