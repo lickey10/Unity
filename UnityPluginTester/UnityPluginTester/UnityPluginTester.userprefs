@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\..\examples\changeling\Assets\scripts\changeling.cs">
+    <Files>
+      <File FileName="..\..\dataVisualization\DataVisualization\Assets\Scripts\tiltFly.cs" Line="1" Column="1" />
+      <File FileName="..\..\dataVisualization\DataVisualization\Assets\Scripts\DeviceRotation.cs" Line="1" Column="1" />
+      <File FileName="Assets\AndroidPhotoGalleryPlugin\scripts\CameraControl.cs" Line="1" Column="1" />
+      <File FileName="Assets\AndroidPhotoGalleryPlugin\scripts\AndroidHelperClasses\CameraFullControlsHelperClass.cs" Line="1" Column="1" />
+      <File FileName="Assets\AndroidPhotoGalleryPlugin\scripts\AndroidHelperClasses\CameraControlsHelperClass.cs" Line="41" Column="4" />
+      <File FileName="..\..\..\examples\changeling\Assets\scripts\changeling.cs" Line="41" Column="54" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
