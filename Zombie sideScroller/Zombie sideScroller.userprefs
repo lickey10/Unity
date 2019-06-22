@@ -1,0 +1,13 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\TheGauntlet-Skeletons\Assets\Scripts\PlayerMovement_Forward.cs">
+    <Files>
+      <File FileName="..\TheGauntlet-Skeletons\Assets\Scripts\GoogleMobileAdsDemoScript.cs" Line="84" Column="60" />
+      <File FileName="..\TheGauntlet-Skeletons\Assets\Scripts\PlayerMovement_Forward.cs" Line="103" Column="59" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
