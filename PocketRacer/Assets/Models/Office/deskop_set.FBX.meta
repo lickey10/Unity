@@ -1,0 +1,194 @@
+fileFormatVersion: 2
+guid: 576a9c26868827046829a8d50058bde8
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: 1
+    100002: 1.Target
+    100004: base_of_sharpener
+    100006: base_plastic_pen
+    100008: blade_of_sharpener
+    100010: bolt_of_blade
+    100012: cap_pen
+    100014: Cylinder001
+    100016: //RootNode
+    100018: deskop_set
+    100020: eraser
+    100022: Particle View 01
+    100024: Particle View 01 1
+    100026: pen_transparency_plastic_cap
+    100028: pencil
+    100030: plum
+    100032: Rectangle02
+    100034: rod_of_pen
+    100036: rule
+    100038: sphere_plum
+    100040: transparency_cap
+    100042: VRayLight01
+    100044: VRayLight02
+    400000: 1
+    400002: 1.Target
+    400004: base_of_sharpener
+    400006: base_plastic_pen
+    400008: blade_of_sharpener
+    400010: bolt_of_blade
+    400012: cap_pen
+    400014: Cylinder001
+    400016: deskop_set
+    400018: //RootNode
+    400020: eraser
+    400022: Particle View 01
+    400024: Particle View 01 1
+    400026: pen_transparency_plastic_cap
+    400028: pencil
+    400030: plum
+    400032: Rectangle02
+    400034: rod_of_pen
+    400036: rule
+    400038: sphere_plum
+    400040: transparency_cap
+    400042: VRayLight01
+    400044: VRayLight02
+    2100000: black_plastic_glossy
+    2100002: black_plastic_matte
+    2100004: alum_light_alloy
+    2100006: silver_circ_matte
+    2100008: transparency_plastic
+    2100010: pencil
+    2100012: rule
+    2100014: eraser
+    2100016: 08 - Default
+    2100018: No Name
+    2300000: base_of_sharpener
+    2300002: base_plastic_pen
+    2300004: blade_of_sharpener
+    2300006: bolt_of_blade
+    2300008: cap_pen
+    2300010: Cylinder001
+    2300012: eraser
+    2300014: pen_transparency_plastic_cap
+    2300016: pencil
+    2300018: plum
+    2300020: Rectangle02
+    2300022: rod_of_pen
+    2300024: rule
+    2300026: sphere_plum
+    2300028: transparency_cap
+    3300000: base_of_sharpener
+    3300002: base_plastic_pen
+    3300004: blade_of_sharpener
+    3300006: bolt_of_blade
+    3300008: cap_pen
+    3300010: Cylinder001
+    3300012: eraser
+    3300014: pen_transparency_plastic_cap
+    3300016: pencil
+    3300018: plum
+    3300020: Rectangle02
+    3300022: rod_of_pen
+    3300024: rule
+    3300026: sphere_plum
+    3300028: transparency_cap
+    4300000: base_plastic_pen
+    4300002: cap_pen
+    4300004: rod_of_pen
+    4300006: plum
+    4300008: sphere_plum
+    4300010: pen_transparency_plastic_cap
+    4300012: pencil
+    4300014: rule
+    4300016: eraser
+    4300018: Rectangle02
+    4300020: base_of_sharpener
+    4300022: blade_of_sharpener
+    4300024: bolt_of_blade
+    4300026: transparency_cap
+    4300028: Cylinder001
+    7400000: Take 001
+    9500000: //RootNode
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.001
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

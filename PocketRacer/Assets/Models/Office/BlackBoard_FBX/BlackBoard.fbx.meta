@@ -1,0 +1,172 @@
+fileFormatVersion: 2
+guid: 5c5c2d997d448cb4db1a21f363df6952
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Board
+    100004: Chalk1
+    100006: Chalk2
+    100008: Chalk3
+    100010: Chalk4
+    100012: Chalk5
+    100014: Chalk6
+    100016: Eraser_Up
+    100018: EraserBase
+    100020: Frame_Part_01
+    100022: Frame_Part_02
+    100024: Frame_Part_03
+    100026: Frame_Part_04
+    100028: Frame_Part_05
+    400000: //RootNode
+    400002: Board
+    400004: Chalk1
+    400006: Chalk2
+    400008: Chalk3
+    400010: Chalk4
+    400012: Chalk5
+    400014: Chalk6
+    400016: Eraser_Up
+    400018: EraserBase
+    400020: Frame_Part_01
+    400022: Frame_Part_02
+    400024: Frame_Part_03
+    400026: Frame_Part_04
+    400028: Frame_Part_05
+    2100000: EraserUp
+    2100002: BlackBoardBase
+    2100004: RedChalk
+    2100006: No Name
+    2100008: Blue_Chalk
+    2100010: GreenChalk
+    2100012: WhiteChalk
+    2100014: Board_Wood_Mat
+    2100016: Board_Mat
+    2300000: Board
+    2300002: Chalk1
+    2300004: Chalk2
+    2300006: Chalk3
+    2300008: Chalk4
+    2300010: Chalk5
+    2300012: Chalk6
+    2300014: Eraser_Up
+    2300016: EraserBase
+    2300018: Frame_Part_01
+    2300020: Frame_Part_02
+    2300022: Frame_Part_03
+    2300024: Frame_Part_04
+    2300026: Frame_Part_05
+    3300000: Board
+    3300002: Chalk1
+    3300004: Chalk2
+    3300006: Chalk3
+    3300008: Chalk4
+    3300010: Chalk5
+    3300012: Chalk6
+    3300014: Eraser_Up
+    3300016: EraserBase
+    3300018: Frame_Part_01
+    3300020: Frame_Part_02
+    3300022: Frame_Part_03
+    3300024: Frame_Part_04
+    3300026: Frame_Part_05
+    4300000: Eraser_Up
+    4300002: EraserBase
+    4300004: Chalk3
+    4300006: Chalk2
+    4300008: Chalk6
+    4300010: Chalk5
+    4300012: Chalk4
+    4300014: Chalk1
+    4300016: Frame_Part_05
+    4300018: Frame_Part_04
+    4300020: Frame_Part_03
+    4300022: Frame_Part_02
+    4300024: Frame_Part_01
+    4300026: Board
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 1
+    hasPreviousCalculatedGlobalScale: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 0
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

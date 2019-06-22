@@ -1,0 +1,25 @@
+make teleporters work
+add car selection screen
+add menus
+figure out bonuses
+	-all lights on at end of race
+	-most kills
+	-hit all smileys
+game over countdown when stopped
+note death times so we can play them back
+make level menu
+make game over screen
+set up settings screen for controller buttons
+add vr and other cameras
+add grass landscaping around classroom
+add music
+
+add targets off track to shoot at
+turn hard when race over and stopping car
+flip all cars over when all the way upside down
+figure out pick ups
+	-seeking rockets
+	-power jump - does damage to surrounding cars on landing
+make a night level 
+
+

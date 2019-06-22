@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/TitleScreen.unity
+    guid: b0810a0f11e350d4e93e27a6f7cfbb2e
+  - enabled: 1
+    path: Assets/Scenes/Classroom.unity
+    guid: 46c41eb5f7964d14d830364852d54c9a
+  - enabled: 0
+    path: Assets/Scenes/Classroom no replay.unity
+    guid: 9bee3db1917c19449b30144affe4fd27
+  m_configObjects: {}
